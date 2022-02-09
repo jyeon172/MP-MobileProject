@@ -1,6 +1,4 @@
 package com.example.project
-// aaa
-// bbb
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
