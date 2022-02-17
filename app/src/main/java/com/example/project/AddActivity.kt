@@ -64,10 +64,13 @@ class AddActivity : AppCompatActivity() {
             )
             startActivityForResult(intent, 10)
         }else if(item.itemId === R.id.menu_add_save){
-            if(binding.addImageView.drawable !== null && binding.addEditView.text.isNotEmpty()){
+            if(binding.addEditView.text.isNotEmpty()) {
+                saveStore()
+            }
+            /*if(binding.addImageView.drawable !== null && binding.addEditView.text.isNotEmpty()){
                 //store 에 먼저 데이터를 저장후 document id 값으로 업로드 파일 이름 지정
                 saveStore()
-            }else {
+            }*/else {
                 Toast.makeText(this, "데이터가 모두 입력되지 않았습니다.", Toast.LENGTH_SHORT).show()
             }
 
