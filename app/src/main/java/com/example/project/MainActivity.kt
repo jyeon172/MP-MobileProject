@@ -16,7 +16,6 @@ import com.example.project.model.ItemData
 import com.example.project.recycler.MyAdapter
 import com.example.project.util.myCheckPermission
 
-
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {

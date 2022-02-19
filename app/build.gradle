@@ -7,11 +7,12 @@ plugins {
 
 android {
     compileSdk 32
+    buildToolsVersion "30.0.3"
 
     defaultConfig {
         applicationId "com.example.project"
-        minSdk 19
-        targetSdk 19
+        minSdk 21
+        targetSdk 32
         versionCode 1
         versionName "1.0"
 
@@ -64,7 +65,7 @@ dependencies {
     implementation 'com.firebaseui:firebase-ui-storage:7.1.0'
     kapt  'com.github.bumptech.glide:compiler:4.11.0'
 
-    // FCM
-    implementation 'com.google.firebase:firebase-messaging-ktx'
+    //..............
+    implementation 'com.google.firebase:firebase-messaging-ktx:23.0.0'
     implementation 'com.google.firebase:firebase-analytics-ktx'
 }
