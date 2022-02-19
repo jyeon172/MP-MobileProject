@@ -29,6 +29,8 @@ class MainActivity : AppCompatActivity() {
             if(MyApplication.checkAuth()) {
                 startActivity(Intent(this, AddActivity::class.java))
             } else {
+                // jyeon - Log.d 출력 여부 파악하기 위해 추가
+                Log.d("kkang", "log.d 표시")
                 Toast.makeText(this, "인증을 먼저 진행해 주세요", Toast.LENGTH_SHORT).show()
             }
         }
