@@ -31,8 +31,7 @@
             </intent-filter>
         </service>
 
-        <activity
-            android:name=".AddActivity"
+        <activity android:name=".AddActivity"
             android:windowSoftInputMode="adjustResize" />
         <activity android:name=".AuthActivity" />
         <activity
