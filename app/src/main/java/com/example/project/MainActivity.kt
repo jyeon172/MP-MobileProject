@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
         })
         return token
     }
-    //
+
 
     override fun onStart() {
         super.onStart()
