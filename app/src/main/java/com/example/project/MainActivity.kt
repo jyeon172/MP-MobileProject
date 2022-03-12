@@ -18,6 +18,7 @@ import com.example.project.util.myCheckPermission
 import com.google.android.gms.tasks.OnCompleteListener
 import com.google.firebase.messaging.FirebaseMessaging
 
+//
 // my repository
 class MainActivity : AppCompatActivity() {
 
