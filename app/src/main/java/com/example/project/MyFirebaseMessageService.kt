@@ -8,6 +8,7 @@ import com.google.firebase.messaging.RemoteMessage
 // 이건 pull request test
 class MyFirebaseMessageService : FirebaseMessagingService() {
 
+    // 해결
     override fun onNewToken(p0:String) {
         super.onNewToken(p0)
         Log.d("kkang", "fcm token..........$p0")

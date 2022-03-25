@@ -18,6 +18,8 @@ import com.example.project.util.myCheckPermission
 import com.google.android.gms.tasks.OnCompleteListener
 import com.google.firebase.messaging.FirebaseMessaging
 
+// test.. gina
+// my repository
 class MainActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityMainBinding
