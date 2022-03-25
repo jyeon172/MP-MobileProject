@@ -5,7 +5,7 @@ import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
 
 // 해결 못 해써..
-// 이건 pull request test 다시 다시
+// 이건 pull request test 다시 다시 다시
 class MyFirebaseMessageService : FirebaseMessagingService() {
 
     // 해결
