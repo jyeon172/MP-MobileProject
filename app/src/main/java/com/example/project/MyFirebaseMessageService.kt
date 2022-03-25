@@ -5,7 +5,7 @@ import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
 
 // 해결 못 해써..
-// pull request test
+// 이건 pull request test
 class MyFirebaseMessageService : FirebaseMessagingService() {
 
     override fun onNewToken(p0:String) {
