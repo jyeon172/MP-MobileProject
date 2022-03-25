@@ -5,6 +5,7 @@ import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
 
 class MyFirebaseMessageService : FirebaseMessagingService() {
+
     // 해결
     override fun onNewToken(p0: String) {
         super.onNewToken(p0)
