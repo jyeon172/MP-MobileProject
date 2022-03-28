@@ -18,8 +18,6 @@ import com.example.project.util.myCheckPermission
 import com.google.android.gms.tasks.OnCompleteListener
 import com.google.firebase.messaging.FirebaseMessaging
 
-// test.. gina
-// my repository
 class MainActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityMainBinding
@@ -34,30 +32,26 @@ class MainActivity : AppCompatActivity() {
             if(MyApplication.checkAuth()) {
                 startActivity(Intent(this, AddActivity::class.java))
             } else {
-                // jyeon - Log.d 출력 여부 파악하기 위해 추가
-                // Log.d("kkang", "log.d 표시")
                 Toast.makeText(this, "인증을 먼저 진행해 주세요", Toast.LENGTH_SHORT).show()
             }
         }
 
-//        getFCMToken() // 추가
+        getFCMToken()
 
     }
 
-    // 함수 추가
-//    private fun getFCMToken(): String? {
-//        var token: String? = null
-//        FirebaseMessaging.getInstance().token.addOnCompleteListener(OnCompleteListener {  task ->
-//            if(task.isSuccessful) {
-//                Log.w("TAG", "Fetching FCM registration token failed", task.exception)
-//
-//            }
-//            token = task.result
-//            Log.d("kkang", "FCM Token is ${token}")
-//        })
-//        return token
-//    }
-
+    private fun getFCMToken(): String? {
+        var token: String? = null
+        FirebaseMessaging.getInstance().token.addOnCompleteListener(OnCompleteListener {  task ->
+            if(!task.isSuccessful) {
+                Log.w("kkang", "Fetching FCM registration token failed", task.exception)
+                return@OnCompleteListener
+            }
+            token = task.result
+            Log.d("kkang", "FCM Token is ${token}")
+        })
+        return token
+    }
 
     override fun onStart() {
         super.onStart()
