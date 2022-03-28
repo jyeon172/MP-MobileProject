@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_detail.xml",
+        "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\src\\main\\res\\layout\\item_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add.xml",
+        "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\src\\main\\res\\layout\\activity_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_auth.xml",
+        "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\src\\main\\res\\layout\\activity_auth.xml"
+    },
+    {
+        "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_main.xml",
+        "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\src\\main\\res\\layout\\item_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

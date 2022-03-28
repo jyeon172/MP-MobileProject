@@ -1,0 +1,24 @@
+com/example/project/util/GlideOptions.java
+ com.example.project.util.GlideOptions
+com/example/project/databinding/ActivityMainBinding.java
+ com.example.project.databinding.ActivityMainBinding
+com/example/project/databinding/ActivityAddBinding.java
+ com.example.project.databinding.ActivityAddBinding
+com/bumptech/glide/GeneratedRequestManagerFactory.java
+ com.bumptech.glide.GeneratedRequestManagerFactory
+com/example/project/BuildConfig.java
+ com.example.project.BuildConfig
+com/example/project/util/GlideRequest.java
+ com.example.project.util.GlideRequest
+com/example/project/util/GlideRequests.java
+ com.example.project.util.GlideRequests
+com/bumptech/glide/GeneratedAppGlideModuleImpl.java
+ com.bumptech.glide.GeneratedAppGlideModuleImpl
+com/example/project/databinding/ItemDetailBinding.java
+ com.example.project.databinding.ItemDetailBinding
+com/example/project/databinding/ActivityAuthBinding.java
+ com.example.project.databinding.ActivityAuthBinding
+com/example/project/databinding/ItemMainBinding.java
+ com.example.project.databinding.ItemMainBinding
+com/example/project/util/GlideApp.java
+ com.example.project.util.GlideApp
