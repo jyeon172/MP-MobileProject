@@ -24,12 +24,16 @@ public final class ActivityAddBinding implements ViewBinding {
   public final EditText addEditView;
 
   @NonNull
+  public final EditText addEditViewTitle;
+
+  @NonNull
   public final ImageView addImageView;
 
   private ActivityAddBinding(@NonNull LinearLayout rootView, @NonNull EditText addEditView,
-      @NonNull ImageView addImageView) {
+      @NonNull EditText addEditViewTitle, @NonNull ImageView addImageView) {
     this.rootView = rootView;
     this.addEditView = addEditView;
+    this.addEditViewTitle = addEditViewTitle;
     this.addImageView = addImageView;
   }
 
@@ -66,13 +70,20 @@ public final class ActivityAddBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.addEditViewTitle;
+      EditText addEditViewTitle = ViewBindings.findChildViewById(rootView, id);
+      if (addEditViewTitle == null) {
+        break missingId;
+      }
+
       id = R.id.addImageView;
       ImageView addImageView = ViewBindings.findChildViewById(rootView, id);
       if (addImageView == null) {
         break missingId;
       }
 
-      return new ActivityAddBinding((LinearLayout) rootView, addEditView, addImageView);
+      return new ActivityAddBinding((LinearLayout) rootView, addEditView, addEditViewTitle,
+          addImageView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -82,7 +82,8 @@ class AddActivity : AppCompatActivity() {
         //add............................
         val data = mapOf(
             "email" to MyApplication.email,
-            "content" to binding.addEditView.text.toString(),
+            "title" to binding.addEditViewTitle.text.toString(), //제목 저장
+            "content" to binding.addEditView.text.toString(), //내용 저장
             "date" to dateToString(Date())
         )
         MyApplication.db.collection("news")
