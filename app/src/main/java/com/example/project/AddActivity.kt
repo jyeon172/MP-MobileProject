@@ -64,7 +64,8 @@ class AddActivity : AppCompatActivity() {
             )
             startActivityForResult(intent, 10)
         }else if(item.itemId === R.id.menu_add_save){
-            if(binding.addEditView.text.isNotEmpty()) {
+            if(binding.addEditView.text.isNotEmpty() //내용확인
+                and binding.addEditViewTitle.text.isNotEmpty()) { //제목확인
                 saveStore()
             }
             /*if(binding.addImageView.drawable !== null && binding.addEditView.text.isNotEmpty()){
