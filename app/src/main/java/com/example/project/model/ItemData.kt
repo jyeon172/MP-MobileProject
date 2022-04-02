@@ -7,4 +7,5 @@ class ItemData {
     var date: String? = null
     //gh- title 추가
     var title: String? = null
+    var category: String? = null
 }

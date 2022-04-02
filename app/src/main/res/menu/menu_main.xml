@@ -4,5 +4,6 @@
     <item
         android:id="@+id/menu_main_auth"
         android:title="인증"
+        android:icon="@drawable/account_circle"
         app:showAsAction="always"/>
 </menu>

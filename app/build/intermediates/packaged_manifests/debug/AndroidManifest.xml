@@ -26,7 +26,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.Project" >
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         <activity
             android:name="com.example.project.AddActivity"
             android:windowSoftInputMode="adjustResize" />
@@ -41,11 +41,13 @@
             </intent-filter>
         </activity>
         <!-- 추가 -->
+        <activity android:name="com.example.project.Board3Activity" />
         <activity android:name="com.example.project.DetailActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value=".Board3Activity" />
         </activity>
+        <activity android:name="com.example.project.ToolbarBase" />
 
         <service
             android:name="com.example.project.FirebaseMessagingServiceUtil"

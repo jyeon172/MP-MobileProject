@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fa\\values-fa.xml",
+            "outputFile": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\share2\\HMP5\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fa\\values-fa.xml",
             "map": [
                 {
                     "source": "C:\\Users\\jenny\\.gradle\\caches\\transforms-3\\31f20e5206e2d44653b387aa372c984a\\transformed\\jetified-play-services-basement-17.2.1\\res\\values-fa\\values.xml",

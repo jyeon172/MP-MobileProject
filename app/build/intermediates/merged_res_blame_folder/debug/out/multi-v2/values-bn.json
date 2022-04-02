@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bn\\values-bn.xml",
+            "outputFile": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\share2\\HMP5\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bn\\values-bn.xml",
             "map": [
                 {
                     "source": "C:\\Users\\jenny\\.gradle\\caches\\transforms-3\\4759dddf0e35cb726cb37187554ab8c4\\transformed\\appcompat-1.3.0\\res\\values-bn\\values-bn.xml",
