@@ -8,11 +8,14 @@ import android.provider.MediaStore
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
+import android.view.WindowManager
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.example.project.databinding.ActivityAddBinding
+import com.example.project.databinding.Board3MainBinding
 import com.example.project.util.dateToString
 import com.google.firebase.storage.StorageReference
 import java.io.File
@@ -21,12 +24,34 @@ import java.util.*
 class AddActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityAddBinding
+    lateinit var bind: Board3MainBinding
     lateinit var filePath: String
+    //추가
+    var radioChecked:String = "전체"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding= ActivityAddBinding.inflate(layoutInflater)
+        getWindow().setFlags( // 화면 full로 채우기
+            WindowManager.LayoutParams.FLAG_FULLSCREEN,
+            WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(binding.root)
+
+        //라디오 버튼 누르면
+        binding.radioGroup.setOnCheckedChangeListener{group, checkedId ->
+            when(checkedId){
+                R.id.radioBtnAll -> radioChecked = "전체"
+                R.id.radioBtnToeic -> radioChecked = "토익"
+                R.id.radioBtnLicense -> radioChecked = "자격증"
+            }
+        }
+
+        //Add 툴바 설정
+        val toolbar: Toolbar = findViewById(R.id.add_toolbar)
+        setSupportActionBar(toolbar)
+        supportActionBar?.setDisplayShowTitleEnabled(false)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setHomeAsUpIndicator(R.drawable.back_key)
 
     }
 
@@ -76,27 +101,47 @@ class AddActivity : AppCompatActivity() {
             }
 
         }
+        else if(item.itemId === android.R.id.home){
+            finish()
+            return true
+        }
         return super.onOptionsItemSelected(item)
     }
     //....................
     private fun saveStore(){
+        //추가
+        val category = radioChecked
         //add............................
         val data = mapOf(
             "email" to MyApplication.email,
             "title" to binding.addEditViewTitle.text.toString(), //제목 저장
             "content" to binding.addEditView.text.toString(), //내용 저장
-            "date" to dateToString(Date())
+            "date" to dateToString(Date()),
+            "category" to category
         )
-        MyApplication.db.collection("news")
-            .add(data)
-            .addOnSuccessListener {
-                //store 에 데이터 저장후 document id 값으로 storage 에 이미지 업로드
-                uploadImage(it.id)
-            }
-            .addOnFailureListener {
-                Log.w("kkang", "data save error", it)
-            }
-
+        //데이터 저장하기. 사진이 있을 때 없을 떄 따로 하는 건?
+        if (binding.addImageView.drawable != null) {
+            MyApplication.db.collection("news")
+                .add(data)
+                .addOnSuccessListener {
+                    //store 에 데이터 저장후 document id 값으로 storage 에 이미지 업로드
+                    uploadImage(it.id)
+                }
+                .addOnFailureListener {
+                    Log.w("kkang", "data save error", it)
+                }
+        }
+        else {
+            MyApplication.db.collection("news")
+                .add(data)
+                .addOnFailureListener {
+                    Log.w("kkang", "data save error", it)
+                }.addOnSuccessListener {
+                    Toast.makeText(this, "데이터가 저장되었습니다.",Toast.LENGTH_SHORT).show()
+                    finish()
+                }
+            //다시 글을 쓴 카테고리 보드 보여주기, 카테고리 전달해주기
+        }
     }
     private fun uploadImage(docId: String){
         //add............................

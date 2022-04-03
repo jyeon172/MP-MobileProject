@@ -2,8 +2,55 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_marginLeft="5dp">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/add_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="글 저장하기"
+                android:layout_gravity="center"
+                android:textSize="20sp"/>
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!--    라디오버튼 추가하기, 나중에 커스텀하기-->
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioBtnAll"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="전체"/>
+        <RadioButton
+            android:id="@+id/radioBtnToeic"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="토익"/>
+        <RadioButton
+            android:id="@+id/radioBtnLicense"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="자격증"/>
+
+    </RadioGroup>
 
     <EditText
         android:id="@+id/addEditViewTitle"
@@ -34,6 +81,7 @@
         android:layout_width="match_parent"
         android:layout_height="3px"
         android:background="#000000"/>
+
     <!--내용 입력 란-->
     <EditText
         android:id="@+id/addEditView"
@@ -43,5 +91,7 @@
         android:paddingLeft="10dp"
         android:hint="내용을 입력해 주세요"
         android:gravity="left|top"/>
+
+
 
 </LinearLayout>

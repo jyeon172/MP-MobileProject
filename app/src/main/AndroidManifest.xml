@@ -13,7 +13,7 @@
         android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Project">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
         <activity
             android:name=".AddActivity"
@@ -29,11 +29,12 @@
             </intent-filter>
         </activity>
 <!--        추가-->
+        <activity android:name=".Board3Activity"/>
         <activity android:name=".DetailActivity">
             <meta-data android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value=".Board3Activity" />
         </activity>
-
+        <activity android:name=".ToolbarBase"/>
         <service
             android:name=".FirebaseMessagingServiceUtil"
             android:exported="false">
