@@ -26,8 +26,6 @@ import com.google.android.gms.tasks.OnCompleteListener
 import com.google.android.material.navigation.NavigationView
 import com.google.firebase.messaging.FirebaseMessaging
 
-// test
-
 class MainActivity : ToolbarBase(){
 
     lateinit var bind: ItemMainBinding
