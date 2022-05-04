@@ -8,4 +8,5 @@ class ItemData {
     //gh- title 추가
     var title: String? = null
     var category: String? = null
+    var imageYN:String? = null
 }

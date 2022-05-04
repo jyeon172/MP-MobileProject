@@ -14,6 +14,8 @@ com/bumptech/glide/GeneratedAppGlideModuleImpl.java
  com.bumptech.glide.GeneratedAppGlideModuleImpl
 com/example/project/databinding/ActivityAuthBinding.java
  com.example.project.databinding.ActivityAuthBinding
+com/example/project/databinding/AlertFindpwBinding.java
+ com.example.project.databinding.AlertFindpwBinding
 com/example/project/databinding/ItemMainBinding.java
  com.example.project.databinding.ItemMainBinding
 com/example/project/databinding/ActivityAddBinding.java

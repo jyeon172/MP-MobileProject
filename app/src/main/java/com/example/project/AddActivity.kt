@@ -109,6 +109,13 @@ class AddActivity : AppCompatActivity() {
     }
     //....................
     private fun saveStore(){
+
+        //이미지유무
+        var imageYN = "0"
+        if (binding.addImageView.drawable != null)
+            imageYN = "1"
+        else
+            imageYN = "0"
         //추가
         val category = radioChecked
         //add............................
@@ -117,7 +124,8 @@ class AddActivity : AppCompatActivity() {
             "title" to binding.addEditViewTitle.text.toString(), //제목 저장
             "content" to binding.addEditView.text.toString(), //내용 저장
             "date" to dateToString(Date()),
-            "category" to category
+            "category" to category,
+            "imageYN" to imageYN
         )
         //데이터 저장하기. 사진이 있을 때 없을 떄 따로 하는 건?
         if (binding.addImageView.drawable != null) {

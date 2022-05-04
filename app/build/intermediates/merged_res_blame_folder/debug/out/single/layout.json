@@ -1,42 +1,46 @@
 [
     {
-        "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\base_toolbar.xml",
-        "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\src\\main\\res\\layout\\base_toolbar.xml"
+        "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\share2\\HMP6\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\main_main.xml",
+        "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\share2\\HMP6\\app\\src\\main\\res\\layout\\main_main.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_detail.xml",
-        "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\src\\main\\res\\layout\\item_detail.xml"
+        "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\share2\\HMP6\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_main.xml",
+        "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\share2\\HMP6\\app\\src\\main\\res\\layout\\item_main.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add.xml",
-        "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\src\\main\\res\\layout\\activity_add.xml"
+        "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\share2\\HMP6\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_auth.xml",
+        "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\share2\\HMP6\\app\\src\\main\\res\\layout\\activity_auth.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_auth.xml",
-        "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\src\\main\\res\\layout\\activity_auth.xml"
+        "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\share2\\HMP6\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add.xml",
+        "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\share2\\HMP6\\app\\src\\main\\res\\layout\\activity_add.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\appbar.xml",
-        "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\src\\main\\res\\layout\\appbar.xml"
+        "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\share2\\HMP6\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\header.xml",
+        "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\share2\\HMP6\\app\\src\\main\\res\\layout\\header.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\board3_main.xml",
-        "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\src\\main\\res\\layout\\board3_main.xml"
+        "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\share2\\HMP6\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_detail.xml",
+        "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\share2\\HMP6\\app\\src\\main\\res\\layout\\item_detail.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_main.xml",
-        "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\src\\main\\res\\layout\\item_main.xml"
+        "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\share2\\HMP6\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\share2\\HMP6\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\main_main.xml",
-        "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\src\\main\\res\\layout\\main_main.xml"
+        "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\share2\\HMP6\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\alert_findpw.xml",
+        "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\share2\\HMP6\\app\\src\\main\\res\\layout\\alert_findpw.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\share2\\HMP6\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\base_toolbar.xml",
+        "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\share2\\HMP6\\app\\src\\main\\res\\layout\\base_toolbar.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\header.xml",
-        "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\src\\main\\res\\layout\\header.xml"
+        "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\share2\\HMP6\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\board3_main.xml",
+        "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\share2\\HMP6\\app\\src\\main\\res\\layout\\board3_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\share2\\HMP6\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\appbar.xml",
+        "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\share2\\HMP6\\app\\src\\main\\res\\layout\\appbar.xml"
     }
 ]

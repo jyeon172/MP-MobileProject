@@ -52,6 +52,8 @@ class MyAdapter(val context: Context, val itemList: MutableList<ItemData>): Recy
             val intent = Intent(holder.itemView?.context, DetailActivity::class.java)
             intent.putExtra("title", itemList[position].title)
             intent.putExtra("content", itemList[position].content)
+            intent.putExtra("docID", data.docId)
+            intent.putExtra("imageYN", data.imageYN)
             ContextCompat.startActivity(holder.itemView.context,intent, null)
         }
 
