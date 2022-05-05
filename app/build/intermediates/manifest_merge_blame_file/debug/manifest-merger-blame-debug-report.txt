@@ -6,16 +6,16 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml
+8-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml
+9-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="andoird.permission.READ_EXTERNAL_STORAGE" />
-11-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:5:5-80
-11-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:5:22-77
+11-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:5:5-80
+11-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:5:22-77
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:6:5-67
-12-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:6:22-64
+12-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:6:22-64
 13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 13-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\jenny\.gradle\caches\transforms-3\b7afe445d84440c3b0aad753fe43c585\transformed\jetified-firebase-auth-20.0.1\AndroidManifest.xml:24:5-79
 13-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\jenny\.gradle\caches\transforms-3\b7afe445d84440c3b0aad753fe43c585\transformed\jetified-firebase-auth-20.0.1\AndroidManifest.xml:24:22-76
@@ -30,82 +30,82 @@
 16-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\jenny\.gradle\caches\transforms-3\bcd2469024f217b2445e770375e036c6\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:26:22-107
 17
 18    <application
-18-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:8:5-45:19
+18-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:8:5-45:19
 19        android:name="com.example.project.MyApplication"
-19-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:9:9-38
+19-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:9:9-38
 20        android:allowBackup="true"
-20-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:10:9-35
+20-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:10:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 21-->[androidx.core:core:1.5.0] C:\Users\jenny\.gradle\caches\transforms-3\08edf9af14b2e8e81ad8bacbf74244c7\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 22        android:debuggable="true"
 23        android:icon="@mipmap/ic_launcher"
-23-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:11:9-43
+23-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:11:9-43
 24        android:label="@string/app_name"
-24-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:12:9-41
+24-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:12:9-41
 25        android:requestLegacyExternalStorage="true"
-25-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:13:9-52
+25-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:13:9-52
 26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:14:9-54
+26-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:14:9-54
 27        android:supportsRtl="true"
-27-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:15:9-35
+27-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:15:9-35
 28        android:testOnly="true"
 29        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-29-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:16:9-65
+29-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:16:9-65
 30        <activity
-30-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:18:9-20:58
+30-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:18:9-20:58
 31            android:name="com.example.project.AddActivity"
-31-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:19:13-40
+31-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:19:13-40
 32            android:windowSoftInputMode="adjustResize" />
-32-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:20:13-55
+32-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:20:13-55
 33        <activity android:name="com.example.project.AuthActivity" />
-33-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:21:9-50
-33-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:21:19-47
+33-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:21:9-50
+33-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:21:19-47
 34        <activity
-34-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:22:9-30:20
+34-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:22:9-30:20
 35            android:name="com.example.project.MainActivity"
-35-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:23:13-41
+35-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:23:13-41
 36            android:exported="true" >
-36-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:24:13-36
+36-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:24:13-36
 37            <intent-filter>
-37-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:25:13-29:29
+37-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:25:13-29:29
 38                <action android:name="android.intent.action.MAIN" />
-38-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:26:17-69
-38-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:26:25-66
+38-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:26:17-69
+38-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:26:25-66
 39
 40                <category android:name="android.intent.category.LAUNCHER" />
-40-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:28:17-77
-40-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:28:27-74
+40-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:28:17-77
+40-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:28:27-74
 41            </intent-filter>
 42        </activity>
 43        <!-- 추가 -->
 44        <activity android:name="com.example.project.Board3Activity" />
-44-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:32:9-51
-44-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:32:19-49
+44-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:32:9-51
+44-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:32:19-49
 45        <activity android:name="com.example.project.DetailActivity" >
-45-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:33:9-36:20
-45-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:33:19-49
+45-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:33:9-36:20
+45-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:33:19-49
 46            <meta-data
-46-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:34:13-35:51
+46-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:34:13-35:51
 47                android:name="android.support.PARENT_ACTIVITY"
-47-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:34:24-70
+47-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:34:24-70
 48                android:value=".Board3Activity" />
-48-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:35:17-48
+48-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:35:17-48
 49        </activity>
 50        <activity android:name="com.example.project.ToolbarBase" />
-50-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:37:9-48
-50-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:37:19-46
+50-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:37:9-48
+50-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:37:19-46
 51
 52        <service
-52-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:38:9-44:19
+52-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:38:9-44:19
 53            android:name="com.example.project.FirebaseMessagingServiceUtil"
-53-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:39:13-57
+53-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:39:13-57
 54            android:exported="false" >
-54-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:40:13-37
+54-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:40:13-37
 55            <intent-filter>
-55-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:41:13-43:29
+55-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:41:13-43:29
 56                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-56-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:42:17-78
-56-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:42:25-75
+56-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:42:17-78
+56-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:42:25-75
 57            </intent-filter>
 58        </service>
 59        <service
@@ -330,10 +330,10 @@
 176            android:exported="false" >
 176-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\jenny\.gradle\caches\transforms-3\a6a06a295d94b7059c4c70f2fb23ae5a\transformed\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:31:13-37
 177            <intent-filter android:priority="-500" >
-177-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:41:13-43:29
+177-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:41:13-43:29
 178                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-178-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:42:17-78
-178-->C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:42:25-75
+178-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:42:17-78
+178-->C:\Users\jenny\Desktop\2022-1\mopro\share2\HMP6\app\src\main\AndroidManifest.xml:42:25-75
 179            </intent-filter>
 180        </service>
 181

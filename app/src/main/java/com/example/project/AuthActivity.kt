@@ -1,12 +1,16 @@
 package com.example.project
 
+import android.content.DialogInterface
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.view.WindowManager
 import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.example.project.databinding.ActivityAuthBinding
+import com.example.project.databinding.AlertFindpwBinding
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.common.api.ApiException
@@ -112,6 +116,36 @@ class AuthActivity : AppCompatActivity() {
                 }
         }
 
+        //비밀번호 재설정
+        binding.findPW.setOnClickListener {
+
+            val builder = AlertDialog.Builder(this)
+            val builderItem = AlertFindpwBinding.inflate(layoutInflater)
+            val editText = builderItem.editFindpw
+            var emailAddress = ""
+
+            with(builder){
+                setTitle("비밀번호 재설정")
+                setMessage("가입한 이메일 주소를 입력하세요")
+                setView(builderItem.root)
+                setPositiveButton("확인"){dialogInterface:DialogInterface, i:Int->
+                    if(editText.text != null){
+                        emailAddress = editText.text.toString()
+                        MyApplication.auth.sendPasswordResetEmail(emailAddress)
+                            .addOnCompleteListener { task ->
+                                if (task.isSuccessful) {
+                                    Toast.makeText(this@AuthActivity, "비밀번호 변경 메일을 전송했습니다.", Toast.LENGTH_SHORT).show()
+                                } else {
+                                    Toast.makeText(this@AuthActivity, "메일 전송에 실패했습니다.", Toast.LENGTH_SHORT).show()
+                                }
+                            }
+                    }
+                }
+                show()
+            }
+
+        }
+
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
@@ -153,6 +187,7 @@ class AuthActivity : AppCompatActivity() {
                 authPasswordEditView.visibility= View.GONE
                 signBtn.visibility= View.GONE
                 loginBtn.visibility= View.GONE
+                findPW.visibility = View.GONE
             }
 
         }else if(mode === "logout"){
@@ -165,6 +200,7 @@ class AuthActivity : AppCompatActivity() {
                 authPasswordEditView.visibility = View.VISIBLE
                 signBtn.visibility = View.GONE
                 loginBtn.visibility = View.VISIBLE
+                findPW.visibility = View.VISIBLE
             }
         }else if(mode === "signin"){
             binding.run {
@@ -175,6 +211,7 @@ class AuthActivity : AppCompatActivity() {
                 authPasswordEditView.visibility = View.VISIBLE
                 signBtn.visibility = View.VISIBLE
                 loginBtn.visibility = View.GONE
+                findPW.visibility = View.GONE
             }
         }
     }

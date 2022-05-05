@@ -42,15 +42,6 @@ class MainActivity : ToolbarBase(){
 
         setContentView(binding.root)
 
-        /*myCheckPermission(this)
-        binding.addFab.setOnClickListener {
-            if(MyApplication.checkAuth()) {
-                startActivity(Intent(this, AddActivity::class.java))
-            } else {
-                Toast.makeText(this, "인증을 먼저 진행해 주세요", Toast.LENGTH_SHORT).show()
-            }
-        }*/
-
         getFCMToken()
 
     }
@@ -83,29 +74,4 @@ class MainActivity : ToolbarBase(){
         }
     }
 
-
-
-
-
-
-    /*
-    private fun makeRecyclerView(){
-        // 컬랙션을 모두 가져오기
-        MyApplication.db.collection("news")
-            .get()
-            .addOnSuccessListener { result ->
-                val itemList = mutableListOf<ItemData>()
-                for (document in result) {
-                    val item = document.toObject(ItemData::class.java)
-                    item.docId=document.id
-                    itemList.add(item)
-                }
-                binding.mainRecyclerView.layoutManager=LinearLayoutManager(this)
-                binding.mainRecyclerView.adapter= MyAdapter(this, itemList)
-            }
-            .addOnFailureListener { exception ->
-                Log.d("kkang", "Error getting documents: ", exception)
-                Toast.makeText(this, "서버로부터 데이터 획득에 실패했습니다.", Toast.LENGTH_SHORT).show()
-            }
-    }*/
 }

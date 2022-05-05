@@ -1958,6 +1958,7 @@ id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
+id edit_findpw
 id edit_query
 id elastic
 id end
@@ -1973,6 +1974,7 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
+id findPW
 id fitToContents
 id fixed
 id flip
@@ -2050,7 +2052,6 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id media_actions
-id menuName
 id menu_add_gallery
 id menu_add_save
 id menu_item1
@@ -2120,7 +2121,6 @@ id pathRelative
 id peekHeight
 id percent
 id pin
-id popupMenu
 id popupMenu1
 id popupMenu2
 id popupMenu3
@@ -2179,6 +2179,7 @@ id snap
 id snapMargins
 id spacer
 id special_effects_controller_view_tag
+id spinner
 id spline
 id split_action_bar
 id spread
@@ -2338,6 +2339,7 @@ layout abc_tooltip
 layout activity_add
 layout activity_auth
 layout activity_main
+layout alert_findpw
 layout appbar
 layout base_toolbar
 layout board3_main

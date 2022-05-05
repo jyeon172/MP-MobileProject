@@ -6,9 +6,7 @@ import android.util.Log
 import android.view.MenuItem
 import android.view.View
 import android.view.WindowManager
-import android.widget.Button
-import android.widget.PopupMenu
-import android.widget.Toast
+import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -62,56 +60,42 @@ class Board3Activity: ToolbarBase() {
         //makeRecyclerMenu()
         makeRecyclerView()
 
-        var option = findViewById<Button>(R.id.popupMenu)
-        option.setOnClickListener {
-            var menu = PopupMenu(applicationContext, it)
+        //spinner
+        val b3List = listOf("전체", "토익", "자격증")
+        val adapter = ArrayAdapter(this, R.layout.support_simple_spinner_dropdown_item, b3List)
+        binding.spinner.adapter = adapter
 
-            menuInflater?.inflate(R.menu.popup_board3, menu.menu)
-            menu.show()
-
-            //클릭하면 액티비티 바뀌고 레이아웃에 버튼, 밑에 리사이클러뷰
-            //카테고리 바꾸면 텍스트 바뀌고, 리사이클러뷰 조건에 맞게 재생성
-            menu.setOnMenuItemClickListener {
-                when (it.itemId) {
-                    R.id.popupMenu1 -> {
-                        //setContentView(R.layout.menu1_main)
+        binding.spinner.onItemSelectedListener = object :
+            AdapterView.OnItemSelectedListener{
+            override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
+                when(position){
+                    0 -> {
                         setContentView(binding.root)
                         val menuOption = "전체"
-                        //startActivity(Intent(this, MenuActivity::class.java).putExtra("menuOption", menuOption))
-                        binding.menuName.text = menuOption
-                        //지금은 전체 카테고리에 안 들어있는 것도 불러옴, 나중에 밑에 있는 걸로 바꾸기
                         makeRecyclerView()
-                        //makeRecyclerMenu(menuOption)
-                        return@setOnMenuItemClickListener true
                     }
-                    R.id.popupMenu2 -> {
-                        //setContentView(R.layout.menu2_main)
+                    1 -> {
                         setContentView(binding.root)
                         val menuOption = "토익"
-                        //startActivity(Intent(this, MenuActivity::class.java).putExtra("menuOption", menuOption))
-                        binding.menuName.text = menuOption
-                        //카테고리해당아이템불러오기
                         makeRecyclerMenu(menuOption)
-                        return@setOnMenuItemClickListener true
                     }
-                    R.id.popupMenu3 -> {
-                        //setContentView(R.layout.menu3_main)
+                    2 -> {
                         setContentView(binding.root)
                         val menuOption = "자격증"
-                        //startActivity(Intent(this, MenuActivity::class.java).putExtra("menuOption", menuOption))
-                        binding.menuName.text = menuOption
                         makeRecyclerMenu(menuOption)
-                        return@setOnMenuItemClickListener true
                     }
-                    else -> {
-                        return@setOnMenuItemClickListener false
-                    }
+                    else -> {}
                 }
+            }
+
+            override fun onNothingSelected(p0: AdapterView<*>?) {
+                TODO("Not yet implemented")
             }
         }
 
     }
 
+    //아마도 툴바 뒤로가기 버튼
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if(item.itemId === android.R.id.home){
             finish()
@@ -161,4 +145,8 @@ class Board3Activity: ToolbarBase() {
 
     }
 
+    //뒤로가기 막기
+    override fun onBackPressed() {
+        //super.onBackPressed()
+    }
 }

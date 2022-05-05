@@ -31,6 +31,9 @@ public final class ActivityAuthBinding implements ViewBinding {
   public final EditText authPasswordEditView;
 
   @NonNull
+  public final Button findPW;
+
+  @NonNull
   public final Button goSignInBtn;
 
   @NonNull
@@ -47,12 +50,13 @@ public final class ActivityAuthBinding implements ViewBinding {
 
   private ActivityAuthBinding(@NonNull ScrollView rootView, @NonNull EditText authEmailEditView,
       @NonNull TextView authMainTextView, @NonNull EditText authPasswordEditView,
-      @NonNull Button goSignInBtn, @NonNull Button googleLoginBtn, @NonNull Button loginBtn,
-      @NonNull Button logoutBtn, @NonNull Button signBtn) {
+      @NonNull Button findPW, @NonNull Button goSignInBtn, @NonNull Button googleLoginBtn,
+      @NonNull Button loginBtn, @NonNull Button logoutBtn, @NonNull Button signBtn) {
     this.rootView = rootView;
     this.authEmailEditView = authEmailEditView;
     this.authMainTextView = authMainTextView;
     this.authPasswordEditView = authPasswordEditView;
+    this.findPW = findPW;
     this.goSignInBtn = goSignInBtn;
     this.googleLoginBtn = googleLoginBtn;
     this.loginBtn = loginBtn;
@@ -105,6 +109,12 @@ public final class ActivityAuthBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.findPW;
+      Button findPW = ViewBindings.findChildViewById(rootView, id);
+      if (findPW == null) {
+        break missingId;
+      }
+
       id = R.id.goSignInBtn;
       Button goSignInBtn = ViewBindings.findChildViewById(rootView, id);
       if (goSignInBtn == null) {
@@ -136,7 +146,7 @@ public final class ActivityAuthBinding implements ViewBinding {
       }
 
       return new ActivityAuthBinding((ScrollView) rootView, authEmailEditView, authMainTextView,
-          authPasswordEditView, goSignInBtn, googleLoginBtn, loginBtn, logoutBtn, signBtn);
+          authPasswordEditView, findPW, goSignInBtn, googleLoginBtn, loginBtn, logoutBtn, signBtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
