@@ -26,11 +26,8 @@ class MyAdapter(val context: Context, val itemList: MutableList<ItemData>): Recy
             binding.itemDateView.text=data.date
             binding.itemContentView.text=data.content
             binding.itemTitleView.text=data.title
-
-            //확인용, 나중에 지울 것
-            binding.categoryView.text=data.category
-
-            //binding.itemImageView.visibility = View.GONE
+            if (data.imageYN == "1")
+                binding.imgIcon.visibility = View.VISIBLE
         }
     }
 
@@ -54,31 +51,10 @@ class MyAdapter(val context: Context, val itemList: MutableList<ItemData>): Recy
             intent.putExtra("content", itemList[position].content)
             intent.putExtra("docID", data.docId)
             intent.putExtra("imageYN", data.imageYN)
+            intent.putExtra("email", data.email)
+            intent.putExtra("date", data.date)
             ContextCompat.startActivity(holder.itemView.context,intent, null)
         }
-
-        //스토리지 이미지 다운로드........................
-        val imgRef= MyApplication.storage
-            .reference
-            .child("images/${data.docId}.jpg")
-
-        Glide.with(context )
-            .load(imgRef)
-            .into(holder.binding.itemImageView)
-
-        /*
-        //제목이 없는 경우 제목 레이아웃 제거
-        if (data.title.isNullOrBlank()){
-            holder.binding.itemTitleView.visibility = View.GONE
-        }
-        */
-
-        /*
-        //사진이 없는 경우 사진 레이아웃 제거
-        if (data.docId.isNullOrBlank()){
-            holder.binding.itemImageView.visibility = View.GONE
-        }
-        */
 
     }
 

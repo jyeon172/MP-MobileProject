@@ -4,11 +4,13 @@ import android.content.DialogInterface
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.view.MenuItem
 import android.view.View
 import android.view.WindowManager
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
 import com.example.project.databinding.ActivityAuthBinding
 import com.example.project.databinding.AlertFindpwBinding
 import com.google.android.gms.auth.api.signin.GoogleSignIn
@@ -25,6 +27,15 @@ class AuthActivity : AppCompatActivity() {
             WindowManager.LayoutParams.FLAG_FULLSCREEN,
             WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(binding.root)
+
+
+        //로그인 툴바 설정
+        val toolbar: Toolbar = findViewById(R.id.auth_toolbar)
+        setSupportActionBar(toolbar)
+        supportActionBar?.setDisplayShowTitleEnabled(false)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setHomeAsUpIndicator(R.drawable.back_key)
+
 
         if(MyApplication.checkAuth()){
             changeVisibility("login")
@@ -214,5 +225,14 @@ class AuthActivity : AppCompatActivity() {
                 findPW.visibility = View.GONE
             }
         }
+    }
+
+    // 툴바 뒤로가기 버튼
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if(item.itemId === android.R.id.home){
+            finish()
+            return true
+        }
+        return super.onOptionsItemSelected(item)
     }
 }
