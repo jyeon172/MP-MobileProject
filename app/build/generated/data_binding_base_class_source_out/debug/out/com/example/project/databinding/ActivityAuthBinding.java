@@ -6,10 +6,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.Toolbar;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.project.R;
@@ -19,7 +20,7 @@ import java.lang.String;
 
 public final class ActivityAuthBinding implements ViewBinding {
   @NonNull
-  private final ScrollView rootView;
+  private final CoordinatorLayout rootView;
 
   @NonNull
   public final EditText authEmailEditView;
@@ -29,6 +30,12 @@ public final class ActivityAuthBinding implements ViewBinding {
 
   @NonNull
   public final EditText authPasswordEditView;
+
+  @NonNull
+  public final Toolbar authToolbar;
+
+  @NonNull
+  public final CoordinatorLayout coordinator;
 
   @NonNull
   public final Button findPW;
@@ -48,14 +55,18 @@ public final class ActivityAuthBinding implements ViewBinding {
   @NonNull
   public final Button signBtn;
 
-  private ActivityAuthBinding(@NonNull ScrollView rootView, @NonNull EditText authEmailEditView,
-      @NonNull TextView authMainTextView, @NonNull EditText authPasswordEditView,
-      @NonNull Button findPW, @NonNull Button goSignInBtn, @NonNull Button googleLoginBtn,
-      @NonNull Button loginBtn, @NonNull Button logoutBtn, @NonNull Button signBtn) {
+  private ActivityAuthBinding(@NonNull CoordinatorLayout rootView,
+      @NonNull EditText authEmailEditView, @NonNull TextView authMainTextView,
+      @NonNull EditText authPasswordEditView, @NonNull Toolbar authToolbar,
+      @NonNull CoordinatorLayout coordinator, @NonNull Button findPW, @NonNull Button goSignInBtn,
+      @NonNull Button googleLoginBtn, @NonNull Button loginBtn, @NonNull Button logoutBtn,
+      @NonNull Button signBtn) {
     this.rootView = rootView;
     this.authEmailEditView = authEmailEditView;
     this.authMainTextView = authMainTextView;
     this.authPasswordEditView = authPasswordEditView;
+    this.authToolbar = authToolbar;
+    this.coordinator = coordinator;
     this.findPW = findPW;
     this.goSignInBtn = goSignInBtn;
     this.googleLoginBtn = googleLoginBtn;
@@ -66,7 +77,7 @@ public final class ActivityAuthBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public ScrollView getRoot() {
+  public CoordinatorLayout getRoot() {
     return rootView;
   }
 
@@ -109,6 +120,14 @@ public final class ActivityAuthBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.auth_toolbar;
+      Toolbar authToolbar = ViewBindings.findChildViewById(rootView, id);
+      if (authToolbar == null) {
+        break missingId;
+      }
+
+      CoordinatorLayout coordinator = (CoordinatorLayout) rootView;
+
       id = R.id.findPW;
       Button findPW = ViewBindings.findChildViewById(rootView, id);
       if (findPW == null) {
@@ -145,8 +164,9 @@ public final class ActivityAuthBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityAuthBinding((ScrollView) rootView, authEmailEditView, authMainTextView,
-          authPasswordEditView, findPW, goSignInBtn, googleLoginBtn, loginBtn, logoutBtn, signBtn);
+      return new ActivityAuthBinding((CoordinatorLayout) rootView, authEmailEditView,
+          authMainTextView, authPasswordEditView, authToolbar, coordinator, findPW, goSignInBtn,
+          googleLoginBtn, loginBtn, logoutBtn, signBtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

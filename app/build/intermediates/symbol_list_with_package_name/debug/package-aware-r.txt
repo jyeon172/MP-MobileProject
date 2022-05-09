@@ -1707,6 +1707,7 @@ drawable account_circle
 drawable avd_hide_password
 drawable avd_show_password
 drawable back_key
+drawable border
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1741,6 +1742,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_baseline_image_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -1784,6 +1786,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable send
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1877,6 +1880,7 @@ id async
 id authEmailEditView
 id authMainTextView
 id authPasswordEditView
+id auth_toolbar
 id auto
 id autoComplete
 id autoCompleteToEnd
@@ -1893,7 +1897,6 @@ id buttonPanel
 id cache_measures
 id cancel_action
 id cancel_button
-id categoryView
 id center
 id center_horizontal
 id center_vertical
@@ -1913,6 +1916,9 @@ id clip_horizontal
 id clip_vertical
 id clockwise
 id collapseActionView
+id commentDate
+id commentId
+id commentText
 id confirm_button
 id container
 id content
@@ -1937,9 +1943,15 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id detailCommentButton
+id detailCommentView
 id detailContentView
+id detailDateView
+id detailEmailView
 id detailImageView
+id detailRecyclerView
 id detailTitleView
+id detail_toolbar
 id dialog_button
 id dimensions
 id direct
@@ -2005,6 +2017,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id img_icon
 id info
 id invisible
 id inward
@@ -2012,7 +2025,6 @@ id italic
 id itemContentView
 id itemDateView
 id itemEmailView
-id itemImageView
 id itemTitleView
 id item_touch_helper_previous_elevation
 id jumpToEnd
@@ -2343,6 +2355,7 @@ layout alert_findpw
 layout appbar
 layout base_toolbar
 layout board3_main
+layout comment_main
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

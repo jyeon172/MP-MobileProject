@@ -95,7 +95,7 @@ class Board3Activity: ToolbarBase() {
 
     }
 
-    //아마도 툴바 뒤로가기 버튼
+    // 툴바 뒤로가기 버튼
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if(item.itemId === android.R.id.home){
             finish()
