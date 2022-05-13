@@ -30,6 +30,7 @@
         </activity>
 <!--        추가-->
         <activity android:name=".Board3Activity"/>
+        <activity android:name=".ChatMain" />
         <activity android:name=".DetailActivity">
             <meta-data android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Board3Activity" />

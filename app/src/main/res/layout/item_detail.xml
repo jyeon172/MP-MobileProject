@@ -96,6 +96,14 @@
                 app:layout_constraintLeft_toLeftOf="@id/detailTitleView"
                 app:layout_constraintTop_toBottomOf="@id/detailImageView" />
 
+            <Button
+                android:id="@+id/chattingButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="채팅"
+                app:layout_constraintRight_toRightOf="@id/detailTitleView"
+                app:layout_constraintLeft_toLeftOf="@id/detailTitleView"
+                app:layout_constraintTop_toBottomOf="@id/detailContentView" />
 
             <EditText
                 android:id="@+id/detailCommentView"
@@ -110,7 +118,7 @@
                 android:paddingRight="50dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/detailContentView" />
+                app:layout_constraintTop_toBottomOf="@id/chattingButton" />
 
             <Button
                 android:id="@+id/detailCommentButton"
@@ -119,7 +127,7 @@
                 android:layout_margin="17dp"
                 android:background="@drawable/send"
                 app:layout_constraintRight_toRightOf="@id/detailCommentView"
-                app:layout_constraintTop_toBottomOf="@id/detailContentView" />
+                app:layout_constraintTop_toBottomOf="@id/chattingButton" />
 
 
             <androidx.recyclerview.widget.RecyclerView

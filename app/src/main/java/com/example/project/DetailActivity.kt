@@ -1,6 +1,7 @@
 package com.example.project
 
 import android.content.Context
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.text.Editable
@@ -98,6 +99,12 @@ class DetailActivity :  ToolbarBase() {
         })
 
          */
+
+        val chat_btn = findViewById<Button>(R.id.chattingButton)
+
+        chat_btn.setOnClickListener {
+            startActivity(Intent(this, ChatMain::class.java))
+        }
 
         val send_btn = findViewById<Button>(R.id.detailCommentButton)
 
