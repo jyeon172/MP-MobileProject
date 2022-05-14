@@ -1893,6 +1893,8 @@ id blocking
 id board3_toolbar
 id bottom
 id bounce
+id btn_enter
+id btn_send
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -1902,6 +1904,11 @@ id center_horizontal
 id center_vertical
 id chain
 id chains
+id chat_card_view
+id chat_tv_contents
+id chat_tv_nickname
+id chat_tv_time
+id chattingButton
 id checkbox
 id checked
 id chip
@@ -1920,6 +1927,7 @@ id commentDate
 id commentId
 id commentText
 id confirm_button
+id constraintLayout
 id container
 id content
 id contentPanel
@@ -1978,6 +1986,8 @@ id endToStart
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id et_chatting
+id et_nickname
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2031,6 +2041,7 @@ id jumpToEnd
 id jumpToStart
 id labeled
 id layout
+id layout_frame
 id left
 id leftToRight
 id light
@@ -2154,6 +2165,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id rv_list
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -2237,6 +2249,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2355,6 +2368,8 @@ layout alert_findpw
 layout appbar
 layout base_toolbar
 layout board3_main
+layout chat_layout
+layout chat_main
 layout comment_main
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -2372,6 +2387,8 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_chat
+layout fragment_login
 layout header
 layout item_detail
 layout item_main

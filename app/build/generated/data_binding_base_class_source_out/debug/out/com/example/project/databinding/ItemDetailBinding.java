@@ -28,6 +28,9 @@ public final class ItemDetailBinding implements ViewBinding {
   public final CoordinatorLayout MainDetailView;
 
   @NonNull
+  public final Button chattingButton;
+
+  @NonNull
   public final Button detailCommentButton;
 
   @NonNull
@@ -55,13 +58,15 @@ public final class ItemDetailBinding implements ViewBinding {
   public final Toolbar detailToolbar;
 
   private ItemDetailBinding(@NonNull CoordinatorLayout rootView,
-      @NonNull CoordinatorLayout MainDetailView, @NonNull Button detailCommentButton,
-      @NonNull EditText detailCommentView, @NonNull TextView detailContentView,
-      @NonNull TextView detailDateView, @NonNull TextView detailEmailView,
-      @NonNull ImageView detailImageView, @NonNull RecyclerView detailRecyclerView,
-      @NonNull TextView detailTitleView, @NonNull Toolbar detailToolbar) {
+      @NonNull CoordinatorLayout MainDetailView, @NonNull Button chattingButton,
+      @NonNull Button detailCommentButton, @NonNull EditText detailCommentView,
+      @NonNull TextView detailContentView, @NonNull TextView detailDateView,
+      @NonNull TextView detailEmailView, @NonNull ImageView detailImageView,
+      @NonNull RecyclerView detailRecyclerView, @NonNull TextView detailTitleView,
+      @NonNull Toolbar detailToolbar) {
     this.rootView = rootView;
     this.MainDetailView = MainDetailView;
+    this.chattingButton = chattingButton;
     this.detailCommentButton = detailCommentButton;
     this.detailCommentView = detailCommentView;
     this.detailContentView = detailContentView;
@@ -101,6 +106,12 @@ public final class ItemDetailBinding implements ViewBinding {
     int id;
     missingId: {
       CoordinatorLayout MainDetailView = (CoordinatorLayout) rootView;
+
+      id = R.id.chattingButton;
+      Button chattingButton = ViewBindings.findChildViewById(rootView, id);
+      if (chattingButton == null) {
+        break missingId;
+      }
 
       id = R.id.detailCommentButton;
       Button detailCommentButton = ViewBindings.findChildViewById(rootView, id);
@@ -156,7 +167,7 @@ public final class ItemDetailBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ItemDetailBinding((CoordinatorLayout) rootView, MainDetailView,
+      return new ItemDetailBinding((CoordinatorLayout) rootView, MainDetailView, chattingButton,
           detailCommentButton, detailCommentView, detailContentView, detailDateView,
           detailEmailView, detailImageView, detailRecyclerView, detailTitleView, detailToolbar);
     }
