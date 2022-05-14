@@ -103,7 +103,9 @@ class DetailActivity :  ToolbarBase() {
         val chat_btn = findViewById<Button>(R.id.chattingButton)
 
         chat_btn.setOnClickListener {
-            startActivity(Intent(this, ChatMain::class.java))
+            val intent = Intent(this, ChatMain::class.java)
+            intent.putExtra("docId", docId)
+            startActivity(intent)
         }
 
         val send_btn = findViewById<Button>(R.id.detailCommentButton)

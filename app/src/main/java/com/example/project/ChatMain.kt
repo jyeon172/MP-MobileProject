@@ -11,6 +11,7 @@ class ChatMain : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ChatMainBinding.inflate(layoutInflater)
+
         val view = binding.root
         setContentView(view)
 
@@ -22,7 +23,7 @@ class ChatMain : AppCompatActivity() {
 
     // ChatFragment로 프래그먼트 교체 (LoginFragment에서 호출할 예정)
     fun replaceFragment(bundle: Bundle) {
-        val destination = ChatFragment()
+        val destination = ChatFragment(intent.getStringExtra("docId"))
         destination.arguments = bundle      // 닉네임을 받아옴
         supportFragmentManager.beginTransaction()
             .replace(R.id.layout_frame, destination)

@@ -4,7 +4,17 @@
             "outputFile": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/jeongyeonpark/.gradle/caches/transforms-3/73a50b11550e1e319743e0e0af1a3dcc/transformed/appcompat-1.3.0/res/values-v16/values-v16.xml",
+                    "source": "/Users/jeongyeonpark/.gradle/caches/transforms-3/08edf9af14b2e8e81ad8bacbf74244c7/transformed/core-1.5.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/Users/jeongyeonpark/.gradle/caches/transforms-3/4759dddf0e35cb726cb37187554ab8c4/transformed/appcompat-1.3.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "/Users/jeongyeonpark/.gradle/caches/transforms-3/728874512eafe186cf7e9bfdf351f2f6/transformed/core-1.5.0/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
                     }
                 }
             ]

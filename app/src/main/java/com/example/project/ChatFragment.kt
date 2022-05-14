@@ -11,6 +11,10 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.project.databinding.FragmentChatBinding
 import com.example.project.model.ChatData
+import com.example.project.model.CommentData
+import com.example.project.model.ItemData
+import com.example.project.recycler.CommentAdapter
+import com.example.project.recycler.MyAdapter
 import com.google.firebase.Timestamp
 import com.google.firebase.firestore.DocumentChange
 import com.google.firebase.firestore.FirebaseFirestore
@@ -20,7 +24,8 @@ import java.text.SimpleDateFormat
 import java.util.*
 
 
-class ChatFragment: Fragment() {
+class ChatFragment(docId: String?) : Fragment() {
+    private var docId = docId.toString()
     private var _binding: FragmentChatBinding? = null
     private val binding get() = _binding!!
     private lateinit var currentUser: String            // 현재 닉네임
@@ -61,7 +66,7 @@ class ChatFragment: Fragment() {
                 "time" to Timestamp.now()
             )
             // Firestore에 기록
-            db.collection("Chat").add(data)
+            db.collection(docId).add(data)
                 .addOnSuccessListener {
                     binding.etChatting.text.clear()
                     Log.w("ChatFragment", "Document added: $it")
@@ -81,7 +86,7 @@ class ChatFragment: Fragment() {
         chatList.add(ChatData("알림", "$currentUser 닉네임으로 입장했습니다.", ""))
         val enterTime = Date(System.currentTimeMillis())
 
-        registration = db.collection("Chat")
+        registration = db.collection(docId)
             .orderBy("time", Query.Direction.DESCENDING)
             .limit(1)
             .addSnapshotListener { snapshots, e ->
