@@ -10,7 +10,7 @@ import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.project.databinding.FragmentChatBinding
-import com.example.project.model.ChatLayout
+import com.example.project.model.ChatData
 import com.google.firebase.Timestamp
 import com.google.firebase.firestore.DocumentChange
 import com.google.firebase.firestore.FirebaseFirestore
@@ -26,7 +26,7 @@ class ChatFragment: Fragment() {
     private lateinit var currentUser: String            // 현재 닉네임
     private val db = FirebaseFirestore.getInstance()    // Firestore 인스턴스
     private lateinit var registration: ListenerRegistration    // 문서 수신
-    private val chatList = arrayListOf<ChatLayout>()    // 리사이클러 뷰 목록
+    private val chatList = arrayListOf<ChatData>()    // 리사이클러 뷰 목록
     private lateinit var adapter: ChatAdapter   // 리사이클러 뷰 어댑터
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -78,7 +78,7 @@ class ChatFragment: Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        chatList.add(ChatLayout("알림", "$currentUser 닉네임으로 입장했습니다.", ""))
+        chatList.add(ChatData("알림", "$currentUser 닉네임으로 입장했습니다.", ""))
         val enterTime = Date(System.currentTimeMillis())
 
         registration = db.collection("Chat")
@@ -108,7 +108,7 @@ class ChatFragment: Fragment() {
                         sf.timeZone = TimeZone.getTimeZone("Asia/Seoul")
                         val time = sf.format(timestamp.toDate())
 
-                        val item = ChatLayout(nickname, contents, time)
+                        val item = ChatData(nickname, contents, time)
                         chatList.add(item)
                     }
                     adapter.notifyDataSetChanged()

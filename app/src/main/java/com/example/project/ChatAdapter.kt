@@ -7,9 +7,10 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.project.model.ChatLayout
+import com.example.project.model.ChatData
 
-class ChatAdapter(val currentUser: String, val itemList: ArrayList<ChatLayout>): RecyclerView.Adapter<ChatAdapter.ViewHolder>() {
+class ChatAdapter(val currentUser: String, val itemList: ArrayList<ChatData>): RecyclerView.Adapter<ChatAdapter.ViewHolder>() {
+    //jyeon
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.chat_layout, parent, false)
         return ViewHolder(view)
