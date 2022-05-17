@@ -11,7 +11,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
-import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -22,10 +22,10 @@ import java.lang.String;
 
 public final class ItemDetailBinding implements ViewBinding {
   @NonNull
-  private final CoordinatorLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
-  public final CoordinatorLayout MainDetailView;
+  public final ConstraintLayout MainDetailView;
 
   @NonNull
   public final Button chattingButton;
@@ -57,8 +57,8 @@ public final class ItemDetailBinding implements ViewBinding {
   @NonNull
   public final Toolbar detailToolbar;
 
-  private ItemDetailBinding(@NonNull CoordinatorLayout rootView,
-      @NonNull CoordinatorLayout MainDetailView, @NonNull Button chattingButton,
+  private ItemDetailBinding(@NonNull ConstraintLayout rootView,
+      @NonNull ConstraintLayout MainDetailView, @NonNull Button chattingButton,
       @NonNull Button detailCommentButton, @NonNull EditText detailCommentView,
       @NonNull TextView detailContentView, @NonNull TextView detailDateView,
       @NonNull TextView detailEmailView, @NonNull ImageView detailImageView,
@@ -80,7 +80,7 @@ public final class ItemDetailBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public CoordinatorLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -105,7 +105,7 @@ public final class ItemDetailBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      CoordinatorLayout MainDetailView = (CoordinatorLayout) rootView;
+      ConstraintLayout MainDetailView = (ConstraintLayout) rootView;
 
       id = R.id.chattingButton;
       Button chattingButton = ViewBindings.findChildViewById(rootView, id);
@@ -167,7 +167,7 @@ public final class ItemDetailBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ItemDetailBinding((CoordinatorLayout) rootView, MainDetailView, chattingButton,
+      return new ItemDetailBinding((ConstraintLayout) rootView, MainDetailView, chattingButton,
           detailCommentButton, detailCommentView, detailContentView, detailDateView,
           detailEmailView, detailImageView, detailRecyclerView, detailTitleView, detailToolbar);
     }
