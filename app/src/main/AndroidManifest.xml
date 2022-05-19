@@ -18,6 +18,9 @@
         <activity
             android:name=".AddActivity"
             android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".AddActivity2"
+            android:windowSoftInputMode="adjustResize" />
         <activity android:name=".AuthActivity" />
         <activity
             android:name=".MainActivity"
@@ -29,6 +32,7 @@
             </intent-filter>
         </activity>
 <!--        추가-->
+        <activity android:name=".Board2Activity"/>
         <activity android:name=".Board3Activity"/>
         <activity android:name=".ChatMain" />
         <activity android:name=".DetailActivity">

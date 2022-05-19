@@ -196,6 +196,10 @@
         "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\build\\intermediates\\merged_res\\debug\\layout_item_main2.xml.flat",
+        "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\src\\main\\res\\layout\\item_main2.xml"
+    },
+    {
         "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\build\\intermediates\\merged_res\\debug\\menu_menu_add.xml.flat",
         "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\src\\main\\res\\menu\\menu_add.xml"
     },
@@ -282,6 +286,10 @@
     {
         "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_send.png.flat",
         "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\send.png"
+    },
+    {
+        "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\build\\intermediates\\merged_res\\debug\\layout_board2_main.xml.flat",
+        "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\src\\main\\res\\layout\\board2_main.xml"
     },
     {
         "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_chat.xml.flat",

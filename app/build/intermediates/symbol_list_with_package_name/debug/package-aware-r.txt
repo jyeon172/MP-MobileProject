@@ -1864,6 +1864,7 @@ id add
 id addEditView
 id addEditViewTitle
 id addFab
+id addFab2
 id addImageView
 id add_toolbar
 id adjust_height
@@ -1890,6 +1891,7 @@ id baseline
 id beginOnFirstDraw
 id beginning
 id blocking
+id board2_toolbar
 id board3_toolbar
 id bottom
 id bounce
@@ -2032,6 +2034,9 @@ id info
 id invisible
 id inward
 id italic
+id item2ContentView
+id item2EmailView
+id item2TitleView
 id itemContentView
 id itemDateView
 id itemEmailView
@@ -2053,6 +2058,11 @@ id list_item
 id loginBtn
 id logoutBtn
 id logoutTextView
+id main2RecyclerView
+id mainBoard2RecyclerView
+id mainBoard2Title
+id mainBoard3RecyclerView
+id mainBoard3Title
 id mainRecyclerView
 id masked
 id material_clock_display
@@ -2204,6 +2214,7 @@ id snapMargins
 id spacer
 id special_effects_controller_view_tag
 id spinner
+id spinner2
 id spline
 id split_action_bar
 id spread
@@ -2367,6 +2378,7 @@ layout activity_main
 layout alert_findpw
 layout appbar
 layout base_toolbar
+layout board2_main
 layout board3_main
 layout chat_layout
 layout chat_main
@@ -2392,6 +2404,7 @@ layout fragment_login
 layout header
 layout item_detail
 layout item_main
+layout item_main2
 layout main_main
 layout material_chip_input_combo
 layout material_clock_display

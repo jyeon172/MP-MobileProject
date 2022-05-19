@@ -24,6 +24,10 @@
         "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\src\\main\\res\\layout\\appbar.xml"
     },
     {
+        "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_main2.xml",
+        "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\src\\main\\res\\layout\\item_main2.xml"
+    },
+    {
         "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\board3_main.xml",
         "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\src\\main\\res\\layout\\board3_main.xml"
     },
@@ -62,5 +66,9 @@
     {
         "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\header.xml",
         "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\src\\main\\res\\layout\\header.xml"
+    },
+    {
+        "merged": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\board2_main.xml",
+        "source": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\src\\main\\res\\layout\\board2_main.xml"
     }
 ]
