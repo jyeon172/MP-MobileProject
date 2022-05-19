@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:2:1-48:12
+ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:2:1-52:12
 MERGED from [androidx.databinding:viewbinding:7.0.4] C:\Users\jenny\.gradle\caches\transforms-3\c7f5878f3f16df7b4bbf928167f1cc48\transformed\jetified-viewbinding-7.0.4\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\jenny\.gradle\caches\transforms-3\229b26eb2c19f34f7817efa71dd1337b\transformed\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.3.1] C:\Users\jenny\.gradle\caches\transforms-3\2276c23c7e7752b864dfbd32f459824b\transformed\jetified-core-ktx-1.3.1\AndroidManifest.xml:2:1-9:12
@@ -95,20 +95,20 @@ MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\jenny\.
 MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] C:\Users\jenny\.gradle\caches\transforms-3\95f183d24a5fa6a96082196b1976dc1f\transformed\jetified-protolite-well-known-types-17.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\jenny\.gradle\caches\transforms-3\5e737af710400da9800daa5567a7f77c\transformed\jetified-grpc-android-1.28.0\AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\jenny\.gradle\caches\transforms-3\a463bf14b86fdf9eb562f7ebfd22981f\transformed\jetified-transport-api-2.2.0\AndroidManifest.xml:15:1-22:12
-INJECTED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:2:1-52:12
 	package
 		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:2:1-48:12
+		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:2:1-52:12
 		INJECTED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:2:1-48:12
+		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:2:1-52:12
 		INJECTED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:2:11-69
@@ -143,7 +143,7 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Us
 	android:name
 		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:8:5-46:19
+ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:8:5-50:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\jenny\.gradle\caches\transforms-3\007b4d8da33efc0d5bffab021812c2e8\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\jenny\.gradle\caches\transforms-3\007b4d8da33efc0d5bffab021812c2e8\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\jenny\.gradle\caches\transforms-3\cb27caa4cfaf2e6e31eb7026f35726cb\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -244,60 +244,70 @@ ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\Androi
 		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:20:13-55
 	android:name
 		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:19:13-40
+activity#com.example.project.AddActivity2
+ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:21:9-23:58
+	android:windowSoftInputMode
+		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:23:13-55
+	android:name
+		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:22:13-41
 activity#com.example.project.AuthActivity
-ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:21:9-50
+ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:24:9-50
 	android:name
-		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:21:19-47
+		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:24:19-47
 activity#com.example.project.MainActivity
-ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:22:9-30:20
+ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:25:9-33:20
 	android:exported
-		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:24:13-36
+		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:27:13-36
 	android:name
-		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:23:13-41
+		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:26:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:25:13-29:29
+ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:28:13-32:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:26:17-69
+ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:29:17-69
 	android:name
-		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:26:25-66
+		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:28:17-77
+ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:31:17-77
 	android:name
-		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:28:27-74
+		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:31:27-74
+activity#com.example.project.Board2Activity
+ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:35:9-51
+	android:name
+		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:35:19-49
 activity#com.example.project.Board3Activity
-ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:32:9-51
+ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:36:9-51
 	android:name
-		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:32:19-49
+		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:36:19-49
 activity#com.example.project.ChatMain
-ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:33:9-46
+ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:37:9-46
 	android:name
-		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:33:19-43
+		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:37:19-43
 activity#com.example.project.DetailActivity
-ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:34:9-37:20
+ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:38:9-41:20
 	android:name
-		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:34:19-49
+		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:38:19-49
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:35:13-36:51
+ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:39:13-40:51
 	android:value
-		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:36:17-48
+		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:40:17-48
 	android:name
-		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:35:24-70
+		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:39:24-70
 activity#com.example.project.ToolbarBase
-ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:38:9-48
+ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:42:9-48
 	android:name
-		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:38:19-46
+		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:42:19-46
 service#com.example.project.FirebaseMessagingServiceUtil
-ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:39:9-45:19
+ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:43:9-49:19
 	android:exported
-		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:41:13-37
+		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:45:13-37
 	android:name
-		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:40:13-57
+		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:44:13-57
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:42:13-44:29
+ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:46:13-48:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:43:17-78
+ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:47:17-78
 	android:name
-		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:43:25-75
+		ADDED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml:47:25-75
 uses-sdk
 INJECTED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\jenny\Desktop\2022-1\mopro\MobileProject\app\src\main\AndroidManifest.xml

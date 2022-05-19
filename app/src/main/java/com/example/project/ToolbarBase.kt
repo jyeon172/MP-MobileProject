@@ -94,7 +94,10 @@ open class ToolbarBase: AppCompatActivity(),NavigationView.OnNavigationItemSelec
     override fun onNavigationItemSelected(item: MenuItem): Boolean { //네비게이션뷰에서 각 메뉴 클릭시
         when(item.itemId){
             R.id.menu_item1-> Toast.makeText(this,"세부 1 clicked",Toast.LENGTH_SHORT).show()
-            R.id.menu_item2-> Toast.makeText(this,"세부 2 clicked",Toast.LENGTH_SHORT).show()
+            R.id.menu_item2-> {
+                Toast.makeText(this,"세부 2 clicked",Toast.LENGTH_SHORT).show()
+                startActivity(Intent(this, Board2Activity::class.java))
+            }
             R.id.menu_item3-> {
                 Toast.makeText(this,"세부 3 clicked",Toast.LENGTH_SHORT).show()
                 startActivity(Intent(this, Board3Activity::class.java))
