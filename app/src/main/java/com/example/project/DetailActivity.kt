@@ -11,6 +11,7 @@ import android.view.MenuItem
 import android.view.View
 import android.view.WindowManager
 import android.widget.Button
+import android.widget.ImageButton
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
@@ -32,6 +33,7 @@ class DetailActivity :  ToolbarBase() {
     private lateinit var context: Context
 
     var docId = ""
+    var emailId =""
 
     override fun onCreate (savedInstancsState: Bundle?) {
         binding = ItemDetailBinding.inflate(layoutInflater)
@@ -108,6 +110,15 @@ class DetailActivity :  ToolbarBase() {
             intent.putExtra("docId", docId)
             startActivity(intent)
         }
+
+//        댓글 작성자 불러오기 실패..
+//        val profile_btn = findViewById<ImageButton>(R.id.userChatBtn)
+//
+//        profile_btn.setOnClickListener {
+//            val intent = Intent(this, ChatMain::class.java)
+//            intent.putExtra("docId", docId)
+//            startActivity(intent)
+//        }
 
         val send_btn = findViewById<Button>(R.id.detailCommentButton)
 

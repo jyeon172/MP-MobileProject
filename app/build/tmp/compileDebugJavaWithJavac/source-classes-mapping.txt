@@ -1,39 +1,37 @@
-com/example/project/util/GlideApp.java
- com.example.project.util.GlideApp
-com/example/project/util/GlideOptions.java
- com.example.project.util.GlideOptions
-com/bumptech/glide/GeneratedAppGlideModuleImpl.java
- com.bumptech.glide.GeneratedAppGlideModuleImpl
-com/example/project/util/GlideRequest.java
- com.example.project.util.GlideRequest
-com/bumptech/glide/GeneratedRequestManagerFactory.java
- com.bumptech.glide.GeneratedRequestManagerFactory
-com/example/project/BuildConfig.java
- com.example.project.BuildConfig
-com/example/project/util/GlideRequests.java
- com.example.project.util.GlideRequests
 com/example/project/databinding/HeaderBinding.java
  com.example.project.databinding.HeaderBinding
+com/example/project/util/GlideOptions.java
+ com.example.project.util.GlideOptions
 com/example/project/databinding/ActivityMainBinding.java
  com.example.project.databinding.ActivityMainBinding
 com/example/project/databinding/ChatLayoutBinding.java
  com.example.project.databinding.ChatLayoutBinding
+com/bumptech/glide/GeneratedRequestManagerFactory.java
+ com.bumptech.glide.GeneratedRequestManagerFactory
+com/example/project/BuildConfig.java
+ com.example.project.BuildConfig
+com/bumptech/glide/GeneratedAppGlideModuleImpl.java
+ com.bumptech.glide.GeneratedAppGlideModuleImpl
+com/example/project/util/GlideRequests.java
+ com.example.project.util.GlideRequests
 com/example/project/databinding/ActivityAuthBinding.java
  com.example.project.databinding.ActivityAuthBinding
 com/example/project/databinding/ItemMain2Binding.java
  com.example.project.databinding.ItemMain2Binding
-com/example/project/databinding/FragmentChatBinding.java
- com.example.project.databinding.FragmentChatBinding
-com/example/project/databinding/CommentMainBinding.java
- com.example.project.databinding.CommentMainBinding
 com/example/project/databinding/AlertFindpwBinding.java
  com.example.project.databinding.AlertFindpwBinding
+com/example/project/databinding/CommentMainBinding.java
+ com.example.project.databinding.CommentMainBinding
+com/example/project/databinding/FragmentChatBinding.java
+ com.example.project.databinding.FragmentChatBinding
 com/example/project/databinding/ItemMainBinding.java
  com.example.project.databinding.ItemMainBinding
 com/example/project/databinding/ActivityAddBinding.java
  com.example.project.databinding.ActivityAddBinding
 com/example/project/databinding/Board3MainBinding.java
  com.example.project.databinding.Board3MainBinding
+com/example/project/util/GlideRequest.java
+ com.example.project.util.GlideRequest
 com/example/project/databinding/ChatMainBinding.java
  com.example.project.databinding.ChatMainBinding
 com/example/project/databinding/MainMainBinding.java
@@ -48,3 +46,5 @@ com/example/project/databinding/BaseToolbarBinding.java
  com.example.project.databinding.BaseToolbarBinding
 com/example/project/databinding/Board2MainBinding.java
  com.example.project.databinding.Board2MainBinding
+com/example/project/util/GlideApp.java
+ com.example.project.util.GlideApp
