@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_marginLeft="5dp">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/add_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="글 저장하기"
+                android:layout_gravity="center"
+                android:textSize="20sp"/>
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!--    라디오버튼 추가하기, 나중에 커스텀하기-->
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioBtnAll"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="전체"/>
+        <RadioButton
+            android:id="@+id/radioBtnToeic"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="토익"/>
+        <RadioButton
+            android:id="@+id/radioBtnLicense"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="자격증"/>
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/addEditViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:hint="제목"
+        android:gravity="left|top"/>
+
+    <!--    겹치게 배치, 사진 추가 시 텍스트 안보이게 수정해야함-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/addImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="사진을 추가할 수 있습니다."
+            android:layout_height="200dp"
+            android:paddingLeft="10dp"/>
+    </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:background="#000000"/>
+
+    <!--내용 입력 란-->
+    <EditText
+        android:id="@+id/addEditView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        android:hint="내용을 입력해 주세요"
+        android:gravity="left|top"/>
+
+
+
+</LinearLayout>
