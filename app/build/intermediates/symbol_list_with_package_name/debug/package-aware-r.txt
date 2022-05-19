@@ -2293,6 +2293,8 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id userBtn
+id userChatBtn
 id view_offset_helper
 id view_tree_lifecycle_owner
 id view_tree_saved_state_registry_owner
