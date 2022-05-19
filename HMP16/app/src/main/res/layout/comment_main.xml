@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/commentId"
+        android:textColor="#808080"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/commentDate"
+        android:textColor="#808080"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintTop_toTopOf="@id/commentId"
+        app:layout_constraintLeft_toRightOf="@id/commentId"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/commentText"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/commentId"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#808080"
+        app:layout_constraintTop_toBottomOf="@id/commentText"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
