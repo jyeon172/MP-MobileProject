@@ -18,7 +18,7 @@ import com.example.project.model.ItemData
 import com.google.firebase.storage.StorageReference
 
 
-class MyAdapter(val context: Context, val itemList: MutableList<ItemData>): RecyclerView.Adapter<MyAdapter.MyViewHolder>() {
+class MyAdapter(val context: Context, val itemList: List<ItemData>): RecyclerView.Adapter<MyAdapter.MyViewHolder>() {
 
     inner class MyViewHolder(val binding: ItemMainBinding) : RecyclerView.ViewHolder(binding.root){
         fun bind(data:ItemData){

@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5dd1f843-c0fa-431c-9674-68a226443531" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../GMP8/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/.idea/deploymentTargetDropDown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/google-services.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/androidTest/java/com/example/project/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/java/com/example/project/AddActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/java/com/example/project/AuthActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/java/com/example/project/DetailActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/java/com/example/project/FirebaseMessageServiceUtil.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/java/com/example/project/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/java/com/example/project/MyApplication.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/java/com/example/project/model/ItemData.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/java/com/example/project/recycler/MyAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/java/com/example/project/util/MyAppGlideModule.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/java/com/example/project/util/MyUtil.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/res/drawable-v24/ic_stat_ic_notification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/res/layout/activity_add.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/res/layout/activity_auth.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/res/layout/item_detail.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/res/layout/item_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/res/menu/menu_add.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/res/menu/menu_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/app/src/test/java/com/example/project/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP8/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/.idea/deploymentTargetDropDown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/google-services.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/androidTest/java/com/example/project/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/java/com/example/project/AddActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/java/com/example/project/AuthActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/java/com/example/project/DetailActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/java/com/example/project/FirebaseMessageServiceUtil.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/java/com/example/project/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/java/com/example/project/MainList3.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/java/com/example/project/MyApplication.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/java/com/example/project/model/ItemData.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/java/com/example/project/recycler/MyAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/java/com/example/project/util/MyAppGlideModule.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/java/com/example/project/util/MyUtil.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/drawable-v24/ic_stat_ic_notification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/drawable/ic_baseline_menu_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/drawable/ic_baseline_navigate_next_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/layout/activity_add.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/layout/activity_auth.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/layout/item_detail.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/layout/item_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/layout/main_drawer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/layout/main_drawer_header.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/layout/main_toolbar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/menu/main_drawer_navigation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/menu/menu_add.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/menu/menu_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/values-v21/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/app/src/test/java/com/example/project/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GMP9/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP11/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP11/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP11/app/src/main/java/com/example/project/AddActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP11/app/src/main/java/com/example/project/AddActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP11/app/src/main/java/com/example/project/DetailActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP11/app/src/main/java/com/example/project/DetailActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP11/app/src/main/java/com/example/project/MyApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP11/app/src/main/java/com/example/project/MyApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP14/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP14/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP14/app/src/main/java/com/example/project/AddActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP14/app/src/main/java/com/example/project/AddActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP14/app/src/main/java/com/example/project/AuthActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP14/app/src/main/java/com/example/project/AuthActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP14/app/src/main/java/com/example/project/DetailActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP14/app/src/main/java/com/example/project/DetailActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/.idea/deploymentTargetDropDown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/google-services.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/androidTest/java/com/example/project/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/java/com/example/project/AddActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/java/com/example/project/AuthActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/java/com/example/project/DetailActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/java/com/example/project/FirebaseMessageServiceUtil.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/java/com/example/project/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/java/com/example/project/MyApplication.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/java/com/example/project/model/ItemData.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/java/com/example/project/recycler/MyAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/java/com/example/project/util/MyAppGlideModule.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/java/com/example/project/util/MyUtil.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/drawable-v24/ic_stat_ic_notification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/drawable/account_circle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/drawable/navi_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/layout/activity_add.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/layout/activity_auth.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/layout/appbar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/layout/header.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/layout/item_detail.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/layout/item_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/layout/main_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/menu/menu_add.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/menu/menu_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/menu/menu_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/app/src/test/java/com/example/project/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP3/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/.idea/deploymentTargetDropDown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/google-services.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/androidTest/java/com/example/project/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/java/com/example/project/AddActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/java/com/example/project/AuthActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/java/com/example/project/DetailActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/java/com/example/project/FirebaseMessageServiceUtil.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/java/com/example/project/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/java/com/example/project/MyApplication.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/java/com/example/project/ToolbarBase.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/java/com/example/project/model/ItemData.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/java/com/example/project/recycler/MyAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/java/com/example/project/util/MyAppGlideModule.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/java/com/example/project/util/MyUtil.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/drawable-v24/ic_stat_ic_notification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/drawable/account_circle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/drawable/navi_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/layout/activity_add.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/layout/activity_auth.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/layout/appbar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/layout/base_toolbar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/layout/header.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/layout/item_detail.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/layout/item_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/layout/main_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/menu/menu_add.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/menu/menu_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/menu/menu_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/app/src/test/java/com/example/project/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP4/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP6/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP6/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP6/app/src/main/java/com/example/project/AuthActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP6/app/src/main/java/com/example/project/AuthActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP6/app/src/main/java/com/example/project/Board3Activity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP6/app/src/main/java/com/example/project/Board3Activity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP6/app/src/main/java/com/example/project/DetailActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP6/app/src/main/java/com/example/project/DetailActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP6/app/src/main/java/com/example/project/recycler/MyAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP6/app/src/main/java/com/example/project/recycler/MyAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP6/app/src/main/res/layout/activity_auth.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP6/app/src/main/res/layout/activity_auth.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP6/app/src/main/res/layout/board3_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP6/app/src/main/res/layout/board3_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP6/app/src/main/res/layout/item_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP6/app/src/main/res/layout/item_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP8/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP8/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP8/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP8/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP8/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP8/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP8/app/src/main/java/com/example/project/AddActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP8/app/src/main/java/com/example/project/AddActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP8/app/src/main/java/com/example/project/AuthActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP8/app/src/main/java/com/example/project/AuthActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP8/app/src/main/java/com/example/project/DetailActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP8/app/src/main/java/com/example/project/DetailActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP8/app/src/main/java/com/example/project/FirebaseMessageServiceUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP8/app/src/main/java/com/example/project/FirebaseMessageServiceUtil.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP8/app/src/main/java/com/example/project/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP8/app/src/main/java/com/example/project/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP8/app/src/main/java/com/example/project/NotificationAPI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP8/app/src/main/java/com/example/project/NotificationAPI.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP8/app/src/main/java/com/example/project/PushNotification.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP8/app/src/main/java/com/example/project/PushNotification.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP8/app/src/main/java/com/example/project/RetrofitInstance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP8/app/src/main/java/com/example/project/RetrofitInstance.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP8/app/src/main/java/com/example/project/model/ItemData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP8/app/src/main/java/com/example/project/model/ItemData.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP8/app/src/main/java/com/example/project/recycler/MyAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP8/app/src/main/java/com/example/project/recycler/MyAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP8/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP8/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HMP8/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../HMP8/gradle.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\im210\.android\avd\D2_Nexus_5X_API_30.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="29N8PL8PSg203nAGSz1HBQc2hwg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\im210\Document\share2\HMP15\app\src\main\res\drawable" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.example.project" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Project.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5dd1f843-c0fa-431c-9674-68a226443531" name="Default Changelist" comment="" />
+      <created>1652942158498</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652942158498</updated>
+    </task>
+    <servers />
+  </component>
+</project>
