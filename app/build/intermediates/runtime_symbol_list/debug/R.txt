@@ -2280,6 +2280,8 @@ int id uniform 0x7f0801e7
 int id unlabeled 0x7f0801e8
 int id up 0x7f0801e9
 int id useLogo 0x7f0801ea
+int id userBtn 0x7f0801f7
+int id userChatBtn 0x7f0801f9
 int id view_offset_helper 0x7f0801eb
 int id view_tree_lifecycle_owner 0x7f0801ec
 int id view_tree_saved_state_registry_owner 0x7f0801ed
