@@ -28,15 +28,17 @@
         <entry key="app/src/main/res/layout/alert_findpw.xml" value="0.1" />
         <entry key="app/src/main/res/layout/appbar.xml" value="0.28489583333333335" />
         <entry key="app/src/main/res/layout/base_toolbar.xml" value="0.28489583333333335" />
+        <entry key="app/src/main/res/layout/board2_main.xml" value="0.1921875" />
         <entry key="app/src/main/res/layout/board3_main.xml" value="0.28489583333333335" />
         <entry key="app/src/main/res/layout/chat_layout.xml" value="0.26358695652173914" />
         <entry key="app/src/main/res/layout/chat_main.xml" value="0.9572368421052632" />
         <entry key="app/src/main/res/layout/comment_main.xml" value="0.2740737915039063" />
-        <entry key="app/src/main/res/layout/fragment_chat.xml" value="0.26358695652173914" />
+        <entry key="app/src/main/res/layout/fragment_chat.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_login.xml" value="0.28489583333333335" />
-        <entry key="app/src/main/res/layout/header.xml" value="0.28489583333333335" />
-        <entry key="app/src/main/res/layout/item_detail.xml" value="0.13855116514690982" />
-        <entry key="app/src/main/res/layout/item_main.xml" value="0.5315549988677537" />
+        <entry key="app/src/main/res/layout/header.xml" value="0.10026448567708332" />
+        <entry key="app/src/main/res/layout/item_detail.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item_main2.xml" value="0.1921875" />
         <entry key="app/src/main/res/layout/main_main.xml" value="0.13855116514690982" />
         <entry key="app/src/main/res/menu/menu_add.xml" value="0.20277777777777778" />
         <entry key="app/src/main/res/menu/menu_list.xml" value="0.20277777777777778" />
