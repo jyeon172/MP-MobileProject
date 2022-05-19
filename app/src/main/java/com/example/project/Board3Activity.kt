@@ -16,6 +16,7 @@ import com.example.project.databinding.ItemMainBinding
 import com.example.project.model.ItemData
 import com.example.project.recycler.MyAdapter
 import com.example.project.util.myCheckPermission
+import com.google.firebase.firestore.Query
 
 class Board3Activity: ToolbarBase() {
 
@@ -107,6 +108,7 @@ class Board3Activity: ToolbarBase() {
     private fun makeRecyclerView(){
         // 컬랙션을 모두 가져오기
         MyApplication.db.collection("news")
+            .orderBy("date", Query.Direction.DESCENDING)
             .get()
             .addOnSuccessListener { result ->
                 val itemList = mutableListOf<ItemData>()
@@ -127,6 +129,7 @@ class Board3Activity: ToolbarBase() {
     private fun makeRecyclerMenu(option:String){
         MyApplication.db.collection("news")
             .whereEqualTo("category", option)
+            //.orderBy("date", Query.Direction.DESCENDING)
             .get()
             .addOnSuccessListener { result ->
                 val itemList = mutableListOf<ItemData>()
@@ -135,8 +138,9 @@ class Board3Activity: ToolbarBase() {
                     item.docId=document.id
                     itemList.add(item)
                 }
+                var itemSort = itemList.sortedByDescending { it.date }
                 binding.mainRecyclerView.layoutManager= LinearLayoutManager(this)
-                binding.mainRecyclerView.adapter= MyAdapter(this, itemList)
+                binding.mainRecyclerView.adapter= MyAdapter(this, itemSort)
             }
             .addOnFailureListener { exception ->
                 Log.d("kkang", "Error getting documents: ", exception)

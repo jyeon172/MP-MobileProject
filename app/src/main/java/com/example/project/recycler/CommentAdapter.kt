@@ -9,7 +9,7 @@ import com.example.project.model.CommentData
 import com.example.project.model.ItemData
 
 
-class CommentAdapter(val context: Context, val itemList: MutableList<CommentData>): RecyclerView.Adapter<CommentAdapter.MyViewHolder>() {
+class CommentAdapter(val context: Context, val itemList: List<CommentData>): RecyclerView.Adapter<CommentAdapter.MyViewHolder>() {
 
     inner class MyViewHolder(val binding: CommentMainBinding) : RecyclerView.ViewHolder(binding.root){
         fun bind(data: CommentData){

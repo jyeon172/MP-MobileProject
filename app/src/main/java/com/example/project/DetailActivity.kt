@@ -23,6 +23,7 @@ import com.example.project.model.ItemData
 import com.example.project.recycler.CommentAdapter
 import com.example.project.recycler.MyAdapter
 import com.example.project.util.dateToString
+import com.google.firebase.firestore.Query
 import java.util.*
 
 //수정했음, 데이터 전달 잘됨
@@ -124,6 +125,7 @@ class DetailActivity :  ToolbarBase() {
     private fun makeCommentRecycler() {
         MyApplication.db.collection("comment")
             .whereEqualTo("docId", docId)
+            //.orderBy("date", Query.Direction.ASCENDING)
             .get()
             .addOnSuccessListener { result ->
                 val itemList = mutableListOf<CommentData>()
@@ -132,8 +134,9 @@ class DetailActivity :  ToolbarBase() {
                     item.commentId=document.id
                     itemList.add(item)
                 }
+                var itemSort = itemList.sortedBy { it.date }
                 binding.detailRecyclerView.layoutManager= LinearLayoutManager(this)
-                binding.detailRecyclerView.adapter= CommentAdapter(this, itemList)
+                binding.detailRecyclerView.adapter= CommentAdapter(this, itemSort)
             }
             .addOnFailureListener { exception ->
                 Log.d("kkang", "Error getting documents: ", exception)
