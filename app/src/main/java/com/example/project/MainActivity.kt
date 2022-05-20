@@ -67,8 +67,8 @@ class MainActivity : ToolbarBase(){
         if(!MyApplication.checkAuth()){
             setContentView(R.layout.activity_main)
         }else {
-            //setContentView(R.layout.main_main) //툴바 있음
-            setContentView(binding2.root) //툴바 없음
+            setContentView(R.layout.main_main) //툴바 있음
+            //setContentView(binding2.root) //툴바 없음
             makeRecycler2View() //세부2 최신글
             makeRecycler3View() //세부3 최신글
         }

@@ -11,7 +11,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.project"
-        minSdk 16
+        minSdk 19
         targetSdk 30
         versionCode 1
         versionName "1.0"
@@ -47,6 +47,7 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.3.0'
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'com.google.firebase:firebase-database-ktx:20.0.5'
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
@@ -68,5 +69,16 @@ dependencies {
     //..............
     implementation 'com.google.firebase:firebase-messaging-ktx'
     implementation 'com.google.firebase:firebase-analytics-ktx'
+
+    //fcm
+    implementation 'com.google.firebase:firebase-messaging:23.0.4'
+    //coroutines
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.5'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.5'
+    //Gson
+    implementation 'com.google.code.gson:gson:2.8.6'
+    //retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.6.2'
+    implementation 'com.squareup.retrofit2:converter-gson:2.6.0'
 
 }

@@ -9,4 +9,5 @@ class ItemData {
     var title: String? = null
     var category: String? = null
     var imageYN:String? = null
+    var token:String? = null
 }
