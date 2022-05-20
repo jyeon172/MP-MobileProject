@@ -12,6 +12,7 @@ class MyApplication: MultiDexApplication() {
 
     companion object {
         lateinit var auth: FirebaseAuth
+        lateinit var prefs:PreferenceUtil
         var email: String? = null
 
         fun checkAuth(): Boolean{
@@ -34,6 +35,7 @@ class MyApplication: MultiDexApplication() {
     }
 
     override fun onCreate() {
+        prefs = PreferenceUtil(applicationContext)
         super.onCreate()
         auth =  Firebase.auth
 

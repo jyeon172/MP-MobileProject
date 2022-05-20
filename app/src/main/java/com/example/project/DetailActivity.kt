@@ -23,7 +23,13 @@ import com.example.project.model.ItemData
 import com.example.project.recycler.CommentAdapter
 import com.example.project.recycler.MyAdapter
 import com.example.project.util.dateToString
+import com.google.android.gms.tasks.OnCompleteListener
 import com.google.firebase.firestore.Query
+import com.google.firebase.messaging.FirebaseMessaging
+import com.google.gson.Gson
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 import java.util.*
 
 //수정했음, 데이터 전달 잘됨
@@ -32,6 +38,8 @@ class DetailActivity :  ToolbarBase() {
     private lateinit var context: Context
 
     var docId = ""
+    val TAG = "DetailActivity"
+    private var myToken : String = ""
 
     override fun onCreate (savedInstancsState: Bundle?) {
         binding = ItemDetailBinding.inflate(layoutInflater)
@@ -49,6 +57,7 @@ class DetailActivity :  ToolbarBase() {
         val date = intent.getStringExtra("date")
         val data = intent.getStringExtra("docID")
         val imageYN = intent.getStringExtra("imageYN")
+        val itemtoken = intent.getStringExtra("token")
 
         docId = data.toString()
         //Toast.makeText(this, imageYN, Toast.LENGTH_SHORT).show()
@@ -83,23 +92,6 @@ class DetailActivity :  ToolbarBase() {
 
         makeCommentRecycler()
 
-        /*
-        //댓글 EditText에 글 있을 시에만 버튼 활성화
-        binding.detailCommentView.addTextChangedListener(object : TextWatcher {
-            override fun beforeTextChanged(charSequence: CharSequence, i: Int, i1: Int, i2: Int) {}
-            override fun onTextChanged(charSequence: CharSequence, i: Int, i1: Int, i2: Int) {}
-            override fun afterTextChanged(editable: Editable) {
-                if (editable.length > 0) { // 버튼 활성화
-                    binding.detailCommentButton.setClickable(true)
-                    binding.detailCommentButton.visibility = View.VISIBLE
-                } else {
-                    binding.detailCommentButton.setClickable(false)
-                    binding.detailCommentButton.visibility = View.GONE
-                }
-            }
-        })
-
-         */
 
         val chat_btn = findViewById<Button>(R.id.chattingButton)
 
@@ -111,13 +103,60 @@ class DetailActivity :  ToolbarBase() {
 
         val send_btn = findViewById<Button>(R.id.detailCommentButton)
 
+        //토큰 가져오기
+        FirebaseMessaging.getInstance().token.addOnCompleteListener(OnCompleteListener { task ->
+            if (!task.isSuccessful) {
+                Log.w(TAG, "Fetching FCM registration token failed", task.exception)
+                return@OnCompleteListener
+            }
+            // Get new FCM registration token
+            myToken = task.result
+            Log.d("kkang", "FCM Token is ${myToken}")
+        })
+
         send_btn.setOnClickListener {
             Toast.makeText(this, "click", Toast.LENGTH_SHORT).show()
-            if (binding.detailCommentView.text.isNotEmpty()) //내용확인
+            if (binding.detailCommentView.text.isNotEmpty()&& itemtoken != null) { //내용확인
                 saveStore()
+
+                // myToken은 내 토큰
+                Log.d("mytoken", myToken)
+
+                // itemToken은 게시글 쓴 사람의 토큰
+                if (itemtoken != null) {
+                    Log.d("itemtoken", itemtoken)
+                }
+                else{
+                    Log.e("itemtoken", "게시글 토큰 비워져있음")
+                }
+
+                // 게시글 토큰에게 알림 보내기
+                PushNotification(
+                    NotificationData("Study With", "내가 쓴 게시글에 댓글이 달렸어요!"),
+                    itemtoken
+                ).also{
+                    sendNotification(it)
+                }
+
+            }
+
             else {
                 Toast.makeText(this, "데이터가 모두 입력되지 않았습니다.", Toast.LENGTH_SHORT).show()
             }
+        }
+    }
+
+    //알람 띄우기
+    private fun sendNotification(notification: PushNotification) = CoroutineScope(Dispatchers.IO).launch {
+        try {
+            val response = RetrofitInstance.api.postNotification(notification)
+            if(response.isSuccessful) {
+                Log.d(TAG, "Response: ${Gson().toJson(response)}")
+            } else {
+                Log.e(TAG, response.errorBody()?.string()!!)
+            }
+        } catch(e: Exception) {
+            Log.e(TAG, e.toString())
         }
     }
 
