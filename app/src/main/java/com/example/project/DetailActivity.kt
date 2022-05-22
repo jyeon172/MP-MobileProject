@@ -120,13 +120,13 @@ class DetailActivity :  ToolbarBase() {
             startActivity(intent)
         }
 
-//        val user_btn = findViewById<ImageButton>(R.id.userBtn)
-//
-//        user_btn.setOnClickListener {
-//            val intent = Intent(this, ChatMain::class.java)
-//            intent.putExtra("docId", chatId)
-//            startActivity(intent)
-//        }
+        val user_btn = findViewById<ImageButton>(R.id.userBtn)
+
+        user_btn.setOnClickListener {
+            val intent = Intent(this, ChatMain::class.java)
+            intent.putExtra("docId", chatId)
+            startActivity(intent)
+        }
 
 
         // 정연: 댓글 통해 개인채팅 구현 못 함
