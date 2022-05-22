@@ -53,13 +53,13 @@ class DetailActivity :  ToolbarBase() {
 //        Log.d("kkang", user2)
 
         var chatId = ""
-        if(user1 < user2) {
+        if (user1 < user2) {
             chatId = user1 + user2
-        }
-        else {
+        } else {
             chatId = user2 + user1
         }
 //        Log.d("kkang", chatId)
+
 
         docId = data.toString()
         //Toast.makeText(this, imageYN, Toast.LENGTH_SHORT).show()
@@ -120,13 +120,14 @@ class DetailActivity :  ToolbarBase() {
             startActivity(intent)
         }
 
-        val user_btn = findViewById<ImageButton>(R.id.userBtn)
+//        val user_btn = findViewById<ImageButton>(R.id.userBtn)
+//
+//        user_btn.setOnClickListener {
+//            val intent = Intent(this, ChatMain::class.java)
+//            intent.putExtra("docId", chatId)
+//            startActivity(intent)
+//        }
 
-        user_btn.setOnClickListener {
-            val intent = Intent(this, ChatMain::class.java)
-            intent.putExtra("docId", chatId)
-            startActivity(intent)
-        }
 
         // 정연: 댓글 통해 개인채팅 구현 못 함
 //        val user_cmt_btn = findViewById<ImageButton>(R.id.userCmtBtn)
@@ -137,19 +138,7 @@ class DetailActivity :  ToolbarBase() {
 //            startActivity(intent)
 //        }
 
-
-        val send_btn = findViewById<Button>(R.id.detailCommentButton)
-
-        send_btn.setOnClickListener {
-            Toast.makeText(this, "click", Toast.LENGTH_SHORT).show()
-            if (binding1.detailCommentView.text.isNotEmpty()) //내용확인
-                saveStore()
-            else {
-                Toast.makeText(this, "데이터가 모두 입력되지 않았습니다.", Toast.LENGTH_SHORT).show()
-            }
-        }
     }
-
     //댓글 불러오기
     private fun makeCommentRecycler() {
         MyApplication.db.collection("comment")

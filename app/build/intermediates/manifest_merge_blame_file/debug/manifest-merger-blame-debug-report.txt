@@ -41,14 +41,14 @@
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 22-->[androidx.core:core:1.5.0] /Users/jeongyeonpark/.gradle/caches/transforms-3/08edf9af14b2e8e81ad8bacbf74244c7/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
 23        android:debuggable="true"
-24        android:icon="@mipmap/ic_launcher_new"
-24-->/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/AndroidManifest.xml:14:9-47
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/AndroidManifest.xml:14:9-43
 25        android:label="@string/app_name"
 25-->/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/AndroidManifest.xml:15:9-41
 26        android:requestLegacyExternalStorage="true"
 26-->/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/AndroidManifest.xml:16:9-52
-27        android:roundIcon="@mipmap/ic_launcher_new_round"
-27-->/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/AndroidManifest.xml:17:9-58
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/AndroidManifest.xml:17:9-54
 28        android:supportsRtl="true"
 28-->/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/AndroidManifest.xml:18:9-35
 29        android:testOnly="true"

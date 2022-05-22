@@ -279,9 +279,9 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jeon
 	android:label
 		ADDED from /Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/AndroidManifest.xml:15:9-41
 	android:roundIcon
-		ADDED from /Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/AndroidManifest.xml:17:9-58
+		ADDED from /Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/AndroidManifest.xml:17:9-54
 	android:icon
-		ADDED from /Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/AndroidManifest.xml:14:9-47
+		ADDED from /Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/AndroidManifest.xml:14:9-43
 	android:allowBackup
 		ADDED from /Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/AndroidManifest.xml:13:9-35
 	android:theme
