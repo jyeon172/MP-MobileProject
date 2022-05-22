@@ -44,16 +44,16 @@
         "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_launcher_background.png"
     },
     {
+        "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/merged_res/debug/drawable_border.xml.flat",
+        "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/res/drawable/border.xml"
+    },
+    {
         "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_launcher_background.png.flat",
         "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_background.png"
     },
     {
         "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_ic_launcher_background.png.flat",
         "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
-    },
-    {
-        "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/merged_res/debug/drawable_border.xml.flat",
-        "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/res/drawable/border.xml"
     },
     {
         "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/merged_res/debug/layout_activity_add.xml.flat",
@@ -204,16 +204,16 @@
         "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/res/menu/popup_board3.xml"
     },
     {
-        "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
         "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_back_key.png.flat",
         "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/generated/res/pngs/debug/drawable-xxxhdpi/back_key.png"
     },
     {
         "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/merged_res/debug/layout_appbar.xml.flat",
         "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/res/layout/appbar.xml"
+    },
+    {
+        "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
         "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/merged_res/debug/drawable-ldpi_account_circle.png.flat",
@@ -236,12 +236,12 @@
         "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
-    },
-    {
         "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/merged_res/debug/menu_menu_main.xml.flat",
         "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
         "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/merged_res/debug/layout_item_detail.xml.flat",
