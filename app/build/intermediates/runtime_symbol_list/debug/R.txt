@@ -1744,7 +1744,7 @@ int drawable googleg_standard_color_18 0x7f07007c
 int drawable ic_baseline_image_24 0x7f07007d
 int drawable ic_clock_black_24dp 0x7f07007e
 int drawable ic_keyboard_black_24dp 0x7f07007f
-int drawable ic_launcher_background 0x7f070080
+int drawable ic_launcher_background_new 0x7f070080
 int drawable ic_launcher_foreground 0x7f070081
 int drawable ic_mtrl_checked_circle 0x7f070082
 int drawable ic_mtrl_chip_checked_black 0x7f070083
@@ -2292,7 +2292,7 @@ int id unlabeled 0x7f0801f3
 int id up 0x7f0801f4
 int id useLogo 0x7f0801f5
 int id userBtn 0x7f0801f6
-int id userChatBtn 0x7f0801f7
+int id userCmtBtn 0x7f0801f7
 int id view_offset_helper 0x7f0801f8
 int id view_tree_lifecycle_owner 0x7f0801f9
 int id view_tree_saved_state_registry_owner 0x7f0801fa
@@ -2488,8 +2488,9 @@ int menu menu_add 0x7f0c0000
 int menu menu_list 0x7f0c0001
 int menu menu_main 0x7f0c0002
 int menu popup_board3 0x7f0c0003
-int mipmap ic_launcher 0x7f0d0000
-int mipmap ic_launcher_round 0x7f0d0001
+int mipmap ic_launcher_foreground_new 0x7f0d0000
+int mipmap ic_launcher_new 0x7f0d0001
+int mipmap ic_launcher_new_round 0x7f0d0002
 int plurals mtrl_badge_content_description 0x7f0e0000
 int string abc_action_bar_home_description 0x7f0f0000
 int string abc_action_bar_up_description 0x7f0f0001
