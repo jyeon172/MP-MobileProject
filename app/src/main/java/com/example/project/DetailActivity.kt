@@ -127,6 +127,7 @@ class DetailActivity :  ToolbarBase() {
             intent.putExtra("docId", chatId)
             startActivity(intent)
         }
+        // 이전 채팅 불러오는거 추가 예정
 
 
         // 정연: 댓글 통해 개인채팅 구현 못 함
