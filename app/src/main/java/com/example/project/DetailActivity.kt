@@ -128,6 +128,7 @@ class DetailActivity :  ToolbarBase() {
             startActivity(intent)
         }
 
+        // 정연: 댓글 통해 개인채팅 구현 못 함
 //        val user_cmt_btn = findViewById<ImageButton>(R.id.userCmtBtn)
 //
 //        user_cmt_btn.setOnClickListener {
