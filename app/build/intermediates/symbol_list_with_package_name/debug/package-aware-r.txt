@@ -1745,7 +1745,7 @@ drawable googleg_standard_color_18
 drawable ic_baseline_image_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
-drawable ic_launcher_background
+drawable ic_launcher_background_new
 drawable ic_launcher_foreground
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
@@ -2294,7 +2294,7 @@ id unlabeled
 id up
 id useLogo
 id userBtn
-id userChatBtn
+id userCmtBtn
 id view_offset_helper
 id view_tree_lifecycle_owner
 id view_tree_saved_state_registry_owner
@@ -2490,8 +2490,9 @@ menu menu_add
 menu menu_list
 menu menu_main
 menu popup_board3
-mipmap ic_launcher
-mipmap ic_launcher_round
+mipmap ic_launcher_foreground_new
+mipmap ic_launcher_new
+mipmap ic_launcher_new_round
 plurals mtrl_badge_content_description
 raw keep
 string abc_action_bar_home_description
