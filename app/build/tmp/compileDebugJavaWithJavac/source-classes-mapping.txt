@@ -10,20 +10,20 @@ com/bumptech/glide/GeneratedRequestManagerFactory.java
  com.bumptech.glide.GeneratedRequestManagerFactory
 com/example/project/BuildConfig.java
  com.example.project.BuildConfig
-com/example/project/util/GlideRequests.java
- com.example.project.util.GlideRequests
 com/bumptech/glide/GeneratedAppGlideModuleImpl.java
  com.bumptech.glide.GeneratedAppGlideModuleImpl
+com/example/project/util/GlideRequests.java
+ com.example.project.util.GlideRequests
 com/example/project/databinding/ActivityAuthBinding.java
  com.example.project.databinding.ActivityAuthBinding
 com/example/project/databinding/ItemMain2Binding.java
  com.example.project.databinding.ItemMain2Binding
-com/example/project/databinding/FragmentChatBinding.java
- com.example.project.databinding.FragmentChatBinding
-com/example/project/databinding/CommentMainBinding.java
- com.example.project.databinding.CommentMainBinding
 com/example/project/databinding/AlertFindpwBinding.java
  com.example.project.databinding.AlertFindpwBinding
+com/example/project/databinding/CommentMainBinding.java
+ com.example.project.databinding.CommentMainBinding
+com/example/project/databinding/FragmentChatBinding.java
+ com.example.project.databinding.FragmentChatBinding
 com/example/project/databinding/ItemMainBinding.java
  com.example.project.databinding.ItemMainBinding
 com/example/project/databinding/ActivityAddBinding.java
