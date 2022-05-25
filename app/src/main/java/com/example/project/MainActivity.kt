@@ -28,11 +28,15 @@ import com.google.android.gms.tasks.OnCompleteListener
 import com.google.android.material.navigation.NavigationView
 import com.google.firebase.messaging.FirebaseMessaging
 
-class MainActivity : ToolbarBase(){
+class MainActivity : AppCompatActivity() , NavigationView.OnNavigationItemSelectedListener{
 
     lateinit var bind: ItemMainBinding
     lateinit var binding: ActivityMainBinding
     lateinit var binding2: MainMainBinding
+
+    lateinit var navigationView1: NavigationView
+    lateinit var drawerLayout1: DrawerLayout
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -40,11 +44,29 @@ class MainActivity : ToolbarBase(){
         binding = ActivityMainBinding.inflate(layoutInflater)
         binding2 = MainMainBinding.inflate(layoutInflater)
 
+        setContentView(binding2.root)
+
         getWindow().setFlags( // 화면 full로 채우기
             WindowManager.LayoutParams.FLAG_FULLSCREEN,
             WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         getFCMToken()
+
+        val toolbar: Toolbar = findViewById(R.id.toolbar) //툴바 사용여부 결정(기본적으로 사용)
+        if (useToolbar()) {
+            setSupportActionBar(toolbar)
+            supportActionBar?.setDisplayShowTitleEnabled(false) //표시되는 제목의 표시유무, false면 설정한 툴바의 이름이 화면에 보임
+            supportActionBar?.setDisplayHomeAsUpEnabled(true) // 드로어를 꺼낼 홈 버튼 활성화
+            supportActionBar?.setHomeAsUpIndicator(R.drawable.navi_menu) // 홈버튼 이미지 변경
+            drawerLayout1 = findViewById(R.id.drawer_layout) //드로어 레이아웃 생성
+
+            // 네비게이션 드로어 내에있는 화면의 이벤트를 처리하기 위해 생성
+            navigationView1 = findViewById(R.id.nav_view)
+            navigationView1.setNavigationItemSelectedListener(this)
+
+        } else {
+            toolbar.visibility = View.GONE
+        }
 
     }
 
@@ -65,10 +87,9 @@ class MainActivity : ToolbarBase(){
     override fun onStart() {
         super.onStart()
         if(!MyApplication.checkAuth()){
-            setContentView(R.layout.activity_main)
+            startActivity(Intent(this, MainActivity2::class.java))
         }else {
-            setContentView(R.layout.main_main) //툴바 있음
-            //setContentView(binding2.root) //툴바 없음
+            setContentView(binding2.root) // 툴바O, 최신글O
             makeRecycler2View() //세부2 최신글
             makeRecycler3View() //세부3 최신글
         }
@@ -115,6 +136,69 @@ class MainActivity : ToolbarBase(){
                 Log.d("kkang", "Error getting documents: ", exception)
                 Toast.makeText(this, "서버로부터 데이터 획득에 실패했습니다.", Toast.LENGTH_SHORT).show()
             }
+    }
+
+    //툴바 관련 함수
+
+
+    //툴바 사용할지 말지, 기본값은 true. 사용 안 할려면 다른 액티비티에서 false로 바꾸기
+    /*
+    override fun useToolbar(): Boolean {
+        return false
+    }
+     */
+    fun useToolbar(): Boolean {
+        return true
+    }
+
+    // 로그인 메뉴 띄우기
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_main, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item.itemId){
+            android.R.id.home->{ // 메뉴 버튼
+                drawerLayout1.openDrawer(GravityCompat.START)    // 네비게이션 드로어 열기
+            }
+
+            R.id.menu_main_auth->{ // 인증버튼
+                startActivity(Intent(this, AuthActivity::class.java))
+            }
+
+        }
+        return super.onOptionsItemSelected(item)
+    }
+
+    override fun onBackPressed() { // 드로어 레이아웃 뒤로가기 처리, 안 할 시 앱종료됨
+        if(drawerLayout1.isDrawerOpen(GravityCompat.START)){
+            drawerLayout1.closeDrawers()
+            // 테스트를 위해 뒤로가기 버튼시 Toast 메시지
+            Toast.makeText(this,"뒤로가기", Toast.LENGTH_SHORT).show()
+        } else{
+            super.onBackPressed()
+        }
+    }
+
+    // 드로어 내 아이템 클릭 이벤트 처리하는 함수
+    override fun onNavigationItemSelected(item: MenuItem): Boolean { //네비게이션뷰에서 각 메뉴 클릭시
+        when(item.itemId){
+            R.id.menu_item1-> {
+                Toast.makeText(this,"세부 1 clicked",Toast.LENGTH_SHORT).show()
+            }
+            R.id.menu_item2-> {
+                Toast.makeText(this,"세부 2 clicked",Toast.LENGTH_SHORT).show()
+                startActivity(Intent(this, Board2Activity::class.java))
+            }
+            R.id.menu_item3-> {
+                Toast.makeText(this,"세부 3 clicked",Toast.LENGTH_SHORT).show()
+                startActivity(Intent(this, Board3Activity::class.java))
+                //카테고리 정보 받아오기
+            }
+        }
+        return false
     }
 
 }

@@ -54,6 +54,7 @@
                 android:value=".Board3Activity" />
         </activity>
         <activity android:name="com.example.project.ToolbarBase" />
+        <activity android:name="com.example.project.MainActivity2" />
 
         <service
             android:name="com.example.project.FirebaseMessagingServiceUtil"

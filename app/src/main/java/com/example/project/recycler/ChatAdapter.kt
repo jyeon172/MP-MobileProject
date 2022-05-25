@@ -1,4 +1,4 @@
-package com.example.project
+package com.example.project.recycler
 
 import android.graphics.Color
 import android.view.LayoutInflater
@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.project.R
 import com.example.project.model.ChatData
 
 class ChatAdapter(val currentUser: String, val itemList: ArrayList<ChatData>): RecyclerView.Adapter<ChatAdapter.ViewHolder>() {

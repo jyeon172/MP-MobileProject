@@ -43,6 +43,7 @@
                 android:value=".Board3Activity" />
         </activity>
         <activity android:name=".ToolbarBase"/>
+        <activity android:name=".MainActivity2"/>
 
 
         <service

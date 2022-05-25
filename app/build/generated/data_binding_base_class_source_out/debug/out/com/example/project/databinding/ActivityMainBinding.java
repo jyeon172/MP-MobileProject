@@ -8,6 +8,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.Toolbar;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.project.R;
@@ -22,9 +23,14 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final TextView logoutTextView;
 
-  private ActivityMainBinding(@NonNull RelativeLayout rootView, @NonNull TextView logoutTextView) {
+  @NonNull
+  public final Toolbar mainToolbar;
+
+  private ActivityMainBinding(@NonNull RelativeLayout rootView, @NonNull TextView logoutTextView,
+      @NonNull Toolbar mainToolbar) {
     this.rootView = rootView;
     this.logoutTextView = logoutTextView;
+    this.mainToolbar = mainToolbar;
   }
 
   @Override
@@ -60,7 +66,13 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((RelativeLayout) rootView, logoutTextView);
+      id = R.id.main_toolbar;
+      Toolbar mainToolbar = ViewBindings.findChildViewById(rootView, id);
+      if (mainToolbar == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((RelativeLayout) rootView, logoutTextView, mainToolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
