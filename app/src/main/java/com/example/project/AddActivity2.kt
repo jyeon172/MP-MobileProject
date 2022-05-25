@@ -18,6 +18,8 @@ import com.example.project.databinding.ActivityAddBinding
 import com.example.project.databinding.Board2MainBinding
 import com.example.project.databinding.Board3MainBinding
 import com.example.project.util.dateToString
+import com.google.android.gms.tasks.OnCompleteListener
+import com.google.firebase.messaging.FirebaseMessaging
 import com.google.firebase.storage.StorageReference
 import java.io.File
 import java.util.*
@@ -29,6 +31,9 @@ class AddActivity2  : AppCompatActivity() {
     lateinit var filePath: String
     //추가
     var radioChecked:String = "전체"
+
+    val TAG = "AddActivity"
+    private var myToken : String = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -111,6 +116,29 @@ class AddActivity2  : AppCompatActivity() {
     //....................
     private fun saveStore(){
 
+        //토큰 가져오기
+        FirebaseMessaging.getInstance().token.addOnCompleteListener(OnCompleteListener { task ->
+            if (!task.isSuccessful) {
+                Log.w(TAG, "Fetching FCM registration token failed", task.exception)
+                return@OnCompleteListener
+            }
+            // Get new FCM registration token
+            myToken = task.result.toString()
+            Log.d("kkang", "FCM Token is ${myToken}")
+
+            // 테스트
+            Log.d("addActiviy_mytoken", myToken)
+
+            // 게시글 토큰 저장하기
+            MyApplication.prefs.setString("addToken",myToken)
+
+
+        })
+
+        // 게시글 토큰 받아오기
+        val addtoken2 = MyApplication.prefs.getString("addToken",myToken)
+        Log.d("addActivity22", addtoken2)
+
         //이미지유무
         var imageYN = "0"
         if (binding.addImageView.drawable != null)
@@ -126,7 +154,8 @@ class AddActivity2  : AppCompatActivity() {
             "content" to binding.addEditView.text.toString(), //내용 저장
             "date" to dateToString(Date()),
             "category" to category,
-            "imageYN" to imageYN
+            "imageYN" to imageYN,
+            "token" to addtoken2
         )
         //데이터 저장하기. 사진이 있을 때 없을 떄 따로 하는 건?
         if (binding.addImageView.drawable != null) {

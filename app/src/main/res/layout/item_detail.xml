@@ -36,17 +36,24 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:paddingTop="70dp">
+
+            <ImageButton
+                android:id="@+id/userBtn"
+                android:layout_width="36dp"
+                android:layout_height="35dp"
+                android:background="@drawable/account_circle"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
 
             <TextView
                 android:id="@+id/detailTitleView"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="16dp"
+                android:layout_marginLeft="10dp"
                 android:textSize="24sp"
-                android:paddingTop="50dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/userBtn"
                 app:layout_constraintTop_toTopOf="parent" />
 
 
@@ -88,12 +95,12 @@
 
             <TextView
                 android:id="@+id/detailContentView"
-                android:layout_width="0dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
                 android:textSize="16sp"
                 app:layout_constraintRight_toRightOf="@id/detailTitleView"
-                app:layout_constraintLeft_toLeftOf="@id/detailTitleView"
+                app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/detailImageView" />
 
             <Button
@@ -101,8 +108,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="채팅"
-                app:layout_constraintRight_toRightOf="@id/detailTitleView"
-                app:layout_constraintLeft_toLeftOf="@id/detailTitleView"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/detailContentView" />
 
 
@@ -148,4 +154,3 @@
         app:layout_constraintBottom_toBottomOf="@+id/detailCommentView"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-

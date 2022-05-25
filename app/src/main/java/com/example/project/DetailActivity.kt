@@ -2,29 +2,24 @@ package com.example.project
 
 import android.content.Context
 import android.content.Intent
-import android.graphics.Color
 import android.os.Bundle
-import android.text.Editable
-import android.text.TextWatcher
 import android.util.Log
 import android.view.MenuItem
 import android.view.View
 import android.view.WindowManager
 import android.widget.Button
+import android.widget.ImageButton
 import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bumptech.glide.Glide
-import com.example.project.databinding.Board3MainBinding
+import com.example.project.databinding.ChatMainBinding
+import com.example.project.databinding.CommentMainBinding
 import com.example.project.databinding.ItemDetailBinding
 import com.example.project.model.CommentData
-import com.example.project.model.ItemData
 import com.example.project.recycler.CommentAdapter
-import com.example.project.recycler.MyAdapter
 import com.example.project.util.dateToString
 import com.google.android.gms.tasks.OnCompleteListener
-import com.google.firebase.firestore.Query
 import com.google.firebase.messaging.FirebaseMessaging
 import com.google.gson.Gson
 import kotlinx.coroutines.CoroutineScope
@@ -40,6 +35,7 @@ class DetailActivity :  ToolbarBase() {
     var docId = ""
     val TAG = "DetailActivity"
     private var myToken : String = ""
+    var emailId =""
 
     override fun onCreate (savedInstancsState: Bundle?) {
         binding = ItemDetailBinding.inflate(layoutInflater)
@@ -58,6 +54,21 @@ class DetailActivity :  ToolbarBase() {
         val data = intent.getStringExtra("docID")
         val imageYN = intent.getStringExtra("imageYN")
         val itemtoken = intent.getStringExtra("token")
+
+        val user1 = email?.split('@')?.get(0).toString()
+//        Log.d("kkang", user1)
+
+        val user2 = MyApplication.email?.split('@')?.get(0).toString()
+//        Log.d("kkang", user2)
+
+        var chatId = ""
+        if (user1 < user2) {
+            chatId = user1 + user2
+        } else {
+            chatId = user2 + user1
+        }
+//        Log.d("kkang", chatId)
+
 
         docId = data.toString()
         //Toast.makeText(this, imageYN, Toast.LENGTH_SHORT).show()
@@ -92,6 +103,23 @@ class DetailActivity :  ToolbarBase() {
 
         makeCommentRecycler()
 
+        /*
+        //댓글 EditText에 글 있을 시에만 버튼 활성화
+        binding.detailCommentView.addTextChangedListener(object : TextWatcher {
+            override fun beforeTextChanged(charSequence: CharSequence, i: Int, i1: Int, i2: Int) {}
+            override fun onTextChanged(charSequence: CharSequence, i: Int, i1: Int, i2: Int) {}
+            override fun afterTextChanged(editable: Editable) {
+                if (editable.length > 0) { // 버튼 활성화
+                    binding.detailCommentButton.setClickable(true)
+                    binding.detailCommentButton.visibility = View.VISIBLE
+                } else {
+                    binding.detailCommentButton.setClickable(false)
+                    binding.detailCommentButton.visibility = View.GONE
+                }
+            }
+        })
+
+         */
 
         val chat_btn = findViewById<Button>(R.id.chattingButton)
 
@@ -100,6 +128,23 @@ class DetailActivity :  ToolbarBase() {
             intent.putExtra("docId", docId)
             startActivity(intent)
         }
+
+        val user_btn = findViewById<ImageButton>(R.id.userBtn)
+
+        user_btn.setOnClickListener {
+            val intent = Intent(this, ChatMain::class.java)
+            intent.putExtra("docId", chatId)
+            startActivity(intent)
+        }
+
+        // 정연: 댓글 통해 개인채팅 구현 못 함
+//        val user_cmt_btn = findViewById<ImageButton>(R.id.userCmtBtn)
+//
+//        user_cmt_btn.setOnClickListener {
+//            val intent = Intent(this, ChatMain::class.java)
+//            intent.putExtra("docId", docId)
+//            startActivity(intent)
+//        }
 
         val send_btn = findViewById<Button>(R.id.detailCommentButton)
 
@@ -116,19 +161,19 @@ class DetailActivity :  ToolbarBase() {
 
         send_btn.setOnClickListener {
             Toast.makeText(this, "click", Toast.LENGTH_SHORT).show()
+            // itemToken은 게시글 쓴 사람의 토큰
+            if (itemtoken != null) {
+                Log.d("itemtoken", itemtoken)
+            }
+            else{
+                Log.e("itemtoken", "게시글 토큰 비워져있음")
+            }
+
             if (binding.detailCommentView.text.isNotEmpty()&& itemtoken != null) { //내용확인
                 saveStore()
 
                 // myToken은 내 토큰
                 Log.d("mytoken", myToken)
-
-                // itemToken은 게시글 쓴 사람의 토큰
-                if (itemtoken != null) {
-                    Log.d("itemtoken", itemtoken)
-                }
-                else{
-                    Log.e("itemtoken", "게시글 토큰 비워져있음")
-                }
 
                 // 게시글 토큰에게 알림 보내기
                 PushNotification(
@@ -141,7 +186,7 @@ class DetailActivity :  ToolbarBase() {
             }
 
             else {
-                Toast.makeText(this, "데이터가 모두 입력되지 않았습니다.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "댓글이 입력되지 않았습니다.", Toast.LENGTH_SHORT).show()
             }
         }
     }
@@ -159,6 +204,7 @@ class DetailActivity :  ToolbarBase() {
             Log.e(TAG, e.toString())
         }
     }
+
 
     //댓글 불러오기
     private fun makeCommentRecycler() {

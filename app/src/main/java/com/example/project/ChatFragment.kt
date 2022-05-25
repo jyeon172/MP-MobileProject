@@ -20,6 +20,8 @@ import com.google.firebase.firestore.DocumentChange
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.ListenerRegistration
 import com.google.firebase.firestore.Query
+import com.google.firebase.firestore.ktx.toObject
+import com.google.firebase.firestore.ktx.toObjects
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -82,6 +84,27 @@ class ChatFragment(docId: String?) : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        //이전 내용
+        MyApplication.db.collection(docId)
+            .orderBy("time", Query.Direction.ASCENDING)
+            .get()
+            .addOnSuccessListener { result ->
+                for (document in result) {
+                    val nick = document.data["nickname"].toString()
+                    val cont = document.data["contents"].toString()
+                    val tim = document.data["time"] as Timestamp
+                    val sf = SimpleDateFormat("yyyy/MM/dd HH:mm:ss", Locale.KOREA)
+                    sf.timeZone = TimeZone.getTimeZone("Asia/Seoul")
+                    val ti = sf.format(tim.toDate())
+                    chatList.add(ChatData(nick, cont, ti))
+                }
+                adapter.notifyDataSetChanged()
+            }
+            .addOnFailureListener { exception ->
+                Log.d("kkang", "Error getting documents: ", exception)
+                Toast.makeText(context, "서버로부터 데이터 획득에 실패했습니다.", Toast.LENGTH_SHORT).show()
+            }
 
         chatList.add(ChatData("알림", "$currentUser 닉네임으로 입장했습니다.", ""))
         val enterTime = Date(System.currentTimeMillis())
