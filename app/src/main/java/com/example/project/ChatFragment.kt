@@ -11,17 +11,12 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.project.databinding.FragmentChatBinding
 import com.example.project.model.ChatData
-import com.example.project.model.CommentData
-import com.example.project.model.ItemData
-import com.example.project.recycler.CommentAdapter
-import com.example.project.recycler.MyAdapter
+import com.example.project.recycler.ChatAdapter
 import com.google.firebase.Timestamp
 import com.google.firebase.firestore.DocumentChange
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.ListenerRegistration
 import com.google.firebase.firestore.Query
-import com.google.firebase.firestore.ktx.toObject
-import com.google.firebase.firestore.ktx.toObjects
 import java.text.SimpleDateFormat
 import java.util.*
 

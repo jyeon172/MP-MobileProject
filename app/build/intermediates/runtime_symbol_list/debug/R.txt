@@ -1018,6 +1018,11 @@ int color cardview_light_background 0x7f05002b
 int color cardview_shadow_end_color 0x7f05002c
 int color cardview_shadow_start_color 0x7f05002d
 int color checkbox_themeable_attribute_color 0x7f05002e
+int color color1 0x7f0500e2
+int color color2 0x7f0500e3
+int color color3 0x7f0500e4
+int color color4 0x7f0500e5
+int color color5 0x7f0500e6
 int color colorAccent 0x7f05002f
 int color common_google_signin_btn_text_dark 0x7f050030
 int color common_google_signin_btn_text_dark_default 0x7f050031
@@ -1907,6 +1912,7 @@ int id center_vertical 0x7f080071
 int id chain 0x7f080072
 int id chains 0x7f080073
 int id chat_card_view 0x7f080074
+int id chat_main_toolbar 0x7f080204
 int id chat_tv_contents 0x7f080075
 int id chat_tv_nickname 0x7f080076
 int id chat_tv_time 0x7f080077
@@ -1990,6 +1996,7 @@ int id enterAlways 0x7f0800c4
 int id enterAlwaysCollapsed 0x7f0800c5
 int id et_chatting 0x7f0800c6
 int id et_nickname 0x7f0800c7
+int id ex 0x7f080205
 int id exitUntilCollapsed 0x7f0800c8
 int id expand_activities_button 0x7f0800c9
 int id expanded_menu 0x7f0800ca
@@ -2064,6 +2071,7 @@ int id mainBoard2Title 0x7f08010e
 int id mainBoard3RecyclerView 0x7f08010f
 int id mainBoard3Title 0x7f080110
 int id mainRecyclerView 0x7f080111
+int id main_toolbar 0x7f080206
 int id masked 0x7f080112
 int id material_clock_display 0x7f080113
 int id material_clock_face 0x7f080114

@@ -1,74 +1,74 @@
 [
     {
-        "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_main.xml",
-        "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/res/layout/item_main.xml"
+        "merged": "C:\\Users\\im210\\Document\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\alert_findpw.xml",
+        "source": "C:\\Users\\im210\\Document\\MobileProject\\app\\src\\main\\res\\layout\\alert_findpw.xml"
     },
     {
-        "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/header.xml",
-        "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/res/layout/header.xml"
+        "merged": "C:\\Users\\im210\\Document\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\im210\\Document\\MobileProject\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/chat_main.xml",
-        "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/res/layout/chat_main.xml"
+        "merged": "C:\\Users\\im210\\Document\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\chat_layout.xml",
+        "source": "C:\\Users\\im210\\Document\\MobileProject\\app\\src\\main\\res\\layout\\chat_layout.xml"
     },
     {
-        "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/comment_main.xml",
-        "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/res/layout/comment_main.xml"
+        "merged": "C:\\Users\\im210\\Document\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\appbar.xml",
+        "source": "C:\\Users\\im210\\Document\\MobileProject\\app\\src\\main\\res\\layout\\appbar.xml"
     },
     {
-        "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_main2.xml",
-        "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/res/layout/item_main2.xml"
+        "merged": "C:\\Users\\im210\\Document\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_main2.xml",
+        "source": "C:\\Users\\im210\\Document\\MobileProject\\app\\src\\main\\res\\layout\\item_main2.xml"
     },
     {
-        "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_chat.xml",
-        "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/res/layout/fragment_chat.xml"
+        "merged": "C:\\Users\\im210\\Document\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_login.xml",
+        "source": "C:\\Users\\im210\\Document\\MobileProject\\app\\src\\main\\res\\layout\\fragment_login.xml"
     },
     {
-        "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/board2_main.xml",
-        "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/res/layout/board2_main.xml"
+        "merged": "C:\\Users\\im210\\Document\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_auth.xml",
+        "source": "C:\\Users\\im210\\Document\\MobileProject\\app\\src\\main\\res\\layout\\activity_auth.xml"
     },
     {
-        "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_detail.xml",
-        "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/res/layout/item_detail.xml"
+        "merged": "C:\\Users\\im210\\Document\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\chat_main.xml",
+        "source": "C:\\Users\\im210\\Document\\MobileProject\\app\\src\\main\\res\\layout\\chat_main.xml"
     },
     {
-        "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/appbar.xml",
-        "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/res/layout/appbar.xml"
+        "merged": "C:\\Users\\im210\\Document\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\header.xml",
+        "source": "C:\\Users\\im210\\Document\\MobileProject\\app\\src\\main\\res\\layout\\header.xml"
     },
     {
-        "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_auth.xml",
-        "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/res/layout/activity_auth.xml"
+        "merged": "C:\\Users\\im210\\Document\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add.xml",
+        "source": "C:\\Users\\im210\\Document\\MobileProject\\app\\src\\main\\res\\layout\\activity_add.xml"
     },
     {
-        "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_add.xml",
-        "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/res/layout/activity_add.xml"
+        "merged": "C:\\Users\\im210\\Document\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_main.xml",
+        "source": "C:\\Users\\im210\\Document\\MobileProject\\app\\src\\main\\res\\layout\\item_main.xml"
     },
     {
-        "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/board3_main.xml",
-        "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/res/layout/board3_main.xml"
+        "merged": "C:\\Users\\im210\\Document\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\board2_main.xml",
+        "source": "C:\\Users\\im210\\Document\\MobileProject\\app\\src\\main\\res\\layout\\board2_main.xml"
     },
     {
-        "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_login.xml",
-        "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/res/layout/fragment_login.xml"
+        "merged": "C:\\Users\\im210\\Document\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\base_toolbar.xml",
+        "source": "C:\\Users\\im210\\Document\\MobileProject\\app\\src\\main\\res\\layout\\base_toolbar.xml"
     },
     {
-        "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/alert_findpw.xml",
-        "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/res/layout/alert_findpw.xml"
+        "merged": "C:\\Users\\im210\\Document\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_chat.xml",
+        "source": "C:\\Users\\im210\\Document\\MobileProject\\app\\src\\main\\res\\layout\\fragment_chat.xml"
     },
     {
-        "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/main_main.xml",
-        "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/res/layout/main_main.xml"
+        "merged": "C:\\Users\\im210\\Document\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\main_main.xml",
+        "source": "C:\\Users\\im210\\Document\\MobileProject\\app\\src\\main\\res\\layout\\main_main.xml"
     },
     {
-        "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/chat_layout.xml",
-        "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/res/layout/chat_layout.xml"
+        "merged": "C:\\Users\\im210\\Document\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_detail.xml",
+        "source": "C:\\Users\\im210\\Document\\MobileProject\\app\\src\\main\\res\\layout\\item_detail.xml"
     },
     {
-        "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/base_toolbar.xml",
-        "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/res/layout/base_toolbar.xml"
+        "merged": "C:\\Users\\im210\\Document\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\comment_main.xml",
+        "source": "C:\\Users\\im210\\Document\\MobileProject\\app\\src\\main\\res\\layout\\comment_main.xml"
     },
     {
-        "merged": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
-        "source": "/Users/jeongyeonpark/Documents/3-1/모바일프로그래밍/StudioProject/MobileProject/app/src/main/res/layout/activity_main.xml"
+        "merged": "C:\\Users\\im210\\Document\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\board3_main.xml",
+        "source": "C:\\Users\\im210\\Document\\MobileProject\\app\\src\\main\\res\\layout\\board3_main.xml"
     }
 ]
