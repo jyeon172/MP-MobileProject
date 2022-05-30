@@ -38,7 +38,7 @@ class Board3Activity: ToolbarBase() {
         myCheckPermission(this)
         binding.addFab.setOnClickListener {
             if(MyApplication.checkAuth()) {
-                startActivity(Intent(this, AddActivity::class.java))
+                startActivity(Intent(this, AddActivity3::class.java))
             } else { //아마 필요없을듯
                 Toast.makeText(this, "인증을 먼저 진행해 주세요", Toast.LENGTH_SHORT).show()
             }

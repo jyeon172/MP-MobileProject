@@ -15,6 +15,7 @@ import androidx.appcompat.widget.Toolbar
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.example.project.databinding.ActivityAddBinding
+import com.example.project.databinding.Board1MainBinding
 import com.example.project.databinding.Board3MainBinding
 import com.example.project.util.dateToString
 import com.google.android.gms.tasks.OnCompleteListener
@@ -26,7 +27,7 @@ import java.util.*
 class AddActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityAddBinding
-    lateinit var bind: Board3MainBinding
+    lateinit var bind: Board1MainBinding
     lateinit var filePath: String
     //추가
     var radioChecked:String = "전체"
@@ -158,7 +159,7 @@ class AddActivity : AppCompatActivity() {
         )
         //데이터 저장하기. 사진이 있을 때 없을 떄 따로 하는 건?
         if (binding.addImageView.drawable != null) {
-            MyApplication.db.collection("news")
+            MyApplication.db.collection("board1")
                 .add(data)
                 .addOnSuccessListener {
                     //store 에 데이터 저장후 document id 값으로 storage 에 이미지 업로드
@@ -169,7 +170,7 @@ class AddActivity : AppCompatActivity() {
                 }
         }
         else {
-            MyApplication.db.collection("news")
+            MyApplication.db.collection("board1")
                 .add(data)
                 .addOnFailureListener {
                     Log.w("kkang", "data save error", it)

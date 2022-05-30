@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\2022_1\\MobileProject-1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
+            "outputFile": "C:\\Users\\jenny\\Desktop\\2022-1\\mopro\\MobileProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jngn8\\.gradle\\caches\\transforms-3\\007b4d8da33efc0d5bffab021812c2e8\\transformed\\material-1.4.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
+                    "source": "C:\\Users\\jenny\\.gradle\\caches\\transforms-3\\007b4d8da33efc0d5bffab021812c2e8\\transformed\\material-1.4.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
