@@ -1766,6 +1766,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_stat_ic_notification
 drawable img
+drawable main_border
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1878,6 +1879,7 @@ id add
 id addEditView
 id addEditViewTitle
 id addFab
+id addFab1
 id addFab2
 id addImageView
 id add_toolbar
@@ -1905,6 +1907,7 @@ id baseline
 id beginOnFirstDraw
 id beginning
 id blocking
+id board1_toolbar
 id board2_toolbar
 id board3_toolbar
 id bottom
@@ -2079,7 +2082,10 @@ id list_item
 id loginBtn
 id logoutBtn
 id logoutTextView
+id main1RecyclerView
 id main2RecyclerView
+id mainBoard1RecyclerView
+id mainBoard1Title
 id mainBoard2RecyclerView
 id mainBoard2Title
 id mainBoard3RecyclerView
@@ -2236,6 +2242,7 @@ id snapMargins
 id spacer
 id special_effects_controller_view_tag
 id spinner
+id spinner1
 id spinner2
 id spline
 id split_action_bar
@@ -2402,6 +2409,7 @@ layout activity_main
 layout alert_findpw
 layout appbar
 layout base_toolbar
+layout board1_main
 layout board2_main
 layout board3_main
 layout chat_layout
