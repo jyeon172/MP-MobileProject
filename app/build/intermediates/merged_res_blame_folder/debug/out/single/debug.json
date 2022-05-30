@@ -8,12 +8,12 @@
         "source": "C:\\Users\\im210\\Document\\MobileProject\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\account_circle.png"
     },
     {
-        "merged": "C:\\Users\\im210\\Document\\MobileProject\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_stat_ic_notification.png.flat",
-        "source": "C:\\Users\\im210\\Document\\MobileProject\\app\\src\\main\\res\\drawable-v24\\ic_stat_ic_notification.png"
-    },
-    {
         "merged": "C:\\Users\\im210\\Document\\MobileProject\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_new.png.flat",
         "source": "C:\\Users\\im210\\Document\\MobileProject\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_new.png"
+    },
+    {
+        "merged": "C:\\Users\\im210\\Document\\MobileProject\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_stat_ic_notification.png.flat",
+        "source": "C:\\Users\\im210\\Document\\MobileProject\\app\\src\\main\\res\\drawable-v24\\ic_stat_ic_notification.png"
     },
     {
         "merged": "C:\\Users\\im210\\Document\\MobileProject\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_navi_menu.png.flat",
