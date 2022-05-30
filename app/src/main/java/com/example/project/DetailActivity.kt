@@ -9,6 +9,7 @@ import android.view.View
 import android.view.WindowManager
 import android.widget.Button
 import android.widget.ImageButton
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -145,6 +146,25 @@ class DetailActivity :  ToolbarBase() {
 //            intent.putExtra("docId", docId)
 //            startActivity(intent)
 //        }
+
+        val fav_btn = findViewById<ImageButton>(R.id.favoriteButton)
+        val fav_btn2 = findViewById<ImageButton>(R.id.favoriteButton2)
+        val fav_cnt = findViewById<TextView>(R.id.favoriteTextview)
+        fav_btn2.visibility = View.INVISIBLE
+
+        fav_btn.setOnClickListener {
+            Toast.makeText(this, "[favorite] clicked", Toast.LENGTH_SHORT).show()
+            fav_btn2.visibility = View.VISIBLE
+            fav_btn.visibility = View.INVISIBLE
+            fav_cnt.text = "Like 1"
+        }
+
+        fav_btn2.setOnClickListener {
+            Toast.makeText(this, "[favorite] unclicked", Toast.LENGTH_SHORT).show()
+            fav_btn.visibility = View.VISIBLE
+            fav_btn2.visibility = View.INVISIBLE
+            fav_cnt.text = "Like 0"
+        }
 
         val send_btn = findViewById<Button>(R.id.detailCommentButton)
 
