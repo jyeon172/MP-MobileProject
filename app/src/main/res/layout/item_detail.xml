@@ -46,6 +46,7 @@
                 android:layout_width="36dp"
                 android:layout_height="35dp"
                 android:background="@drawable/account_circle"
+                android:layout_marginLeft="20dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"/>
 
@@ -58,61 +59,97 @@
                 app:layout_constraintLeft_toRightOf="@id/userBtn"
                 app:layout_constraintTop_toTopOf="parent" />
 
+            <Button
+                android:id="@+id/chattingButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:text="CHAT"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="20dp"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/detailEmailView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:layout_marginTop="16dp"
-                android:textSize="14sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0"
+                android:layout_marginTop="4dp"
+                android:textSize="12sp"
+                android:layout_marginLeft="20dp"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/detailTitleView" />
+                app:layout_constraintTop_toBottomOf="@id/userBtn" />
 
             <TextView
                 android:id="@+id/detailDateView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="10dp"
                 android:textColor="#727272"
-                android:textSize="12sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1"
-                app:layout_constraintLeft_toRightOf="parent"
+                android:textSize="11sp"
+                android:layout_marginLeft="20dp"
+                app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/detailTitleView" />
+                app:layout_constraintTop_toBottomOf="@id/detailEmailView" />
 
             <ImageView
                 android:id="@+id/detailImageView"
                 android:layout_width="300dp"
                 android:layout_height="300dp"
-                android:layout_margin="20dp"
+                android:layout_margin="4dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/detailEmailView" />
+                app:layout_constraintTop_toBottomOf="@id/detailDateView" />
 
             <TextView
                 android:id="@+id/detailContentView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:textSize="16sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
                 app:layout_constraintRight_toRightOf="@id/detailTitleView"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/detailImageView" />
 
-            <Button
-                android:id="@+id/chattingButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="채팅"
-                app:layout_constraintStart_toStartOf="parent"
+            <View
+                android:id="@+id/contentEndLine"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#212121"
+                android:layout_marginTop="10dp"
                 app:layout_constraintTop_toBottomOf="@id/detailContentView" />
 
+            <ImageButton
+                android:id="@+id/favoriteButton"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/ic_favorite_border"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/contentEndLine" />
+
+            <ImageButton
+                android:id="@+id/favoriteButton2"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/ic_favorite"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/contentEndLine" />
+
+            <TextView
+                android:id="@+id/favoriteTextview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Like 0"
+                android:textSize="13sp"
+                android:layout_marginLeft="18dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/favoriteButton" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/detailRecyclerView"
@@ -120,7 +157,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_alignParentLeft="true"
-                app:layout_constraintTop_toBottomOf="@id/chattingButton"
+                app:layout_constraintTop_toBottomOf="@id/favoriteTextview"
                 android:paddingBottom="55dp"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>

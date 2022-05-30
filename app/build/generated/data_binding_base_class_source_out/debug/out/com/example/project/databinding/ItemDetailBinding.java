@@ -32,6 +32,9 @@ public final class ItemDetailBinding implements ViewBinding {
   public final Button chattingButton;
 
   @NonNull
+  public final View contentEndLine;
+
+  @NonNull
   public final Button detailCommentButton;
 
   @NonNull
@@ -59,18 +62,30 @@ public final class ItemDetailBinding implements ViewBinding {
   public final Toolbar detailToolbar;
 
   @NonNull
+  public final ImageButton favoriteButton;
+
+  @NonNull
+  public final ImageButton favoriteButton2;
+
+  @NonNull
+  public final TextView favoriteTextview;
+
+  @NonNull
   public final ImageButton userBtn;
 
   private ItemDetailBinding(@NonNull ConstraintLayout rootView,
       @NonNull ConstraintLayout MainDetailView, @NonNull Button chattingButton,
-      @NonNull Button detailCommentButton, @NonNull EditText detailCommentView,
-      @NonNull TextView detailContentView, @NonNull TextView detailDateView,
-      @NonNull TextView detailEmailView, @NonNull ImageView detailImageView,
-      @NonNull RecyclerView detailRecyclerView, @NonNull TextView detailTitleView,
-      @NonNull Toolbar detailToolbar, @NonNull ImageButton userBtn) {
+      @NonNull View contentEndLine, @NonNull Button detailCommentButton,
+      @NonNull EditText detailCommentView, @NonNull TextView detailContentView,
+      @NonNull TextView detailDateView, @NonNull TextView detailEmailView,
+      @NonNull ImageView detailImageView, @NonNull RecyclerView detailRecyclerView,
+      @NonNull TextView detailTitleView, @NonNull Toolbar detailToolbar,
+      @NonNull ImageButton favoriteButton, @NonNull ImageButton favoriteButton2,
+      @NonNull TextView favoriteTextview, @NonNull ImageButton userBtn) {
     this.rootView = rootView;
     this.MainDetailView = MainDetailView;
     this.chattingButton = chattingButton;
+    this.contentEndLine = contentEndLine;
     this.detailCommentButton = detailCommentButton;
     this.detailCommentView = detailCommentView;
     this.detailContentView = detailContentView;
@@ -80,6 +95,9 @@ public final class ItemDetailBinding implements ViewBinding {
     this.detailRecyclerView = detailRecyclerView;
     this.detailTitleView = detailTitleView;
     this.detailToolbar = detailToolbar;
+    this.favoriteButton = favoriteButton;
+    this.favoriteButton2 = favoriteButton2;
+    this.favoriteTextview = favoriteTextview;
     this.userBtn = userBtn;
   }
 
@@ -115,6 +133,12 @@ public final class ItemDetailBinding implements ViewBinding {
       id = R.id.chattingButton;
       Button chattingButton = ViewBindings.findChildViewById(rootView, id);
       if (chattingButton == null) {
+        break missingId;
+      }
+
+      id = R.id.contentEndLine;
+      View contentEndLine = ViewBindings.findChildViewById(rootView, id);
+      if (contentEndLine == null) {
         break missingId;
       }
 
@@ -172,6 +196,24 @@ public final class ItemDetailBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.favoriteButton;
+      ImageButton favoriteButton = ViewBindings.findChildViewById(rootView, id);
+      if (favoriteButton == null) {
+        break missingId;
+      }
+
+      id = R.id.favoriteButton2;
+      ImageButton favoriteButton2 = ViewBindings.findChildViewById(rootView, id);
+      if (favoriteButton2 == null) {
+        break missingId;
+      }
+
+      id = R.id.favoriteTextview;
+      TextView favoriteTextview = ViewBindings.findChildViewById(rootView, id);
+      if (favoriteTextview == null) {
+        break missingId;
+      }
+
       id = R.id.userBtn;
       ImageButton userBtn = ViewBindings.findChildViewById(rootView, id);
       if (userBtn == null) {
@@ -179,9 +221,9 @@ public final class ItemDetailBinding implements ViewBinding {
       }
 
       return new ItemDetailBinding((ConstraintLayout) rootView, MainDetailView, chattingButton,
-          detailCommentButton, detailCommentView, detailContentView, detailDateView,
+          contentEndLine, detailCommentButton, detailCommentView, detailContentView, detailDateView,
           detailEmailView, detailImageView, detailRecyclerView, detailTitleView, detailToolbar,
-          userBtn);
+          favoriteButton, favoriteButton2, favoriteTextview, userBtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
