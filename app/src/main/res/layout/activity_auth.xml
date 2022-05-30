@@ -17,11 +17,13 @@
             android:id="@+id/auth_toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary">
+            android:background="@color/color6">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="로그인 화면"
+                android:text="로그인"
+                android:textStyle="bold"
+                android:textColor="@color/black2"
                 android:layout_gravity="center"
                 android:textSize="20sp"/>
         </androidx.appcompat.widget.Toolbar>
@@ -49,6 +51,7 @@
 
             <Button
                 android:id="@+id/logoutBtn"
+                android:background="@drawable/button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -58,6 +61,7 @@
 
             <Button
                 android:id="@+id/goSignInBtn"
+                android:background="@drawable/button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -67,6 +71,7 @@
 
             <Button
                 android:id="@+id/googleLoginBtn"
+                android:background="@drawable/button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -94,6 +99,7 @@
 
             <Button
                 android:id="@+id/signBtn"
+                android:background="@drawable/button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -103,6 +109,7 @@
 
             <Button
                 android:id="@+id/loginBtn"
+                android:background="@drawable/button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -112,6 +119,7 @@
 
             <Button
                 android:id="@+id/findPW"
+                android:background="@drawable/button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
