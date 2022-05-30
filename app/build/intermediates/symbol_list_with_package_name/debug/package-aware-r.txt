@@ -1006,6 +1006,7 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
+color black2
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1024,6 +1025,10 @@ color color2
 color color3
 color color4
 color color5
+color color6
+color color7
+color color8
+color color9
 color colorAccent
 color common_google_signin_btn_text_dark
 color common_google_signin_btn_text_dark_default
@@ -1721,6 +1726,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable button
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused

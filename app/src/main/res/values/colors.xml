@@ -8,10 +8,16 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="colorAccent">#FFA000</color>
+    <color name="black2">#BF000000</color>
 
     <color name="color1">#F2EAE5</color>
     <color name="color2">#FFDEDC</color>
     <color name="color3">#F1B5B5</color>
     <color name="color4">#D2BDBA</color>
     <color name="color5">#968585</color>
+
+    <color name="color6">#B9CCDB</color>
+    <color name="color7">#8798A8</color>
+    <color name="color8">#88878C</color>
+    <color name="color9">#F6F4F4</color>
 </resources>

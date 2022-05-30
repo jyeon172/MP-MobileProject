@@ -14,11 +14,13 @@
             android:id="@+id/board3_toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary">
+            android:background="@color/color6">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="세부3 게시판"
+                android:text="Share Information"
+                android:textColor="@color/black2"
+                android:textStyle="bold"
                 android:layout_gravity="center"
                 android:textSize="20sp"/>
         </androidx.appcompat.widget.Toolbar>

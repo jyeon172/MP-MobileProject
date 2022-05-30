@@ -3,11 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/menu_item1"
-        android:title="세부 1" />
+        android:title="Online Study Room" />
     <item
         android:id="@+id/menu_item2"
-        android:title="세부 2" />
+        android:title="Start Project" />
     <item
         android:id="@+id/menu_item3"
-        android:title="세부 3" />
+        android:title="Share Information" />
 </menu>
