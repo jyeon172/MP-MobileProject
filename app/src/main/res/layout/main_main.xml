@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:textSize="30sp"
             android:gravity="center"
-            android:text="세부2 최신글"
+            android:text="Start Project"
             android:id="@+id/mainBoard2Title"
             app:layout_constraintTop_toTopOf="parent"/>
         <androidx.recyclerview.widget.RecyclerView
@@ -44,7 +44,7 @@
             android:layout_height="wrap_content"
             android:textSize="30sp"
             android:gravity="center"
-            android:text="세부3 최신글"
+            android:text="Share Information"
             android:id="@+id/mainBoard3Title"
             app:layout_constraintTop_toBottomOf="@id/mainBoard2RecyclerView"/>
         <androidx.recyclerview.widget.RecyclerView
