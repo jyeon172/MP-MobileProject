@@ -22,6 +22,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:paddingTop="60dp"
         android:orientation="vertical">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
