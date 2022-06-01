@@ -51,13 +51,15 @@
             android:id="@+id/addFab2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="24dp"
             android:src="@android:drawable/ic_input_add"
             app:fabSize="normal"
             app:rippleColor="@color/white"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginBottom="24dp"
-            android:layout_marginRight="24dp"/>
+            app:tint="@color/white"
+            app:backgroundTint="@color/color7" />
 
     </RelativeLayout>
 
