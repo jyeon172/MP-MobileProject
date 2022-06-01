@@ -90,9 +90,9 @@ class MainActivity : AppCompatActivity() , NavigationView.OnNavigationItemSelect
             startActivity(Intent(this, MainActivity2::class.java))
         }else {
             setContentView(binding2.root) // 툴바O, 최신글O
-            makeRecycler1View()
-            makeRecycler2View() //세부2 최신글
-            makeRecycler3View() //세부3 최신글
+//            makeRecycler1View()
+//            makeRecycler2View() //세부2 최신글
+//            makeRecycler3View() //세부3 최신글
         }
     }
     private fun makeRecycler1View() {
