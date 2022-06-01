@@ -25,7 +25,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="15dp"
+            android:padding="8dp"
             android:textSize="20sp"
             android:textColor="@color/black"
             android:gravity="center"
@@ -43,9 +43,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="15dp"
+            android:padding="8dp"
             android:textSize="20sp"
             android:textColor="@color/black"
+            android:layout_marginTop="20dp"
             android:gravity="center"
             android:background="@color/color1"
             android:text="Start Project"
@@ -59,9 +60,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="15dp"
+            android:padding="8dp"
             android:textSize="20sp"
             android:textColor="@color/black"
+            android:layout_marginTop="20dp"
             android:gravity="center"
             android:background="@color/color1"
             android:text="Share Information"
