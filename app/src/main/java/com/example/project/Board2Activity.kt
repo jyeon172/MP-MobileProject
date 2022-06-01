@@ -65,7 +65,7 @@ class Board2Activity: ToolbarBase() {
         makeRecyclerView()
 
         //spinner
-        val b3List = listOf("전체", "토익", "자격증")
+        val b3List = listOf("전체", "앱", "웹", "알고리즘", "보안","게임")
         val adapter = ArrayAdapter(this, R.layout.support_simple_spinner_dropdown_item, b3List)
         binding.spinner2.adapter = adapter
 
@@ -80,12 +80,27 @@ class Board2Activity: ToolbarBase() {
                     }
                     1 -> {
                         setContentView(binding.root)
-                        val menuOption = "토익"
+                        val menuOption = "앱"
                         makeRecyclerMenu(menuOption)
                     }
                     2 -> {
                         setContentView(binding.root)
-                        val menuOption = "자격증"
+                        val menuOption = "웹"
+                        makeRecyclerMenu(menuOption)
+                    }
+                    3 -> {
+                        setContentView(binding.root)
+                        val menuOption = "알고리즘"
+                        makeRecyclerMenu(menuOption)
+                    }
+                    4 -> {
+                        setContentView(binding.root)
+                        val menuOption = "보안"
+                        makeRecyclerMenu(menuOption)
+                    }
+                    5 -> {
+                        setContentView(binding.root)
+                        val menuOption = "게임"
                         makeRecyclerMenu(menuOption)
                     }
                     else -> {}

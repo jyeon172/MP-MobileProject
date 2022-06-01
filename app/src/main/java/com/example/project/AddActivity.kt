@@ -47,8 +47,11 @@ class AddActivity : AppCompatActivity() {
         binding.radioGroup.setOnCheckedChangeListener{group, checkedId ->
             when(checkedId){
                 R.id.radioBtnAll -> radioChecked = "전체"
-                R.id.radioBtnToeic -> radioChecked = "토익"
-                R.id.radioBtnLicense -> radioChecked = "자격증"
+                R.id.radioBtn1 -> radioChecked = "앱"
+                R.id.radioBtn2 -> radioChecked = "웹"
+                R.id.radioBtn3 -> radioChecked = "알고리즘"
+                R.id.radioBtn4 -> radioChecked = "보안"
+                R.id.radioBtn5 -> radioChecked = "게임"
             }
         }
 
