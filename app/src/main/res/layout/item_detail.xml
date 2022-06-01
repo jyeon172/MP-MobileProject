@@ -59,39 +59,28 @@
                 app:layout_constraintLeft_toRightOf="@id/userBtn"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <Button
-                android:id="@+id/chattingButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/button"
-                android:text="CHAT"
-                app:layout_constraintRight_toRightOf="parent"
-                android:layout_marginRight="20dp"
-                app:layout_constraintTop_toTopOf="parent" />
-
             <TextView
                 android:id="@+id/detailEmailView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
+                android:layout_marginTop="6dp"
                 android:textSize="12sp"
                 android:layout_marginLeft="20dp"
                 app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/userBtn" />
 
             <TextView
                 android:id="@+id/detailDateView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
+                android:layout_marginTop="6dp"
                 android:layout_marginBottom="10dp"
                 android:textColor="#727272"
                 android:textSize="11sp"
-                android:layout_marginLeft="20dp"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/detailEmailView" />
+                android:layout_marginRight="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintLeft_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/userBtn" />
 
             <ImageView
                 android:id="@+id/detailImageView"
@@ -161,7 +150,7 @@
                 android:layout_marginLeft="65dp"
                 android:layout_marginTop="11dp"
                 app:layout_constraintLeft_toLeftOf="@id/favoriteButton"
-                app:layout_constraintTop_toBottomOf="@id/contentEndLine"/>
+                app:layout_constraintTop_toBottomOf="@id/contentEndLine" />
 
             <TextView
                 android:id="@+id/commentCnt"
@@ -172,6 +161,26 @@
                 android:layout_marginLeft="45dp"
                 app:layout_constraintLeft_toLeftOf="@id/favoriteTextview"
                 app:layout_constraintTop_toBottomOf="@id/favoriteButton" />
+
+            <Button
+                android:id="@+id/chattingButton"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/ic_chat"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="7dp"
+                app:layout_constraintTop_toBottomOf="@id/contentEndLine" />
+
+            <TextView
+                android:id="@+id/chatTextview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CHAT"
+                android:textSize="13sp"
+                android:layout_marginRight="21dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/chattingButton" />
 
 
             <androidx.recyclerview.widget.RecyclerView
@@ -208,10 +217,11 @@
 
     <Button
         android:id="@+id/detailCommentButton"
-        android:layout_width="27dp"
-        android:layout_height="27dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
         android:layout_marginRight="15dp"
-        android:background="@drawable/send"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/ic_send_comment"
         app:layout_constraintRight_toRightOf="@id/detailCommentView"
         app:layout_constraintBottom_toBottomOf="@+id/detailCommentView"/>
 
