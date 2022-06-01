@@ -8,6 +8,7 @@ import android.provider.MediaStore
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import android.view.WindowManager
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -97,6 +98,7 @@ class AddActivity : AppCompatActivity() {
                 "image/*"
             )
             startActivityForResult(intent, 10)
+            binding.imageText.visibility = View.GONE
         }else if(item.itemId === R.id.menu_add_save){
             if(binding.addEditView.text.isNotEmpty() //내용확인
                 and binding.addEditViewTitle.text.isNotEmpty()) { //제목확인

@@ -29,16 +29,18 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:paddingTop="5dp">
 
         <!--        핍업 메뉴 뜨는 버튼-->
         <Spinner
             android:id="@+id/spinner"
-            android:layout_width="match_parent"
+            android:layout_width="400dp"
             android:layout_height="wrap_content"
             android:spinnerMode="dropdown"
             android:layout_alignParentTop="true"
-            android:layout_alignParentLeft="true"/>
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/spinner_border"/>
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/mainRecyclerView"

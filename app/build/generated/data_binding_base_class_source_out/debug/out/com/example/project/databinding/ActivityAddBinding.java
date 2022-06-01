@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
@@ -36,6 +37,9 @@ public final class ActivityAddBinding implements ViewBinding {
   public final Toolbar addToolbar;
 
   @NonNull
+  public final TextView imageText;
+
+  @NonNull
   public final RadioButton radioBtn1;
 
   @NonNull
@@ -58,15 +62,16 @@ public final class ActivityAddBinding implements ViewBinding {
 
   private ActivityAddBinding(@NonNull LinearLayout rootView, @NonNull EditText addEditView,
       @NonNull EditText addEditViewTitle, @NonNull ImageView addImageView,
-      @NonNull Toolbar addToolbar, @NonNull RadioButton radioBtn1, @NonNull RadioButton radioBtn2,
-      @NonNull RadioButton radioBtn3, @NonNull RadioButton radioBtn4,
-      @NonNull RadioButton radioBtn5, @NonNull RadioButton radioBtnAll,
-      @NonNull RadioGroup radioGroup) {
+      @NonNull Toolbar addToolbar, @NonNull TextView imageText, @NonNull RadioButton radioBtn1,
+      @NonNull RadioButton radioBtn2, @NonNull RadioButton radioBtn3,
+      @NonNull RadioButton radioBtn4, @NonNull RadioButton radioBtn5,
+      @NonNull RadioButton radioBtnAll, @NonNull RadioGroup radioGroup) {
     this.rootView = rootView;
     this.addEditView = addEditView;
     this.addEditViewTitle = addEditViewTitle;
     this.addImageView = addImageView;
     this.addToolbar = addToolbar;
+    this.imageText = imageText;
     this.radioBtn1 = radioBtn1;
     this.radioBtn2 = radioBtn2;
     this.radioBtn3 = radioBtn3;
@@ -127,6 +132,12 @@ public final class ActivityAddBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageText;
+      TextView imageText = ViewBindings.findChildViewById(rootView, id);
+      if (imageText == null) {
+        break missingId;
+      }
+
       id = R.id.radioBtn1;
       RadioButton radioBtn1 = ViewBindings.findChildViewById(rootView, id);
       if (radioBtn1 == null) {
@@ -170,8 +181,8 @@ public final class ActivityAddBinding implements ViewBinding {
       }
 
       return new ActivityAddBinding((LinearLayout) rootView, addEditView, addEditViewTitle,
-          addImageView, addToolbar, radioBtn1, radioBtn2, radioBtn3, radioBtn4, radioBtn5,
-          radioBtnAll, radioGroup);
+          addImageView, addToolbar, imageText, radioBtn1, radioBtn2, radioBtn3, radioBtn4,
+          radioBtn5, radioBtnAll, radioGroup);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -2,8 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="200dp"
-    android:background="@color/color8"
+    android:layout_height="100dp"
+    android:background="@color/color7"
     android:gravity="center"
     android:orientation="vertical"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
@@ -12,7 +12,9 @@
         android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="게시판을 선택해주세요"
-        android:textSize="20sp" />
+        android:text="MENU"
+        android:padding="20dp"
+        android:layout_gravity="left"
+        android:textSize="25sp" />
 
 </LinearLayout>

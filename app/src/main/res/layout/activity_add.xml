@@ -16,11 +16,13 @@
             android:id="@+id/add_toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary">
+            android:background="@color/color6">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="글 저장하기"
+                android:text="글쓰기"
+                android:textColor="@color/black2"
+                android:textStyle="bold"
                 android:layout_gravity="center"
                 android:textSize="20sp"/>
         </androidx.appcompat.widget.Toolbar>
@@ -88,6 +90,7 @@
             android:layout_height="200dp"
             android:scaleType="fitXY"/>
         <TextView
+            android:id="@+id/imageText"
             android:layout_width="match_parent"
             android:text="사진을 추가할 수 있습니다."
             android:layout_height="200dp"

@@ -204,19 +204,20 @@ class MainActivity : AppCompatActivity() , NavigationView.OnNavigationItemSelect
         }
     }
 
+
     // 드로어 내 아이템 클릭 이벤트 처리하는 함수
     override fun onNavigationItemSelected(item: MenuItem): Boolean { //네비게이션뷰에서 각 메뉴 클릭시
         when(item.itemId){
             R.id.menu_item1-> {
-                Toast.makeText(this,"세부 1 clicked",Toast.LENGTH_SHORT).show()
+                //Toast.makeText(this,"세부 1 clicked",Toast.LENGTH_SHORT).show()
                 startActivity(Intent(this, Board1Activity::class.java))
             }
             R.id.menu_item2-> {
-                Toast.makeText(this,"세부 2 clicked",Toast.LENGTH_SHORT).show()
+                //Toast.makeText(this,"세부 2 clicked",Toast.LENGTH_SHORT).show()
                 startActivity(Intent(this, Board2Activity::class.java))
             }
             R.id.menu_item3-> {
-                Toast.makeText(this,"세부 3 clicked",Toast.LENGTH_SHORT).show()
+                //Toast.makeText(this,"세부 3 clicked",Toast.LENGTH_SHORT).show()
                 startActivity(Intent(this, Board3Activity::class.java))
                 //카테고리 정보 받아오기
             }
