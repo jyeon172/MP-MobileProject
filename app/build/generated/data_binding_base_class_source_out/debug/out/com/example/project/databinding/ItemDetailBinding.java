@@ -32,6 +32,12 @@ public final class ItemDetailBinding implements ViewBinding {
   public final Button chattingButton;
 
   @NonNull
+  public final TextView commentCnt;
+
+  @NonNull
+  public final ImageButton commentImg;
+
+  @NonNull
   public final View contentEndLine;
 
   @NonNull
@@ -75,16 +81,19 @@ public final class ItemDetailBinding implements ViewBinding {
 
   private ItemDetailBinding(@NonNull ConstraintLayout rootView,
       @NonNull ConstraintLayout MainDetailView, @NonNull Button chattingButton,
-      @NonNull View contentEndLine, @NonNull Button detailCommentButton,
-      @NonNull EditText detailCommentView, @NonNull TextView detailContentView,
-      @NonNull TextView detailDateView, @NonNull TextView detailEmailView,
-      @NonNull ImageView detailImageView, @NonNull RecyclerView detailRecyclerView,
-      @NonNull TextView detailTitleView, @NonNull Toolbar detailToolbar,
-      @NonNull ImageButton favoriteButton, @NonNull ImageButton favoriteButton2,
-      @NonNull TextView favoriteTextview, @NonNull ImageButton userBtn) {
+      @NonNull TextView commentCnt, @NonNull ImageButton commentImg, @NonNull View contentEndLine,
+      @NonNull Button detailCommentButton, @NonNull EditText detailCommentView,
+      @NonNull TextView detailContentView, @NonNull TextView detailDateView,
+      @NonNull TextView detailEmailView, @NonNull ImageView detailImageView,
+      @NonNull RecyclerView detailRecyclerView, @NonNull TextView detailTitleView,
+      @NonNull Toolbar detailToolbar, @NonNull ImageButton favoriteButton,
+      @NonNull ImageButton favoriteButton2, @NonNull TextView favoriteTextview,
+      @NonNull ImageButton userBtn) {
     this.rootView = rootView;
     this.MainDetailView = MainDetailView;
     this.chattingButton = chattingButton;
+    this.commentCnt = commentCnt;
+    this.commentImg = commentImg;
     this.contentEndLine = contentEndLine;
     this.detailCommentButton = detailCommentButton;
     this.detailCommentView = detailCommentView;
@@ -133,6 +142,18 @@ public final class ItemDetailBinding implements ViewBinding {
       id = R.id.chattingButton;
       Button chattingButton = ViewBindings.findChildViewById(rootView, id);
       if (chattingButton == null) {
+        break missingId;
+      }
+
+      id = R.id.commentCnt;
+      TextView commentCnt = ViewBindings.findChildViewById(rootView, id);
+      if (commentCnt == null) {
+        break missingId;
+      }
+
+      id = R.id.commentImg;
+      ImageButton commentImg = ViewBindings.findChildViewById(rootView, id);
+      if (commentImg == null) {
         break missingId;
       }
 
@@ -221,9 +242,10 @@ public final class ItemDetailBinding implements ViewBinding {
       }
 
       return new ItemDetailBinding((ConstraintLayout) rootView, MainDetailView, chattingButton,
-          contentEndLine, detailCommentButton, detailCommentView, detailContentView, detailDateView,
-          detailEmailView, detailImageView, detailRecyclerView, detailTitleView, detailToolbar,
-          favoriteButton, favoriteButton2, favoriteTextview, userBtn);
+          commentCnt, commentImg, contentEndLine, detailCommentButton, detailCommentView,
+          detailContentView, detailDateView, detailEmailView, detailImageView, detailRecyclerView,
+          detailTitleView, detailToolbar, favoriteButton, favoriteButton2, favoriteTextview,
+          userBtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

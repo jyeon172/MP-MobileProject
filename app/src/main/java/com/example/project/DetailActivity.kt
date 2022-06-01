@@ -1,5 +1,6 @@
 package com.example.project
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
@@ -166,6 +167,8 @@ class DetailActivity :  ToolbarBase() {
             fav_cnt.text = "Like 0"
         }
 
+
+
         val send_btn = findViewById<Button>(R.id.detailCommentButton)
 
         //토큰 가져오기
@@ -227,6 +230,7 @@ class DetailActivity :  ToolbarBase() {
 
 
     //댓글 불러오기
+    @SuppressLint("SetTextI18n")
     private fun makeCommentRecycler() {
         MyApplication.db.collection("comment")
             .whereEqualTo("docId", docId)
@@ -240,6 +244,10 @@ class DetailActivity :  ToolbarBase() {
                     itemList.add(item)
                 }
                 var itemSort = itemList.sortedBy { it.date }
+                val cnt = itemSort.size.toString()
+
+                val com_btn = findViewById<TextView>(R.id.commentCnt)
+                com_btn.text = "Comment $cnt"
                 binding.detailRecyclerView.layoutManager= LinearLayoutManager(this)
                 binding.detailRecyclerView.adapter= CommentAdapter(this, itemSort)
             }
@@ -247,6 +255,7 @@ class DetailActivity :  ToolbarBase() {
                 Log.d("kkang", "Error getting documents: ", exception)
                 Toast.makeText(this, "서버로부터 데이터 획득에 실패했습니다.", Toast.LENGTH_SHORT).show()
             }
+
     }
 
     private fun saveStore(){
