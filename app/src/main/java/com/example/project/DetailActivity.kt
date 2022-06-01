@@ -1,5 +1,6 @@
 package com.example.project
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
@@ -9,6 +10,7 @@ import android.view.View
 import android.view.WindowManager
 import android.widget.Button
 import android.widget.ImageButton
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -146,6 +148,27 @@ class DetailActivity :  ToolbarBase() {
 //            startActivity(intent)
 //        }
 
+        val fav_btn = findViewById<ImageButton>(R.id.favoriteButton)
+        val fav_btn2 = findViewById<ImageButton>(R.id.favoriteButton2)
+        val fav_cnt = findViewById<TextView>(R.id.favoriteTextview)
+        fav_btn2.visibility = View.INVISIBLE
+
+        fav_btn.setOnClickListener {
+            Toast.makeText(this, "[favorite] clicked", Toast.LENGTH_SHORT).show()
+            fav_btn2.visibility = View.VISIBLE
+            fav_btn.visibility = View.INVISIBLE
+            fav_cnt.text = "Like 1"
+        }
+
+        fav_btn2.setOnClickListener {
+            Toast.makeText(this, "[favorite] unclicked", Toast.LENGTH_SHORT).show()
+            fav_btn.visibility = View.VISIBLE
+            fav_btn2.visibility = View.INVISIBLE
+            fav_cnt.text = "Like 0"
+        }
+
+
+
         val send_btn = findViewById<Button>(R.id.detailCommentButton)
 
         //토큰 가져오기
@@ -207,6 +230,7 @@ class DetailActivity :  ToolbarBase() {
 
 
     //댓글 불러오기
+    @SuppressLint("SetTextI18n")
     private fun makeCommentRecycler() {
         MyApplication.db.collection("comment")
             .whereEqualTo("docId", docId)
@@ -220,6 +244,10 @@ class DetailActivity :  ToolbarBase() {
                     itemList.add(item)
                 }
                 var itemSort = itemList.sortedBy { it.date }
+                val cnt = itemSort.size.toString()
+
+                val com_btn = findViewById<TextView>(R.id.commentCnt)
+                com_btn.text = "Comment $cnt"
                 binding.detailRecyclerView.layoutManager= LinearLayoutManager(this)
                 binding.detailRecyclerView.adapter= CommentAdapter(this, itemSort)
             }
@@ -227,6 +255,7 @@ class DetailActivity :  ToolbarBase() {
                 Log.d("kkang", "Error getting documents: ", exception)
                 Toast.makeText(this, "서버로부터 데이터 획득에 실패했습니다.", Toast.LENGTH_SHORT).show()
             }
+
     }
 
     private fun saveStore(){

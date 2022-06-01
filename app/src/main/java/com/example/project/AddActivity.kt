@@ -8,6 +8,7 @@ import android.provider.MediaStore
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import android.view.WindowManager
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -15,6 +16,7 @@ import androidx.appcompat.widget.Toolbar
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.example.project.databinding.ActivityAddBinding
+import com.example.project.databinding.Board1MainBinding
 import com.example.project.databinding.Board3MainBinding
 import com.example.project.util.dateToString
 import com.google.android.gms.tasks.OnCompleteListener
@@ -26,7 +28,7 @@ import java.util.*
 class AddActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityAddBinding
-    lateinit var bind: Board3MainBinding
+    lateinit var bind: Board1MainBinding
     lateinit var filePath: String
     //추가
     var radioChecked:String = "전체"
@@ -46,8 +48,11 @@ class AddActivity : AppCompatActivity() {
         binding.radioGroup.setOnCheckedChangeListener{group, checkedId ->
             when(checkedId){
                 R.id.radioBtnAll -> radioChecked = "전체"
-                R.id.radioBtnToeic -> radioChecked = "토익"
-                R.id.radioBtnLicense -> radioChecked = "자격증"
+                R.id.radioBtn1 -> radioChecked = "앱"
+                R.id.radioBtn2 -> radioChecked = "웹"
+                R.id.radioBtn3 -> radioChecked = "알고리즘"
+                R.id.radioBtn4 -> radioChecked = "보안"
+                R.id.radioBtn5 -> radioChecked = "게임"
             }
         }
 
@@ -93,6 +98,7 @@ class AddActivity : AppCompatActivity() {
                 "image/*"
             )
             startActivityForResult(intent, 10)
+            binding.imageText.visibility = View.GONE
         }else if(item.itemId === R.id.menu_add_save){
             if(binding.addEditView.text.isNotEmpty() //내용확인
                 and binding.addEditViewTitle.text.isNotEmpty()) { //제목확인
@@ -158,7 +164,7 @@ class AddActivity : AppCompatActivity() {
         )
         //데이터 저장하기. 사진이 있을 때 없을 떄 따로 하는 건?
         if (binding.addImageView.drawable != null) {
-            MyApplication.db.collection("news")
+            MyApplication.db.collection("board1")
                 .add(data)
                 .addOnSuccessListener {
                     //store 에 데이터 저장후 document id 값으로 storage 에 이미지 업로드
@@ -169,7 +175,7 @@ class AddActivity : AppCompatActivity() {
                 }
         }
         else {
-            MyApplication.db.collection("news")
+            MyApplication.db.collection("board1")
                 .add(data)
                 .addOnFailureListener {
                     Log.w("kkang", "data save error", it)

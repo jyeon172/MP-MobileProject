@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
@@ -36,30 +37,47 @@ public final class ActivityAddBinding implements ViewBinding {
   public final Toolbar addToolbar;
 
   @NonNull
+  public final TextView imageText;
+
+  @NonNull
+  public final RadioButton radioBtn1;
+
+  @NonNull
+  public final RadioButton radioBtn2;
+
+  @NonNull
+  public final RadioButton radioBtn3;
+
+  @NonNull
+  public final RadioButton radioBtn4;
+
+  @NonNull
+  public final RadioButton radioBtn5;
+
+  @NonNull
   public final RadioButton radioBtnAll;
-
-  @NonNull
-  public final RadioButton radioBtnLicense;
-
-  @NonNull
-  public final RadioButton radioBtnToeic;
 
   @NonNull
   public final RadioGroup radioGroup;
 
   private ActivityAddBinding(@NonNull LinearLayout rootView, @NonNull EditText addEditView,
       @NonNull EditText addEditViewTitle, @NonNull ImageView addImageView,
-      @NonNull Toolbar addToolbar, @NonNull RadioButton radioBtnAll,
-      @NonNull RadioButton radioBtnLicense, @NonNull RadioButton radioBtnToeic,
-      @NonNull RadioGroup radioGroup) {
+      @NonNull Toolbar addToolbar, @NonNull TextView imageText, @NonNull RadioButton radioBtn1,
+      @NonNull RadioButton radioBtn2, @NonNull RadioButton radioBtn3,
+      @NonNull RadioButton radioBtn4, @NonNull RadioButton radioBtn5,
+      @NonNull RadioButton radioBtnAll, @NonNull RadioGroup radioGroup) {
     this.rootView = rootView;
     this.addEditView = addEditView;
     this.addEditViewTitle = addEditViewTitle;
     this.addImageView = addImageView;
     this.addToolbar = addToolbar;
+    this.imageText = imageText;
+    this.radioBtn1 = radioBtn1;
+    this.radioBtn2 = radioBtn2;
+    this.radioBtn3 = radioBtn3;
+    this.radioBtn4 = radioBtn4;
+    this.radioBtn5 = radioBtn5;
     this.radioBtnAll = radioBtnAll;
-    this.radioBtnLicense = radioBtnLicense;
-    this.radioBtnToeic = radioBtnToeic;
     this.radioGroup = radioGroup;
   }
 
@@ -114,21 +132,45 @@ public final class ActivityAddBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageText;
+      TextView imageText = ViewBindings.findChildViewById(rootView, id);
+      if (imageText == null) {
+        break missingId;
+      }
+
+      id = R.id.radioBtn1;
+      RadioButton radioBtn1 = ViewBindings.findChildViewById(rootView, id);
+      if (radioBtn1 == null) {
+        break missingId;
+      }
+
+      id = R.id.radioBtn2;
+      RadioButton radioBtn2 = ViewBindings.findChildViewById(rootView, id);
+      if (radioBtn2 == null) {
+        break missingId;
+      }
+
+      id = R.id.radioBtn3;
+      RadioButton radioBtn3 = ViewBindings.findChildViewById(rootView, id);
+      if (radioBtn3 == null) {
+        break missingId;
+      }
+
+      id = R.id.radioBtn4;
+      RadioButton radioBtn4 = ViewBindings.findChildViewById(rootView, id);
+      if (radioBtn4 == null) {
+        break missingId;
+      }
+
+      id = R.id.radioBtn5;
+      RadioButton radioBtn5 = ViewBindings.findChildViewById(rootView, id);
+      if (radioBtn5 == null) {
+        break missingId;
+      }
+
       id = R.id.radioBtnAll;
       RadioButton radioBtnAll = ViewBindings.findChildViewById(rootView, id);
       if (radioBtnAll == null) {
-        break missingId;
-      }
-
-      id = R.id.radioBtnLicense;
-      RadioButton radioBtnLicense = ViewBindings.findChildViewById(rootView, id);
-      if (radioBtnLicense == null) {
-        break missingId;
-      }
-
-      id = R.id.radioBtnToeic;
-      RadioButton radioBtnToeic = ViewBindings.findChildViewById(rootView, id);
-      if (radioBtnToeic == null) {
         break missingId;
       }
 
@@ -139,7 +181,8 @@ public final class ActivityAddBinding implements ViewBinding {
       }
 
       return new ActivityAddBinding((LinearLayout) rootView, addEditView, addEditViewTitle,
-          addImageView, addToolbar, radioBtnAll, radioBtnLicense, radioBtnToeic, radioGroup);
+          addImageView, addToolbar, imageText, radioBtn1, radioBtn2, radioBtn3, radioBtn4,
+          radioBtn5, radioBtnAll, radioGroup);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

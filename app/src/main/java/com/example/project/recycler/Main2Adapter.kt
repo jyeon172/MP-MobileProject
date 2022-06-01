@@ -45,6 +45,7 @@ class Main2Adapter (val context: Context, val itemList: List<ItemData>): Recycle
             intent.putExtra("imageYN", data.imageYN)
             intent.putExtra("email", data.email)
             intent.putExtra("date", data.date)
+            intent.putExtra("token", data.token)
             ContextCompat.startActivity(holder.itemView.context,intent, null)
         }
 

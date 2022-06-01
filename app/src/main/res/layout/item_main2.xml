@@ -2,13 +2,16 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/main_border">
 
     <TextView
-        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="15dp"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:textSize="30dp"
+        android:textColor="@color/black"
         android:id="@+id/item2TitleView"
         android:maxLines="1"
         android:ellipsize="end"
@@ -16,28 +19,25 @@
         app:layout_constraintStart_toStartOf="parent"/>
     <TextView
         android:paddingLeft="13dp"
+        android:paddingRight="13dp"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:textSize="15dp"
         android:id="@+id/item2EmailView"
         app:layout_constraintTop_toBottomOf="@id/item2TitleView"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="right" />
     <TextView
         android:paddingLeft="13dp"
         android:paddingTop="3dp"
         android:layout_width="300dp"
-        android:layout_height="150dp"
+        android:layout_height="110dp"
         android:id="@+id/item2ContentView"
         android:lineSpacingExtra="2dp"
         android:textSize="20dp"
+        android:textColor="@color/black"
         android:maxLines="4"
         android:ellipsize="end"
         app:layout_constraintTop_toBottomOf="@id/item2EmailView"
-        app:layout_constraintStart_toStartOf="parent"/>
-    <View
-        android:layout_width="5dp"
-        android:layout_height="200dp"
-        android:background="#40000000"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

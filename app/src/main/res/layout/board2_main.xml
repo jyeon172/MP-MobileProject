@@ -29,16 +29,18 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:paddingTop="5dp">
 
         <!--        핍업 메뉴 뜨는 버튼-->
         <Spinner
             android:id="@+id/spinner2"
-            android:layout_width="match_parent"
+            android:layout_width="400dp"
             android:layout_height="wrap_content"
             android:spinnerMode="dropdown"
             android:layout_alignParentTop="true"
-            android:layout_alignParentLeft="true"/>
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/spinner_border"/>
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/main2RecyclerView"
@@ -51,13 +53,15 @@
             android:id="@+id/addFab2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="24dp"
             android:src="@android:drawable/ic_input_add"
             app:fabSize="normal"
             app:rippleColor="@color/white"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginBottom="24dp"
-            android:layout_marginRight="24dp"/>
+            app:tint="@color/white"
+            app:backgroundTint="@color/color7" />
 
     </RelativeLayout>
 

@@ -90,9 +90,31 @@ class MainActivity : AppCompatActivity() , NavigationView.OnNavigationItemSelect
             startActivity(Intent(this, MainActivity2::class.java))
         }else {
             setContentView(binding2.root) // 툴바O, 최신글O
+            makeRecycler1View()
             makeRecycler2View() //세부2 최신글
             makeRecycler3View() //세부3 최신글
         }
+    }
+    private fun makeRecycler1View() {
+        MyApplication.db.collection("board1")
+            .get()
+            .addOnSuccessListener { result ->
+                val itemList = mutableListOf<ItemData>()
+                for (document in result) {
+                    val item = document.toObject(ItemData::class.java)
+                    item.docId=document.id
+                    itemList.add(item)
+                }
+                var itemSort = itemList.sortedByDescending { it.date }
+                itemSort = itemSort.subList(0,4)
+                binding2.mainBoard1RecyclerView.layoutManager= LinearLayoutManager(this)
+                    .also { it.orientation = LinearLayoutManager.HORIZONTAL }
+                binding2.mainBoard1RecyclerView.adapter= Main2Adapter(this, itemSort)
+            }
+            .addOnFailureListener { exception ->
+                Log.d("kkang", "Error getting documents: ", exception)
+                Toast.makeText(this, "서버로부터 데이터 획득에 실패했습니다.", Toast.LENGTH_SHORT).show()
+            }
     }
 
     private fun makeRecycler2View() {
@@ -182,18 +204,20 @@ class MainActivity : AppCompatActivity() , NavigationView.OnNavigationItemSelect
         }
     }
 
+
     // 드로어 내 아이템 클릭 이벤트 처리하는 함수
     override fun onNavigationItemSelected(item: MenuItem): Boolean { //네비게이션뷰에서 각 메뉴 클릭시
         when(item.itemId){
             R.id.menu_item1-> {
-                Toast.makeText(this,"세부 1 clicked",Toast.LENGTH_SHORT).show()
+                //Toast.makeText(this,"세부 1 clicked",Toast.LENGTH_SHORT).show()
+                startActivity(Intent(this, Board1Activity::class.java))
             }
             R.id.menu_item2-> {
-                Toast.makeText(this,"세부 2 clicked",Toast.LENGTH_SHORT).show()
+                //Toast.makeText(this,"세부 2 clicked",Toast.LENGTH_SHORT).show()
                 startActivity(Intent(this, Board2Activity::class.java))
             }
             R.id.menu_item3-> {
-                Toast.makeText(this,"세부 3 clicked",Toast.LENGTH_SHORT).show()
+                //Toast.makeText(this,"세부 3 clicked",Toast.LENGTH_SHORT).show()
                 startActivity(Intent(this, Board3Activity::class.java))
                 //카테고리 정보 받아오기
             }

@@ -1021,8 +1021,10 @@ color cardview_shadow_end_color
 color cardview_shadow_start_color
 color checkbox_themeable_attribute_color
 color color1
+color color10
 color color2
 color color3
+color color3_2
 color color4
 color color5
 color color6
@@ -1714,6 +1716,8 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable account_circle
+drawable add_button
+drawable arrow_drop_down
 drawable avd_hide_password
 drawable avd_show_password
 drawable back_key
@@ -1754,7 +1758,11 @@ drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_baseline_image_24
+drawable ic_chat
 drawable ic_clock_black_24dp
+drawable ic_comment
+drawable ic_favorite
+drawable ic_favorite_border
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background_new
 drawable ic_launcher_foreground
@@ -1762,8 +1770,11 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_send_comment
 drawable ic_stat_ic_notification
 drawable img
+drawable item_main_border
+drawable main_border
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1799,6 +1810,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable send
+drawable spinner_border
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1876,6 +1888,7 @@ id add
 id addEditView
 id addEditViewTitle
 id addFab
+id addFab1
 id addFab2
 id addImageView
 id add_toolbar
@@ -1903,6 +1916,7 @@ id baseline
 id beginOnFirstDraw
 id beginning
 id blocking
+id board1_toolbar
 id board2_toolbar
 id board3_toolbar
 id bottom
@@ -1918,6 +1932,7 @@ id center_horizontal
 id center_vertical
 id chain
 id chains
+id chatTextview
 id chat_card_view
 id chat_main_toolbar
 id chat_tv_contents
@@ -1938,13 +1953,16 @@ id clip_horizontal
 id clip_vertical
 id clockwise
 id collapseActionView
+id commentCnt
 id commentDate
 id commentId
+id commentImg
 id commentText
 id confirm_button
 id constraintLayout
 id container
 id content
+id contentEndLine
 id contentPanel
 id contiguous
 id coordinator
@@ -2008,6 +2026,9 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
+id favoriteButton
+id favoriteButton2
+id favoriteTextview
 id fill
 id fill_horizontal
 id fill_vertical
@@ -2027,6 +2048,7 @@ id gone
 id googleLoginBtn
 id graph
 id graph_wrap
+id gridLayout
 id group_divider
 id grouping
 id groups
@@ -2043,6 +2065,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageText
 id img_icon
 id info
 id invisible
@@ -2072,7 +2095,10 @@ id list_item
 id loginBtn
 id logoutBtn
 id logoutTextView
+id main1RecyclerView
 id main2RecyclerView
+id mainBoard1RecyclerView
+id mainBoard1Title
 id mainBoard2RecyclerView
 id mainBoard2Title
 id mainBoard3RecyclerView
@@ -2177,9 +2203,12 @@ id postLayout
 id progress_circular
 id progress_horizontal
 id radio
+id radioBtn1
+id radioBtn2
+id radioBtn3
+id radioBtn4
+id radioBtn5
 id radioBtnAll
-id radioBtnLicense
-id radioBtnToeic
 id radio_group
 id ratio
 id rectangles
@@ -2229,6 +2258,7 @@ id snapMargins
 id spacer
 id special_effects_controller_view_tag
 id spinner
+id spinner1
 id spinner2
 id spline
 id split_action_bar
@@ -2395,6 +2425,7 @@ layout activity_main
 layout alert_findpw
 layout appbar
 layout base_toolbar
+layout board1_main
 layout board2_main
 layout board3_main
 layout chat_layout

@@ -38,7 +38,7 @@ class Board3Activity: ToolbarBase() {
         myCheckPermission(this)
         binding.addFab.setOnClickListener {
             if(MyApplication.checkAuth()) {
-                startActivity(Intent(this, AddActivity::class.java))
+                startActivity(Intent(this, AddActivity3::class.java))
             } else { //아마 필요없을듯
                 Toast.makeText(this, "인증을 먼저 진행해 주세요", Toast.LENGTH_SHORT).show()
             }
@@ -62,7 +62,7 @@ class Board3Activity: ToolbarBase() {
         makeRecyclerView()
 
         //spinner
-        val b3List = listOf("전체", "토익", "자격증")
+        val b3List = listOf("전체", "앱", "웹", "알고리즘", "보안","게임")
         val adapter = ArrayAdapter(this, R.layout.support_simple_spinner_dropdown_item, b3List)
         binding.spinner.adapter = adapter
 
@@ -77,12 +77,27 @@ class Board3Activity: ToolbarBase() {
                     }
                     1 -> {
                         setContentView(binding.root)
-                        val menuOption = "토익"
+                        val menuOption = "앱"
                         makeRecyclerMenu(menuOption)
                     }
                     2 -> {
                         setContentView(binding.root)
-                        val menuOption = "자격증"
+                        val menuOption = "웹"
+                        makeRecyclerMenu(menuOption)
+                    }
+                    3 -> {
+                        setContentView(binding.root)
+                        val menuOption = "알고리즘"
+                        makeRecyclerMenu(menuOption)
+                    }
+                    4 -> {
+                        setContentView(binding.root)
+                        val menuOption = "보안"
+                        makeRecyclerMenu(menuOption)
+                    }
+                    5 -> {
+                        setContentView(binding.root)
+                        val menuOption = "게임"
                         makeRecyclerMenu(menuOption)
                     }
                     else -> {}

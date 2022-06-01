@@ -34,6 +34,9 @@
         <activity
             android:name="com.example.project.AddActivity2"
             android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.example.project.AddActivity3"
+            android:windowSoftInputMode="adjustResize" />
         <activity android:name="com.example.project.AuthActivity" />
         <activity
             android:name="com.example.project.MainActivity"
@@ -45,6 +48,7 @@
             </intent-filter>
         </activity>
         <!-- 추가 -->
+        <activity android:name="com.example.project.Board1Activity" />
         <activity android:name="com.example.project.Board2Activity" />
         <activity android:name="com.example.project.Board3Activity" />
         <activity android:name="com.example.project.ChatMain" />

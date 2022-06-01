@@ -8,6 +8,7 @@ import android.provider.MediaStore
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import android.view.WindowManager
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -47,8 +48,11 @@ class AddActivity2  : AppCompatActivity() {
         binding.radioGroup.setOnCheckedChangeListener{group, checkedId ->
             when(checkedId){
                 R.id.radioBtnAll -> radioChecked = "전체"
-                R.id.radioBtnToeic -> radioChecked = "토익"
-                R.id.radioBtnLicense -> radioChecked = "자격증"
+                R.id.radioBtn1 -> radioChecked = "앱"
+                R.id.radioBtn2 -> radioChecked = "웹"
+                R.id.radioBtn3 -> radioChecked = "알고리즘"
+                R.id.radioBtn4 -> radioChecked = "보안"
+                R.id.radioBtn5 -> radioChecked = "게임"
             }
         }
 
@@ -93,7 +97,9 @@ class AddActivity2  : AppCompatActivity() {
                 MediaStore.Images.Media.EXTERNAL_CONTENT_URI,
                 "image/*"
             )
+
             startActivityForResult(intent, 10)
+            binding.imageText.visibility = View.GONE
         }else if(item.itemId === R.id.menu_add_save){
             if(binding.addEditView.text.isNotEmpty() //내용확인
                 and binding.addEditViewTitle.text.isNotEmpty()) { //제목확인
