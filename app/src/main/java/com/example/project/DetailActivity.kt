@@ -104,6 +104,7 @@ class DetailActivity :  ToolbarBase() {
         binding.detailDateView.text = date
 
         makeCommentRecycler()
+        showCount()
 
         /*
         //댓글 EditText에 글 있을 시에만 버튼 활성화
@@ -157,17 +158,16 @@ class DetailActivity :  ToolbarBase() {
             Toast.makeText(this, "[favorite] clicked", Toast.LENGTH_SHORT).show()
             fav_btn2.visibility = View.VISIBLE
             fav_btn.visibility = View.INVISIBLE
-            fav_cnt.text = "Like 1"
+            saveCount()
+            showCount()
         }
 
         fav_btn2.setOnClickListener {
             Toast.makeText(this, "[favorite] unclicked", Toast.LENGTH_SHORT).show()
             fav_btn.visibility = View.VISIBLE
             fav_btn2.visibility = View.INVISIBLE
-            fav_cnt.text = "Like 0"
+            showCancelCount()
         }
-
-
 
         val send_btn = findViewById<Button>(R.id.detailCommentButton)
 
@@ -212,6 +212,65 @@ class DetailActivity :  ToolbarBase() {
                 Toast.makeText(this, "댓글이 입력되지 않았습니다.", Toast.LENGTH_SHORT).show()
             }
         }
+    }
+
+    private fun saveCount(){
+        val countTest = mapOf(
+            "docId" to docId,
+            "email" to MyApplication.email,
+        )
+
+        MyApplication.db.collection("like")
+            .add(countTest)
+            .addOnFailureListener {
+                Log.w("kkang", "data save error", it)
+            }.addOnSuccessListener {
+                Toast.makeText(this, "하트 저장",Toast.LENGTH_SHORT).show()
+
+            }
+    }
+
+    private fun showCount() {
+        MyApplication.db.collection("like")
+            .whereEqualTo("docId", docId)
+            //.orderBy("date", Query.Direction.ASCENDING)
+            .get()
+            .addOnSuccessListener { result ->
+                var cnt = 0
+                for(document in result) {
+                    cnt += 1
+                }
+                Log.d("kkang", "msg"+cnt)
+                val countTest = findViewById<TextView>(R.id.favoriteTextview)
+                countTest.text = "Like $cnt"
+            }
+            .addOnFailureListener { exception ->
+                Log.d("kkang", "Error getting documents: ", exception)
+                Toast.makeText(this, "안됨", Toast.LENGTH_SHORT).show()
+            }
+
+    }
+
+    private fun showCancelCount() {
+        MyApplication.db.collection("like")
+            .whereEqualTo("docId", docId)
+            //.orderBy("date", Query.Direction.ASCENDING)
+            .get()
+            .addOnSuccessListener { result ->
+                var cnt = 0
+                for(document in result) {
+                    cnt += 1
+                }
+                cnt -= 1
+                Log.d("kkang", "msg"+cnt)
+                val countTest = findViewById<TextView>(R.id.favoriteTextview)
+                countTest.text = "Like $cnt"
+            }
+            .addOnFailureListener { exception ->
+                Log.d("kkang", "Error getting documents: ", exception)
+                Toast.makeText(this, "안됨", Toast.LENGTH_SHORT).show()
+            }
+
     }
 
     //알람 띄우기
