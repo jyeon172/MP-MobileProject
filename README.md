@@ -12,6 +12,7 @@ study with people!
 - a person who can't study well by himself
 - a person who wants to work on a project, but don't know anyone
 - a person who wants to get or give information about several software fields
+- a person who wants to communicate with people in the same field
 <br> 
 
 ### Contents
