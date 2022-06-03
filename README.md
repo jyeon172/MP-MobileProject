@@ -8,6 +8,12 @@ study with people!
 - manage and help the **group** works well
 <br>
 
+### Target
+- a person who can't study well by himself
+- a person who wants to work on a project, but don't know anyone
+- a person who wants to get or give information about several software fields
+<br> 
+
 ### Contents
 **1. Online Study Room**<br>
 you can study with other people in online
@@ -31,7 +37,7 @@ writing a comment<br>
 notification about comment<br>
 expressing sympathy<br>
 chatting with one or more<br>
-participating cyber study room<br><br>
+participating online study room<br><br>
 
-### member information
+### Member Information
 박정연, 유지나, 이가현, 전효빈
