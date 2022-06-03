@@ -180,7 +180,7 @@ class AddActivity3  : AppCompatActivity() {
                 .addOnFailureListener {
                     Log.w("kkang", "data save error", it)
                 }.addOnSuccessListener {
-                    Toast.makeText(this, "데이터가 저장되었습니다.", Toast.LENGTH_SHORT).show()
+                    //Toast.makeText(this, "데이터가 저장되었습니다.", Toast.LENGTH_SHORT).show()
                     finish()
                 }
             //다시 글을 쓴 카테고리 보드 보여주기, 카테고리 전달해주기
@@ -199,7 +199,7 @@ class AddActivity3  : AppCompatActivity() {
             .addOnFailureListener {
                 Log.d("kkang"," failure............."+it)
             }.addOnSuccessListener {
-                Toast.makeText(this, "데이터가 저장되었습니다.", Toast.LENGTH_SHORT).show()
+                //Toast.makeText(this, "데이터가 저장되었습니다.", Toast.LENGTH_SHORT).show()
                 finish()
             }
 
