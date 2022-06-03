@@ -6,8 +6,10 @@ import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.MenuItem
+import android.view.MotionEvent
 import android.view.View
 import android.view.WindowManager
+import android.view.inputmethod.InputMethodManager
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.TextView
@@ -156,7 +158,7 @@ class DetailActivity :  ToolbarBase() {
         fav_btn2.visibility = View.INVISIBLE
 
         fav_btn.setOnClickListener {
-            Toast.makeText(this, "[favorite] clicked", Toast.LENGTH_SHORT).show()
+            //Toast.makeText(this, "[favorite] clicked", Toast.LENGTH_SHORT).show()
             fav_btn2.visibility = View.VISIBLE
             fav_btn.visibility = View.INVISIBLE
             saveCount()
@@ -164,7 +166,7 @@ class DetailActivity :  ToolbarBase() {
         }
 
         fav_btn2.setOnClickListener {
-            Toast.makeText(this, "[favorite] unclicked", Toast.LENGTH_SHORT).show()
+            //Toast.makeText(this, "[favorite] unclicked", Toast.LENGTH_SHORT).show()
             fav_btn.visibility = View.VISIBLE
             fav_btn2.visibility = View.INVISIBLE
             showCancelCount()
@@ -184,7 +186,12 @@ class DetailActivity :  ToolbarBase() {
         })
 
         send_btn.setOnClickListener {
-            Toast.makeText(this, "click", Toast.LENGTH_SHORT).show()
+
+            // 키보드 내리기
+            val imm: InputMethodManager = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+            imm.hideSoftInputFromWindow(currentFocus?.windowToken, 0)
+
+            //Toast.makeText(this, "click", Toast.LENGTH_SHORT).show()
             // itemToken은 게시글 쓴 사람의 토큰
             if (itemtoken != null) {
                 Log.d("itemtoken", itemtoken)
@@ -229,7 +236,7 @@ class DetailActivity :  ToolbarBase() {
             .addOnFailureListener {
                 Log.w("kkang", "data save error", it)
             }.addOnSuccessListener {
-                Toast.makeText(this, "하트 저장",Toast.LENGTH_SHORT).show()
+                //Toast.makeText(this, "하트 저장",Toast.LENGTH_SHORT).show()
 
             }
     }
@@ -250,7 +257,7 @@ class DetailActivity :  ToolbarBase() {
             }
             .addOnFailureListener { exception ->
                 Log.d("kkang", "Error getting documents: ", exception)
-                Toast.makeText(this, "안됨", Toast.LENGTH_SHORT).show()
+                //Toast.makeText(this, "안됨", Toast.LENGTH_SHORT).show()
             }
 
     }
@@ -272,7 +279,7 @@ class DetailActivity :  ToolbarBase() {
             }
             .addOnFailureListener { exception ->
                 Log.d("kkang", "Error getting documents: ", exception)
-                Toast.makeText(this, "안됨", Toast.LENGTH_SHORT).show()
+                //Toast.makeText(this, "안됨", Toast.LENGTH_SHORT).show()
             }
 
     }
@@ -334,7 +341,7 @@ class DetailActivity :  ToolbarBase() {
             .addOnFailureListener {
                 Log.w("kkang", "data save error", it)
             }.addOnSuccessListener {
-                Toast.makeText(this, "댓글이 등록되었습니다.",Toast.LENGTH_SHORT).show()
+                //Toast.makeText(this, "댓글이 등록되었습니다.",Toast.LENGTH_SHORT).show()
                 //finish()
             }
     }
@@ -347,6 +354,13 @@ class DetailActivity :  ToolbarBase() {
         }
         return super.onOptionsItemSelected(item)
     }
+
+    override fun onTouchEvent(event: MotionEvent): Boolean {
+        val imm: InputMethodManager = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+        imm.hideSoftInputFromWindow(currentFocus?.windowToken, 0)
+        return true
+    }
+
 
     //뒤로가기 막기
     override fun onBackPressed() {
