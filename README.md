@@ -1,6 +1,4 @@
 # **STUDY WITH (스윗)**
-member information
-: 박정연, 유지나, 이가현, 전효빈
 
 ### Introduction
 study with people!
@@ -8,6 +6,7 @@ study with people!
 - create a library atomosphere at home through online study room
 - share the information related to software
 - manage and help the group works well
+<br>
 
 ### Contents
 #### Online Study Room
@@ -23,3 +22,7 @@ you can share the information by relevant field
 you can manage and get help for the group works harmoniously
 
 ### Key Functions
+
+
+### member information
+박정연, 유지나, 이가현, 전효빈
