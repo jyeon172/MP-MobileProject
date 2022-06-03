@@ -1,40 +1,40 @@
 # **STUDY WITH (스윗)**
 
 ## Introduction
-study with people!
-- find people to study or start the project **together**
-- create a library atomosphere at home through **online** study room
-- share the **information** related to software
-- manage and help the **group** works well
+Study with people!
+- Find people to study or start the project **together**
+- Create a library atomosphere at home through **online** study room
+- Share the **information** related to software
+- Manage and help the **group** works well
 <br>
 
 ## Target
-- a person who can't study well by himself
-- a person who wants to work on a project, but don't know anyone
-- a person who wants to get or give information about several software fields
-- a person who wants to communicate with people in the same field
+- A person who can't study well by himself
+- A person who wants to work on a project, but don't know anyone
+- A person who wants to get or give information about several software fields
+- A person who wants to communicate with people in the same field
 <br> 
 
 ## Contents
 ### 1. Online Study Room
-"you can study with other people in online"<br>
-If someone posts that they have opened an online study room and the link of that room, people can enter the room freely.<br>
-Anyone can open online study room.<br>
-Group chat with various people is possible through certain posts.
+**"you can study with other people in online"**<br>
+If someone posts that they have opened an online study room and the link of that room, people can enter the room **freely**.<br>
+**Anyone** can open online study room.<br>
+**Group chat** with various people is possible through certain posts.
 
 ### 2. Start Project
-"you can find members to work on the project together"<br>
-Anyone can post a text looking for someone to work with on the project.<br>
-People can contact with the writer of the post.<br>
-Group chat with various people is possible through certain posts.
+**"you can find members to work on the project together"**<br>
+**Anyone** can post a text looking for someone to work with on the project.<br>
+People can contact with the writer of the post through **one-to-one chatting**.<br>
+**Group chat** with various people is possible through certain posts.
 
 ### 3. Share Information
 "you can share the information by relevant field"<br>
-User can choose the category of the post, and share information.<br>
-People can communicate through comment, chatting, and expressing sympathy.
+User can choose the **category** of the post, and share information.<br>
+People can communicate through **comment, chatting, and expressing sympathy**.
 
 ### 4. Manage the Group
-"you can manage and get help for the group works harmoniously"
+**"you can manage and get help for the group works harmoniously"**
 <br><br>
 
 ## Key Functions
