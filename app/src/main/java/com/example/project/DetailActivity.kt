@@ -149,6 +149,7 @@ class DetailActivity :  ToolbarBase() {
 //            startActivity(intent)
 //        }
 
+
         val fav_btn = findViewById<ImageButton>(R.id.favoriteButton)
         val fav_btn2 = findViewById<ImageButton>(R.id.favoriteButton2)
         val fav_cnt = findViewById<TextView>(R.id.favoriteTextview)
@@ -194,6 +195,7 @@ class DetailActivity :  ToolbarBase() {
 
             if (binding.detailCommentView.text.isNotEmpty()&& itemtoken != null) { //내용확인
                 saveStore()
+                makeCommentRecycler()
 
                 // myToken은 내 토큰
                 Log.d("mytoken", myToken)
@@ -211,6 +213,8 @@ class DetailActivity :  ToolbarBase() {
             else {
                 Toast.makeText(this, "댓글이 입력되지 않았습니다.", Toast.LENGTH_SHORT).show()
             }
+
+            binding.detailCommentView.text = null
         }
     }
 
@@ -331,7 +335,7 @@ class DetailActivity :  ToolbarBase() {
                 Log.w("kkang", "data save error", it)
             }.addOnSuccessListener {
                 Toast.makeText(this, "댓글이 등록되었습니다.",Toast.LENGTH_SHORT).show()
-                finish()
+                //finish()
             }
     }
 
