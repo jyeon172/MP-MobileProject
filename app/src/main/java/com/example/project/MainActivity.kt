@@ -198,7 +198,7 @@ class MainActivity : AppCompatActivity() , NavigationView.OnNavigationItemSelect
         if(drawerLayout1.isDrawerOpen(GravityCompat.START)){
             drawerLayout1.closeDrawers()
             // 테스트를 위해 뒤로가기 버튼시 Toast 메시지
-            Toast.makeText(this,"뒤로가기", Toast.LENGTH_SHORT).show()
+            //Toast.makeText(this,"뒤로가기", Toast.LENGTH_SHORT).show()
         } else{
             super.onBackPressed()
         }

@@ -1,5 +1,6 @@
 package com.example.project
 
+import android.content.Context
 import android.content.DialogInterface
 import android.content.Intent
 import android.os.Bundle
@@ -7,6 +8,7 @@ import android.util.Log
 import android.view.MenuItem
 import android.view.View
 import android.view.WindowManager
+import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
@@ -101,6 +103,9 @@ class AuthActivity : AppCompatActivity() {
         }
 
         binding.loginBtn.setOnClickListener {
+            val imm: InputMethodManager = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+            imm.hideSoftInputFromWindow(currentFocus?.windowToken, 0)
+
             //이메일, 비밀번호 로그인.......................
             val email: String = binding.authEmailEditView.text.toString()
             val password: String = binding.authPasswordEditView.text.toString()

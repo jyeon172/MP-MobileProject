@@ -1,11 +1,15 @@
 package com.example.project
 
+import android.app.Activity
+import android.content.Context
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
+import androidx.core.content.ContextCompat.getSystemService
 import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -56,6 +60,8 @@ class ChatFragment(docId: String?) : Fragment() {
 
         // 입력 버튼
         binding.btnSend.setOnClickListener {
+
+
             // 입력 데이터
             val data = hashMapOf(
                 "nickname" to currentUser,
@@ -76,6 +82,7 @@ class ChatFragment(docId: String?) : Fragment() {
 
         return view
     }
+
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

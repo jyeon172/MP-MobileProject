@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:2:1-82:12
-INJECTED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:2:1-82:12
-INJECTED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:2:1-82:12
-INJECTED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:2:1-82:12
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:2:1-82:12
 MERGED from [androidx.databinding:viewbinding:7.0.4] C:\Users\im210\.gradle\caches\transforms-3\c7f5878f3f16df7b4bbf928167f1cc48\transformed\jetified-viewbinding-7.0.4\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\im210\.gradle\caches\transforms-3\229b26eb2c19f34f7817efa71dd1337b\transformed\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.3.1] C:\Users\im210\.gradle\caches\transforms-3\2276c23c7e7752b864dfbd32f459824b\transformed\jetified-core-ktx-1.3.1\AndroidManifest.xml:2:1-9:12
@@ -97,29 +97,29 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\im210\.gradle\ca
 MERGED from [androidx.print:print:1.0.0] C:\Users\im210\.gradle\caches\transforms-3\289cbb23183db53cb44cdd828e9f9240\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\im210\.gradle\caches\transforms-3\f00bed3794490e9e59abe3be23d4569e\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] C:\Users\im210\.gradle\caches\transforms-3\95f183d24a5fa6a96082196b1976dc1f\transformed\jetified-protolite-well-known-types-17.1.0\AndroidManifest.xml:2:1-11:12
-INJECTED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:2:1-82:12
-INJECTED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:2:1-82:12
-INJECTED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:2:1-82:12
 	package
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:3:5-34
-		INJECTED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:2:1-82:12
-		INJECTED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:2:1-82:12
+		INJECTED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:2:1-82:12
-		INJECTED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:2:1-82:12
+		INJECTED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#andoird.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:5:5-80
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:5:5-80
 	android:name
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:5:22-77
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:5:22-77
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:6:5-67
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:6:5-67
 MERGED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\im210\.gradle\caches\transforms-3\2adeac50907580319a980f5de1cd6d6b\transformed\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:14:5-67
 MERGED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\im210\.gradle\caches\transforms-3\2adeac50907580319a980f5de1cd6d6b\transformed\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:14:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.4] C:\Users\im210\.gradle\caches\transforms-3\c812a1bee23e1949cb5e107f9b65f48b\transformed\jetified-transport-backend-cct-3.1.4\AndroidManifest.xml:26:5-67
@@ -143,9 +143,9 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] C:\Users\im210\.gradle\caches\transforms-3\17f7c60e851adb4e312d10f999e8e00e\transformed\jetified-play-services-measurement-sdk-api-18.0.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] C:\Users\im210\.gradle\caches\transforms-3\17f7c60e851adb4e312d10f999e8e00e\transformed\jetified-play-services-measurement-sdk-api-18.0.0\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:7:5-79
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:7:5-79
 MERGED from [com.google.firebase:firebase-messaging:23.0.4] C:\Users\im210\.gradle\caches\transforms-3\890ad776f89b9b6a3eeb9a7ff715e3ed\transformed\jetified-firebase-messaging-23.0.4\AndroidManifest.xml:25:5-79
 MERGED from [com.google.firebase:firebase-messaging:23.0.4] C:\Users\im210\.gradle\caches\transforms-3\890ad776f89b9b6a3eeb9a7ff715e3ed\transformed\jetified-firebase-messaging-23.0.4\AndroidManifest.xml:25:5-79
 MERGED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\im210\.gradle\caches\transforms-3\2adeac50907580319a980f5de1cd6d6b\transformed\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:13:5-79
@@ -175,21 +175,21 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] C:\Users\im210\.gradle\caches\transforms-3\17f7c60e851adb4e312d10f999e8e00e\transformed\jetified-play-services-measurement-sdk-api-18.0.0\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] C:\Users\im210\.gradle\caches\transforms-3\17f7c60e851adb4e312d10f999e8e00e\transformed\jetified-play-services-measurement-sdk-api-18.0.0\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:7:22-76
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:7:22-76
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:8:5-77
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:8:5-77
 	android:name
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:8:22-74
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:8:22-74
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:9:5-81
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:9:5-81
 MERGED from [com.google.firebase:firebase-messaging:23.0.4] C:\Users\im210\.gradle\caches\transforms-3\890ad776f89b9b6a3eeb9a7ff715e3ed\transformed\jetified-firebase-messaging-23.0.4\AndroidManifest.xml:28:5-82
 MERGED from [com.google.firebase:firebase-messaging:23.0.4] C:\Users\im210\.gradle\caches\transforms-3\890ad776f89b9b6a3eeb9a7ff715e3ed\transformed\jetified-firebase-messaging-23.0.4\AndroidManifest.xml:28:5-82
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\im210\.gradle\caches\transforms-3\3e77d7b27870f87be8a7085f4baec110\transformed\jetified-play-services-cloud-messaging-17.0.1\AndroidManifest.xml:11:5-82
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\im210\.gradle\caches\transforms-3\3e77d7b27870f87be8a7085f4baec110\transformed\jetified-play-services-cloud-messaging-17.0.1\AndroidManifest.xml:11:5-82
 	android:name
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:9:22-79
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:9:22-79
 application
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:11:5-80:19
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:11:5-80:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\im210\.gradle\caches\transforms-3\007b4d8da33efc0d5bffab021812c2e8\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\im210\.gradle\caches\transforms-3\007b4d8da33efc0d5bffab021812c2e8\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\im210\.gradle\caches\transforms-3\cb27caa4cfaf2e6e31eb7026f35726cb\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -271,113 +271,113 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\im210\.gradle
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\im210\.gradle\caches\transforms-3\880810b0697bc330dd5a6bb0549217ff\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\im210\.gradle\caches\transforms-3\880810b0697bc330dd5a6bb0549217ff\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:requestLegacyExternalStorage
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:16:9-52
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:16:9-52
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] C:\Users\im210\.gradle\caches\transforms-3\08edf9af14b2e8e81ad8bacbf74244c7\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:18:9-35
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:18:9-35
 	android:label
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:15:9-41
 	android:roundIcon
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:17:9-58
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:17:9-58
 	android:icon
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:14:9-47
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:14:9-47
 	android:allowBackup
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:19:9-65
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:19:9-65
 	android:name
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:12:9-38
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:12:9-38
 activity#com.example.project.AddActivity
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:21:9-23:58
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:21:9-23:58
 	android:windowSoftInputMode
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:23:13-55
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:23:13-55
 	android:name
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:22:13-40
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:22:13-40
 activity#com.example.project.AddActivity2
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:24:9-26:58
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:24:9-26:58
 	android:windowSoftInputMode
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:26:13-55
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:26:13-55
 	android:name
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:25:13-41
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:25:13-41
 activity#com.example.project.AddActivity3
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:27:9-29:58
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:27:9-29:58
 	android:windowSoftInputMode
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:29:13-55
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:29:13-55
 	android:name
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:28:13-41
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:28:13-41
 activity#com.example.project.AuthActivity
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:30:9-50
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:30:9-50
 	android:name
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:30:19-47
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:30:19-47
 activity#com.example.project.MainActivity
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:31:9-39:20
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:31:9-39:20
 	android:exported
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:33:13-36
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:33:13-36
 	android:name
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:32:13-41
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:32:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:34:13-38:29
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:34:13-38:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:35:17-69
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:35:17-69
 	android:name
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:35:25-66
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:35:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:37:17-77
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:37:17-77
 	android:name
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:37:27-74
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:37:27-74
 activity#com.example.project.Board1Activity
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:41:9-51
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:41:9-51
 	android:name
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:41:19-49
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:41:19-49
 activity#com.example.project.Board2Activity
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:42:9-51
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:42:9-51
 	android:name
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:42:19-49
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:42:19-49
 activity#com.example.project.Board3Activity
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:43:9-51
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:43:9-51
 	android:name
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:43:19-49
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:43:19-49
 activity#com.example.project.ChatMain
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:44:9-46
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:44:9-46
 	android:name
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:44:19-43
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:44:19-43
 activity#com.example.project.DetailActivity
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:45:9-48:20
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:45:9-48:20
 	android:name
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:45:19-49
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:45:19-49
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:46:13-47:51
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:46:13-47:51
 	android:value
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:47:17-48
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:47:17-48
 	android:name
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:46:24-70
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:46:24-70
 activity#com.example.project.ToolbarBase
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:49:9-48
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:49:9-48
 	android:name
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:49:19-46
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:49:19-46
 activity#com.example.project.MainActivity2
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:50:9-50
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:50:9-50
 	android:name
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:50:19-48
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:50:19-48
 service#com.example.project.FirebaseMessagingServiceUtil
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:53:9-60:19
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:53:9-60:19
 	android:permission
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:55:13-73
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:55:13-73
 	android:name
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:54:13-57
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:54:13-57
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:56:13-59:29
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:56:13-59:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:57:17-78
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:57:17-78
 	android:name
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:57:25-75
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:57:25-75
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:58:17-80
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:58:17-80
 	android:name
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:58:25-78
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:58:25-78
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:63:9-79:19
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:63:9-79:19
 MERGED from [com.google.firebase:firebase-database-ktx:20.0.5] C:\Users\im210\.gradle\caches\transforms-3\1c6d0fedf911bb6a2f93289080394d82\transformed\jetified-firebase-database-ktx-20.0.5\AndroidManifest.xml:12:9-18:19
 MERGED from [com.google.firebase:firebase-database-ktx:20.0.5] C:\Users\im210\.gradle\caches\transforms-3\1c6d0fedf911bb6a2f93289080394d82\transformed\jetified-firebase-database-ktx-20.0.5\AndroidManifest.xml:12:9-18:19
 MERGED from [com.google.firebase:firebase-auth-ktx:20.0.1] C:\Users\im210\.gradle\caches\transforms-3\a918acbc8ab3172a5f86727e76c14e65\transformed\jetified-firebase-auth-ktx-20.0.1\AndroidManifest.xml:8:9-14:19
@@ -417,49 +417,49 @@ MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\im210\.gradle\
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\im210\.gradle\caches\transforms-3\c67ced08dbea5eba62359efeddad84f2\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:35:13-43
 	android:name
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:63:18-89
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:63:18-89
 meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:64:13-66:85
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:64:13-66:85
 MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\im210\.gradle\caches\transforms-3\5b228ff977ce656211526edf75c3e6f1\transformed\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:30:13-32:85
 MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\im210\.gradle\caches\transforms-3\5b228ff977ce656211526edf75c3e6f1\transformed\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:30:13-32:85
 	android:value
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:66:17-82
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:66:17-82
 	android:name
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:65:17-139
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:65:17-139
 meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:67:13-69:84
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:67:13-69:84
 MERGED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\im210\.gradle\caches\transforms-3\2adeac50907580319a980f5de1cd6d6b\transformed\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:20:13-22:85
 MERGED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\im210\.gradle\caches\transforms-3\2adeac50907580319a980f5de1cd6d6b\transformed\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:20:13-22:85
 	android:value
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:69:17-82
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:69:17-82
 	android:name
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:68:17-111
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:68:17-111
 meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:70:13-72:85
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:70:13-72:85
 	android:value
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:72:17-82
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:72:17-82
 	android:name
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:71:17-96
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:71:17-96
 meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:73:13-75:85
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:73:13-75:85
 MERGED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\im210\.gradle\caches\transforms-3\b7afe445d84440c3b0aad753fe43c585\transformed\jetified-firebase-auth-20.0.1\AndroidManifest.xml:77:13-79:85
 MERGED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\im210\.gradle\caches\transforms-3\b7afe445d84440c3b0aad753fe43c585\transformed\jetified-firebase-auth-20.0.1\AndroidManifest.xml:77:13-79:85
 	android:value
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:75:17-82
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:75:17-82
 	android:name
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:74:17-109
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:74:17-109
 meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
-ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:76:13-78:84
+ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:76:13-78:84
 MERGED from [com.google.firebase:firebase-database:20.0.5] C:\Users\im210\.gradle\caches\transforms-3\412ada2d4cd7a7920485eefb058b535f\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:32:13-34:85
 MERGED from [com.google.firebase:firebase-database:20.0.5] C:\Users\im210\.gradle\caches\transforms-3\412ada2d4cd7a7920485eefb058b535f\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:32:13-34:85
 	android:value
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:78:17-82
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:78:17-82
 	android:name
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml:77:17-109
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml:77:17-109
 uses-sdk
-INJECTED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:7.0.4] C:\Users\im210\.gradle\caches\transforms-3\c7f5878f3f16df7b4bbf928167f1cc48\transformed\jetified-viewbinding-7.0.4\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:viewbinding:7.0.4] C:\Users\im210\.gradle\caches\transforms-3\c7f5878f3f16df7b4bbf928167f1cc48\transformed\jetified-viewbinding-7.0.4\AndroidManifest.xml:20:5-44
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\im210\.gradle\caches\transforms-3\229b26eb2c19f34f7817efa71dd1337b\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
@@ -646,16 +646,16 @@ MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\im210\.
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\im210\.gradle\caches\transforms-3\f00bed3794490e9e59abe3be23d4569e\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] C:\Users\im210\.gradle\caches\transforms-3\95f183d24a5fa6a96082196b1976dc1f\transformed\jetified-protolite-well-known-types-17.1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] C:\Users\im210\.gradle\caches\transforms-3\95f183d24a5fa6a96082196b1976dc1f\transformed\jetified-protolite-well-known-types-17.1.0\AndroidManifest.xml:7:5-9:41
-INJECTED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\im210\Document\new\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\im210\Document\MobileProject\app\src\main\AndroidManifest.xml
 meta-data#com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar
 ADDED from [com.google.firebase:firebase-database-ktx:20.0.5] C:\Users\im210\.gradle\caches\transforms-3\1c6d0fedf911bb6a2f93289080394d82\transformed\jetified-firebase-database-ktx-20.0.5\AndroidManifest.xml:15:13-17:85
 	android:value
