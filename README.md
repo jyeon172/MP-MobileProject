@@ -23,7 +23,15 @@ you can manage and get help for the group works harmoniously
 <br><br>
 
 ### Key Functions
-<br>
+join membership<br>
+reset password<br>
+creating a post<br>
+choose category<br>
+writing a comment<br>
+notification about comment<br>
+expressing sympathy<br>
+chatting with one or more<br>
+participating cyber study room<br>
 
 ### member information
 박정연, 유지나, 이가현, 전효빈
