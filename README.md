@@ -17,16 +17,24 @@ study with people!
 
 ## Contents
 ### 1. Online Study Room
-you can study with other people in online
+"you can study with other people in online"<br>
+If someone posts that they have opened an online study room and the link of that room, people can enter the room freely.<br>
+Anyone can open online study room.<br>
+Group chat with various people is possible through certain posts.
 
 ### 2. Start Project
-you can find members to work on the project together
+"you can find members to work on the project together"<br>
+Anyone can post a text looking for someone to work with on the project.<br>
+People can contact with the writer of the post.<br>
+Group chat with various people is possible through certain posts.
 
-**3. Share Information**<br>
-you can share the information by relevant field
+### 3. Share Information
+"you can share the information by relevant field"<br>
+User can choose the category of the post, and share information.<br>
+People can communicate through comment, chatting, and expressing sympathy.
 
-**4. Manage the Group**<br>
-you can manage and get help for the group works harmoniously
+### 4. Manage the Group
+"you can manage and get help for the group works harmoniously"
 <br><br>
 
 ## Key Functions
