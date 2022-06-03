@@ -31,7 +31,7 @@ writing a comment<br>
 notification about comment<br>
 expressing sympathy<br>
 chatting with one or more<br>
-participating cyber study room<br>
+participating cyber study room<br><br>
 
 ### member information
 박정연, 유지나, 이가현, 전효빈
