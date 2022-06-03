@@ -9,16 +9,16 @@ study with people!
 <br>
 
 ### Contents
-#### - Online Study Room
+#### 1. Online Study Room
 you can study with other people in online
 
-#### - Start Project
+#### 2. Start Project
 you can find members to work on the project together
 
-#### - Share Information
+#### 3. Share Information
 you can share the information by relevant field
 
-#### - Manage the Group
+#### 4. Manage the Group
 you can manage and get help for the group works harmoniously
 <br><br>
 
